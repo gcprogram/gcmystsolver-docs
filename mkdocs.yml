@@ -1,0 +1,58 @@
+site_name: GCMystSolver Handbuch
+site_url: https://gcmystsolver.de/
+site_description: Anleitung und Referenz für GCMystSolver – die Android-App zum Lösen von Geocaching-Mystery-Caches.
+repo_url: https://github.com/gcprogram/Geocaching-Mystery-Solver
+repo_name: GCMystSolver (App)
+edit_uri: ""
+
+theme:
+  name: material
+  language: de
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: green
+      accent: amber
+      toggle:
+        icon: material/weather-night
+        name: Dunkles Design
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: green
+      accent: amber
+      toggle:
+        icon: material/weather-sunny
+        name: Helles Design
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - toc.follow
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - toc:
+      permalink: true
+      title: Auf dieser Seite
+
+nav:
+  - Start: index.md
+  - Erste Schritte: erste-schritte.md
+  - Funktionen:
+      - funktionen/index.md
+      - Import (GPX / PocketQuery): funktionen/import.md
+      - Automatische Solver: funktionen/solver.md
+      - KI-Lösungsversuch: funktionen/ki-solver.md
+      - AI-Chat pro Cache: funktionen/ai-chat.md
+      - Challenge-Prüfung: funktionen/challenges.md
+      - Datenbank, Listen & Statistik: funktionen/datenbank-statistik.md
+      - Einstellungen & Backup: funktionen/einstellungen-backup.md
+  - FAQ: faq.md
+  - Support (Bugs & Ideen): support.md
+  - Datenschutz: datenschutz.md
