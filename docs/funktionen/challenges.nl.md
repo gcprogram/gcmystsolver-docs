@@ -4,6 +4,15 @@ Voor challenge-caches (caches die vereisen dat je van tevoren bepaalde andere ca
 gevonden) berekent GCMystSolver automatisch een **stoplicht-beoordeling**: voldoe je met je
 bestaande vondsten al aan de eis?
 
+!!! warning "Vereist een geïmporteerde MyFinds-PocketQuery"
+    De beoordeling telt uitsluitend vondsten die al in je lokale database staan — er is **geen**
+    online vergelijking met je werkelijke geocaching.com-vondstgeschiedenis. Om
+    vondstenaantal-, Jasmer-, 365-dagen- en streak-challenges correct te beoordelen, moet je
+    eenmalig je volledige **MyFinds-PocketQuery importeren** (zie
+    [Import & export](import.md#wat-er-automatisch-gebeurt-bij-import)). Een PQ waarvan de naam
+    begint met "my finds" wordt automatisch herkend en alle caches erin worden als gevonden
+    gemarkeerd — daarvoor is geen aparte importmodus nodig.
+
 ## Wanneer wordt er gecontroleerd?
 
 Bij **elke import** — niet pas wanneer je de cache opent. Zo zie je meteen in je cachelijst welke

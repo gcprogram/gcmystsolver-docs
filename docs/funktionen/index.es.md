@@ -4,7 +4,7 @@ GCMystSolver se compone de cuatro bloques centrales que trabajan juntos:
 
 | Bloque | Descripción breve |
 |---|---|
-| [Import](import.md) | Leer GPX/PocketQuery, resolución automática de región y altitud |
+| [Import & Export](import.md) | Leer GPX/PocketQuery, resolución automática de región y altitud |
 | [Solucionadores automáticos](solver.md) | ~15 solucionadores de enigmas integrados, sin necesidad de IA |
 | [Resolución con IA](ki-solver.md) | Entra en acción cuando ningún solucionador integrado encaja |
 | [Chat con IA por caché](ai-chat.md) | Preguntas/discusión específicas sobre un solo caché |

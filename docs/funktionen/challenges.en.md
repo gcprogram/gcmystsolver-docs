@@ -4,6 +4,14 @@ For challenge caches (caches that require you to have found certain other caches
 GCMystSolver automatically computes a **traffic-light rating**: do your existing finds already
 satisfy the requirement?
 
+!!! warning "Requires an imported MyFinds PocketQuery"
+    The rating only counts finds that are already in your local database — there's **no** online
+    comparison with your actual geocaching.com find history. For find-count, Jasmer, 365-day and
+    streak challenges to be rated correctly, you need to import your complete **MyFinds
+    PocketQuery** once (see [Import & Export](import.md#what-happens-automatically-on-import)). A
+    PQ whose name starts with "my finds" is recognized automatically and every cache in it is
+    marked found — no separate import mode is needed for that.
+
 ## When is it checked?
 
 On **every import** — not only when you open the cache. So you immediately see in your cache list

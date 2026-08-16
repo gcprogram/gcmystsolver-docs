@@ -3,6 +3,14 @@
 U challenge keší (keší, které vyžadují, abys předtím nalezl/a určité jiné keše) GCMystSolver
 automaticky spočítá **semaforové hodnocení**: splňují tvé dosavadní nálezy danou podmínku už teď?
 
+!!! warning "Vyžaduje naimportovanou MyFinds PocketQuery"
+    Hodnocení počítá výhradně nálezy, které už jsou v tvé lokální databázi — **neexistuje** žádné
+    online porovnání s tvou skutečnou historií nálezů na geocaching.com. Aby se challenge podle
+    počtu nálezů, Jasmer, 365 dní a streak hodnotily správně, musíš jednou naimportovat svou
+    kompletní **MyFinds PocketQuery** (viz [Import a export](import.md#co-se-pri-importu-deje-automaticky)).
+    PQ, jejíž název začíná na "my finds", aplikace rozpozná automaticky a všechny obsažené keše
+    označí jako nalezené — samostatný režim importu k tomu není potřeba.
+
 ## Kdy se kontroluje?
 
 Při **každém importu** — ne až při otevření keše. Ve svém seznamu keší tak hned vidíš, které

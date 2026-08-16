@@ -43,7 +43,7 @@
     
     
       
-        <title>Import (GPX / PocketQuery) - GCMystSolver Handbuch</title>
+        <title>Import & export (GPX / PocketQuery) - GCMystSolver Handbuch</title>
       
     
     
@@ -96,7 +96,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#import-gpx-pocketquery" class="md-skip">
+        <a href="#import-export-gpx-pocketquery" class="md-skip">
           Ga naar inhoud
         </a>
       
@@ -131,7 +131,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Import (GPX / PocketQuery)
+              Import & export (GPX / PocketQuery)
             
           </span>
         </div>
@@ -495,7 +495,7 @@
   <span class="md-ellipsis">
     
   
-    Import (GPX / PocketQuery)
+    Import & export (GPX / PocketQuery)
   
 
     
@@ -513,7 +513,7 @@
   <span class="md-ellipsis">
     
   
-    Import (GPX / PocketQuery)
+    Import & export (GPX / PocketQuery)
   
 
     
@@ -550,10 +550,32 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#lijstnaam" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lijstnaam
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#wat-er-automatisch-gebeurt-bij-import" class="md-nav__link">
     <span class="md-ellipsis">
       
         Wat er automatisch gebeurt bij import
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bestaande-oplossingen-en-notities" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bestaande oplossingen en notities
       
     </span>
   </a>
@@ -576,6 +598,17 @@
     <span class="md-ellipsis">
       
         Snelste weg vanuit c:geo
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#export" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Export
       
     </span>
   </a>
@@ -864,7 +897,7 @@
 
 
 
-<h1 id="import-gpx-pocketquery">Import (GPX / PocketQuery)<a class="headerlink" href="#import-gpx-pocketquery" title="Permanent link">&para;</a></h1>
+<h1 id="import-export-gpx-pocketquery">Import &amp; export (GPX / PocketQuery)<a class="headerlink" href="#import-export-gpx-pocketquery" title="Permanent link">&para;</a></h1>
 <figure class="gcms-shot">
 <p><img alt="Import-scherm met de knop &quot;Choose GPX / ZIP&quot;" src="../../../assets/screenshots/import-screen.png" /></p>
 <figcaption>Import-tabblad</figcaption>
@@ -878,8 +911,31 @@
 <p>Al bestaande caches worden bij een nieuwe import <strong>bijgewerkt</strong>, niet gedupliceerd — je kunt
 dezelfde lijst dus zo vaak opnieuw importeren als je wilt, bijvoorbeeld om je actuele vondststatus
 over te nemen.</p>
+<h2 id="lijstnaam">Lijstnaam<a class="headerlink" href="#lijstnaam" title="Permanent link">&para;</a></h2>
+<p>Voor het importeren vul je een <strong>vrije lijstnaam</strong> in (vooraf ingevuld met de bestandsnaam; laat
+je het leeg, dan heet de lijst "import"). Twee gevallen:</p>
+<ul>
+<li><strong>Nieuwe naam</strong>: er wordt een nieuwe lijst met die naam aangemaakt.</li>
+<li><strong>Naam van een bestaande lijst</strong>: de geïmporteerde caches worden aan die lijst toegevoegd — er
+  ontstaat geen dubbele lijst en geen dubbele caches.</li>
+</ul>
+<p>Daarnaast is er de optie <strong>"Rename list by region (from cache locations)"</strong> — na de import bepaalt
+de app automatisch een naam op basis van de cache-coördinaten (clusterherkenning +
+plaatsbepaling), bijv. "Kerpen, Nordrhein-Westfalen, DE".</p>
+<div class="admonition warning">
+<p class="admonition-title">Niet voor MyFinds-query's</p>
+<p>Bij een MyFinds-PocketQuery liggen je vondsten over de hele wereld verspreid — een
+automatische regio-hernoeming levert hier geen zinvolle naam op. Geef zo'n lijst liever
+handmatig een naam (bijv. "MyFinds").</p>
+</div>
 <h2 id="wat-er-automatisch-gebeurt-bij-import">Wat er automatisch gebeurt bij import<a class="headerlink" href="#wat-er-automatisch-gebeurt-bij-import" title="Permanent link">&para;</a></h2>
 <ol>
+<li><strong>Vondststatus-herkenning</strong>: een PocketQuery waarvan de naam begint met "my finds" wordt
+   automatisch herkend — alle caches erin worden als gevonden gemarkeerd (melding: <em>"Recognised
+   as a My Finds query — all of them marked found."</em>). In gewone PQ's/GPX-bestanden herkent de app
+   bovendien je eigen "Found it"/"Attended"/"Webcam Photo Taken"-logboekvermeldingen door ze te
+   vergelijken met de geocaching.com-<strong>username</strong> die in <em>Setup</em> is ingesteld. Eenmaal als
+   gevonden herkend, blijft een cache dat ook bij elke volgende import.</li>
 <li><strong>Regiobepaling</strong> (offline, zonder internettoegang): land, regio en gemeente/provincie worden
    bepaald uit de coördinaten van de cache.</li>
 <li><strong>Challenge-voorcontrole</strong>: voor alle caches die als challenge worden herkend, wordt de
@@ -888,6 +944,24 @@ over te nemen.</p>
 <li><strong>Hoogtebepaling op de achtergrond</strong>: hoogtewaarden worden opgehaald zonder de app te
    blokkeren. Bij zeer grote imports kan dit nog een tijdje op de achtergrond doorlopen.</li>
 </ol>
+<div class="admonition tip">
+<p class="admonition-title">MyFinds-PQ voor correcte challenge-beoordeling</p>
+<p>De challenge-controle telt uitsluitend vondsten die al in je lokale database staan — er is
+geen online vergelijking met je werkelijke vondstgeschiedenis. Voor betrouwbare resultaten bij
+vondstenaantal-/Jasmer-/365-dagen-/streak-challenges moet je daarom eenmalig je volledige
+<strong>MyFinds-PocketQuery importeren</strong> (zie <a href="../challenges/">Challenge-controle</a>).</p>
+</div>
+<h2 id="bestaande-oplossingen-en-notities">Bestaande oplossingen en notities<a class="headerlink" href="#bestaande-oplossingen-en-notities" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Oplossingen worden nooit overschreven</strong>: een al opgeslagen oplossing blijft bij een nieuwe
+  import behouden. Alleen als de geïmporteerde GPX zelf een nieuwer <code>[GCMystSolver]</code>-blok bevat
+  (bijv. omdat je een door GCMystSolver al geëxporteerd bestand terugleest), neemt de app die
+  nieuwere oplossing over.</li>
+<li><strong>Persoonlijke notities worden gemengd, niet vervangen</strong>: je eigen vrije tekst uit de
+  persoonlijke notitie van de GPX blijft behouden en wordt onder het automatisch gegenereerde
+  <code>[GCMystSolver]</code>-blok geplakt — er gaat niets verloren, en bij herhaalde import/export stapelt
+  het blok zich niet meerdere keren op.</li>
+</ul>
 <h2 id="basisprincipe-offline-voor-netwerk">Basisprincipe: offline vóór netwerk<a class="headerlink" href="#basisprincipe-offline-voor-netwerk" title="Permanent link">&para;</a></h2>
 <p>Waar mogelijk gebruikt GCMystSolver <strong>lokale gegevens en offline naslagbronnen</strong> bij import en bij
 regio-/hoogtebepaling, vóórdat er überhaupt netwerktoegang plaatsvindt. Dat maakt de import
@@ -904,6 +978,27 @@ betrouwbaar en snel, ook bij grote lijsten.</p>
 </ol>
 <p>Bij meer dan 100 GPX-bestanden in de exportmap van c:geo is het juiste bestand anders lastig te
 vinden.</p>
+<h2 id="export">Export<a class="headerlink" href="#export" title="Permanent link">&para;</a></h2>
+<p>Via <strong>"Export GPX"</strong> (in <em>Lists</em>, in een cachelijst, of in de "Solved"-lijst) schrijf je je
+caches, inclusief GCMystSolver-resultaten, terug naar een GPX-bestand — bijv. om ze in c:geo of
+een andere app verder te gebruiken.</p>
+<ul>
+<li><strong>Opgeloste coördinaat</strong>: is een cache opgelost, dan wordt de geëxporteerde
+  waypoint-coördinaat direct op de opgeloste positie gezet (geen apart "Final"-waypoint — de
+  cache zelf "verhuist" in de export naar de oplossing).</li>
+<li><strong>Oplossing in de persoonlijke notitie</strong>: de oplossing (oorspronkelijke coördinaat, opgeloste
+  coördinaat, confidence, solve type, checker-link) komt als <code>[GCMystSolver]</code>-blok in de
+  persoonlijke notitie van de geëxporteerde cache terecht — direct gevolgd door je eigen
+  notitietekst.</li>
+</ul>
+<p>Via <em>Setup → Export privacy</em> kun je twee details hiervan beperken:</p>
+<ul>
+<li><strong>"Show AI model in export"</strong>: uit, zodat een AI-oplossing alleen als "AI" verschijnt in plaats
+  van bijv. "AI (gemini-2.5-flash)".</li>
+<li><strong>"Show [GCMystSolver] tag in export"</strong>: uit, zodat in de export <strong>alleen je eigen
+  notitietekst</strong> overblijft — zonder confidence, solve type of oplossingstekst. De opgeloste
+  coördinaat zelf wordt hier los van altijd geëxporteerd.</li>
+</ul>
 
 
 

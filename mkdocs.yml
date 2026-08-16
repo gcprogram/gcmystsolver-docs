@@ -66,7 +66,7 @@ plugins:
             Start: Home
             Erste Schritte: Getting Started
             Funktionen: Features
-            "Import (GPX / PocketQuery)": "Import (GPX / PocketQuery)"
+            "Import & Export (GPX / PocketQuery)": "Import & Export (GPX / PocketQuery)"
             Automatische Solver: Automatic Solvers
             KI-Lösungsversuch: AI Solving
             AI-Chat pro Cache: AI Chat per Cache
@@ -83,7 +83,7 @@ plugins:
             Start: Accueil
             Erste Schritte: Premiers pas
             Funktionen: Fonctionnalités
-            "Import (GPX / PocketQuery)": "Import (GPX / PocketQuery)"
+            "Import & Export (GPX / PocketQuery)": "Import et export (GPX / PocketQuery)"
             Automatische Solver: Solveurs automatiques
             KI-Lösungsversuch: Résolution par IA
             AI-Chat pro Cache: Chat IA par cache
@@ -100,7 +100,7 @@ plugins:
             Start: Start
             Erste Schritte: Eerste stappen
             Funktionen: Functies
-            "Import (GPX / PocketQuery)": "Import (GPX / PocketQuery)"
+            "Import & Export (GPX / PocketQuery)": "Import & export (GPX / PocketQuery)"
             Automatische Solver: Automatische oplossers
             KI-Lösungsversuch: AI-oplospoging
             AI-Chat pro Cache: AI-chat per cache
@@ -117,7 +117,7 @@ plugins:
             Start: Domů
             Erste Schritte: První kroky
             Funktionen: Funkce
-            "Import (GPX / PocketQuery)": "Import (GPX / PocketQuery)"
+            "Import & Export (GPX / PocketQuery)": "Import a export (GPX / PocketQuery)"
             Automatische Solver: Automatické řešiče
             KI-Lösungsversuch: Řešení pomocí AI
             AI-Chat pro Cache: AI chat ke keši
@@ -134,7 +134,7 @@ plugins:
             Start: Inicio
             Erste Schritte: Primeros pasos
             Funktionen: Funciones
-            "Import (GPX / PocketQuery)": "Import (GPX / PocketQuery)"
+            "Import & Export (GPX / PocketQuery)": "Importar y exportar (GPX / PocketQuery)"
             Automatische Solver: Solucionadores automáticos
             KI-Lösungsversuch: Resolución con IA
             AI-Chat pro Cache: Chat con IA por caché
@@ -151,7 +151,7 @@ plugins:
             Start: Start
             Erste Schritte: Kom igång
             Funktionen: Funktioner
-            "Import (GPX / PocketQuery)": "Import (GPX / PocketQuery)"
+            "Import & Export (GPX / PocketQuery)": "Import och export (GPX / PocketQuery)"
             Automatische Solver: Automatiska lösare
             KI-Lösungsversuch: AI-lösningsförsök
             AI-Chat pro Cache: AI-chatt per cache
@@ -168,7 +168,7 @@ plugins:
             Start: Start
             Erste Schritte: Kom i gang
             Funktionen: Funksjoner
-            "Import (GPX / PocketQuery)": "Import (GPX / PocketQuery)"
+            "Import & Export (GPX / PocketQuery)": "Import og eksport (GPX / PocketQuery)"
             Automatische Solver: Automatiske løsere
             KI-Lösungsversuch: AI-løsningsforsøk
             AI-Chat pro Cache: AI-chat per cache
@@ -184,7 +184,7 @@ nav:
   - Erste Schritte: erste-schritte.md
   - Funktionen:
       - funktionen/index.md
-      - Import (GPX / PocketQuery): funktionen/import.md
+      - Import & Export (GPX / PocketQuery): funktionen/import.md
       - Automatische Solver: funktionen/solver.md
       - KI-Lösungsversuch: funktionen/ki-solver.md
       - AI-Chat pro Cache: funktionen/ai-chat.md

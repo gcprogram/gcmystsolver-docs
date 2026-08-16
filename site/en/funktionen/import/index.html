@@ -43,7 +43,7 @@
     
     
       
-        <title>Import (GPX / PocketQuery) - GCMystSolver Handbuch</title>
+        <title>Import & Export (GPX / PocketQuery) - GCMystSolver Handbuch</title>
       
     
     
@@ -96,7 +96,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#import-gpx-pocketquery" class="md-skip">
+        <a href="#import-export-gpx-pocketquery" class="md-skip">
           Skip to content
         </a>
       
@@ -131,7 +131,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Import (GPX / PocketQuery)
+              Import & Export (GPX / PocketQuery)
             
           </span>
         </div>
@@ -495,7 +495,7 @@
   <span class="md-ellipsis">
     
   
-    Import (GPX / PocketQuery)
+    Import & Export (GPX / PocketQuery)
   
 
     
@@ -513,7 +513,7 @@
   <span class="md-ellipsis">
     
   
-    Import (GPX / PocketQuery)
+    Import & Export (GPX / PocketQuery)
   
 
     
@@ -550,10 +550,32 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#list-name" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        List name
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#what-happens-automatically-on-import" class="md-nav__link">
     <span class="md-ellipsis">
       
         What happens automatically on import
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#existing-solutions-and-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Existing solutions and notes
       
     </span>
   </a>
@@ -576,6 +598,17 @@
     <span class="md-ellipsis">
       
         Fastest path from c:geo
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#export" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Export
       
     </span>
   </a>
@@ -864,7 +897,7 @@
 
 
 
-<h1 id="import-gpx-pocketquery">Import (GPX / PocketQuery)<a class="headerlink" href="#import-gpx-pocketquery" title="Permanent link">&para;</a></h1>
+<h1 id="import-export-gpx-pocketquery">Import &amp; Export (GPX / PocketQuery)<a class="headerlink" href="#import-export-gpx-pocketquery" title="Permanent link">&para;</a></h1>
 <figure class="gcms-shot">
 <p><img alt="Import screen with &quot;Choose GPX / ZIP&quot; button" src="../../../assets/screenshots/import-screen.png" /></p>
 <figcaption>Import tab</figcaption>
@@ -876,8 +909,31 @@
 </ul>
 <p>Caches that already exist are <strong>updated</strong> on re-import, not duplicated — so you can re-import the
 same list as often as you like, e.g. to pick up your current find status.</p>
+<h2 id="list-name">List name<a class="headerlink" href="#list-name" title="Permanent link">&para;</a></h2>
+<p>Before importing you enter a <strong>free-text list name</strong> (pre-filled from the file name; if you leave
+it blank the list is called "import"). Two cases:</p>
+<ul>
+<li><strong>New name</strong>: a new list with that name is created.</li>
+<li><strong>Name of an existing list</strong>: the imported caches are added to that list — no duplicate list
+  and no duplicate caches are created.</li>
+</ul>
+<p>There's also an option <strong>"Rename list by region (from cache locations)"</strong> — after import, the app
+automatically determines a name from the cache coordinates (cluster detection + place lookup),
+e.g. "Kerpen, Nordrhein-Westfalen, DE".</p>
+<div class="admonition warning">
+<p class="admonition-title">Not for MyFinds queries</p>
+<p>In a MyFinds PocketQuery, your finds are scattered across the whole world — an automatic
+region rename won't produce a meaningful name here. For such lists, give the name by hand
+instead (e.g. "MyFinds").</p>
+</div>
 <h2 id="what-happens-automatically-on-import">What happens automatically on import<a class="headerlink" href="#what-happens-automatically-on-import" title="Permanent link">&para;</a></h2>
 <ol>
+<li><strong>Find-status detection</strong>: a PocketQuery whose name starts with "my finds" is recognized
+   automatically — every cache in it is marked found (message: <em>"Recognised as a My Finds query —
+   all of them marked found."</em>). In regular PQs/GPX files, the app additionally recognizes your
+   own "Found it"/"Attended"/"Webcam Photo Taken" log entries by matching them against the
+   geocaching.com <strong>username</strong> stored in <em>Setup</em>. Once a cache is recognized as found, it stays
+   found on every later import too.</li>
 <li><strong>Region resolution</strong> (offline, no internet access needed): country, state/region and county
    are determined from the cache coordinates.</li>
 <li><strong>Challenge pre-check</strong>: for all caches recognized as a challenge, the traffic-light rating is
@@ -886,6 +942,22 @@ same list as often as you like, e.g. to pick up your current find status.</p>
 <li><strong>Elevation resolution in the background</strong>: elevation values are fetched without blocking the
    app. For very large imports this can keep running in the background for a while.</li>
 </ol>
+<div class="admonition tip">
+<p class="admonition-title">MyFinds PQ for accurate challenge ratings</p>
+<p>Challenge checking only counts finds that are already in your local database — there's no
+online comparison with your actual find history. For reliable results on find-count/
+Jasmer/365-day/streak challenges, you should therefore import your complete <strong>MyFinds
+PocketQuery</strong> once (see <a href="../challenges/">Challenge Checking</a>).</p>
+</div>
+<h2 id="existing-solutions-and-notes">Existing solutions and notes<a class="headerlink" href="#existing-solutions-and-notes" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Solutions are never overwritten</strong>: an already stored solution survives a re-import. Only if
+  the imported GPX itself carries a newer <code>[GCMystSolver]</code> block (e.g. because you're reading
+  back a file GCMystSolver already exported) does the app adopt that newer solution.</li>
+<li><strong>Personal notes are merged, not replaced</strong>: your own free text from the GPX's personal note is
+  preserved and appended below the automatically generated <code>[GCMystSolver]</code> block — nothing gets
+  lost, and repeated import/export doesn't stack the block multiple times.</li>
+</ul>
 <h2 id="core-principle-offline-before-network">Core principle: offline before network<a class="headerlink" href="#core-principle-offline-before-network" title="Permanent link">&para;</a></h2>
 <p>Wherever possible, GCMystSolver uses <strong>local data and offline reference data</strong> for import and for
 region/elevation resolution before any network access happens at all. That keeps import reliable
@@ -899,6 +971,25 @@ and fast even for large lists.</p>
 <li>Load the topmost (newest) GPX file.</li>
 </ol>
 <p>With more than 100 GPX files in c:geo's export folder, the right one is otherwise hard to find.</p>
+<h2 id="export">Export<a class="headerlink" href="#export" title="Permanent link">&para;</a></h2>
+<p>Via <strong>"Export GPX"</strong> (in <em>Lists</em>, in a cache list, or in the "Solved" list) you write your caches,
+including GCMystSolver's results, back into a GPX file — e.g. to use them in c:geo or another app.</p>
+<ul>
+<li><strong>Solved coordinate</strong>: if a cache is solved, the exported waypoint coordinate is set directly to
+  the solved position (no separate "Final" waypoint — the cache itself "moves" to the solution in
+  the export).</li>
+<li><strong>Solution in the personal note</strong>: the solution (original coordinate, solved coordinate,
+  confidence, solve type, checker link) ends up as a <code>[GCMystSolver]</code> block in the exported
+  cache's personal note — immediately followed by your own note text.</li>
+</ul>
+<p>Under <em>Setup → Export privacy</em> you can tone down two details of this:</p>
+<ul>
+<li><strong>"Show AI model in export"</strong>: off, so an AI solution shows only as "AI" instead of e.g. "AI
+  (gemini-2.5-flash)".</li>
+<li><strong>"Show [GCMystSolver] tag in export"</strong>: off, so the export contains <strong>only your own note
+  text</strong> — no confidence, solve type, or solution text. The solved coordinate itself is always
+  exported regardless.</li>
+</ul>
 
 
 

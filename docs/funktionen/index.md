@@ -4,7 +4,7 @@ GCMystSolver besteht im Kern aus vier Bausteinen, die zusammenspielen:
 
 | Baustein | Kurzbeschreibung |
 |---|---|
-| [Import](import.md) | GPX/PocketQuery einlesen, automatische Region- und Höhenauflösung |
+| [Import & Export](import.md) | GPX/PocketQuery einlesen, automatische Region- und Höhenauflösung |
 | [Automatische Solver](solver.md) | ~15 fest eingebaute Rätsellöser ohne KI-Bedarf |
 | [KI-Lösungsversuch](ki-solver.md) | Fällt ein, wenn kein fester Löser passt |
 | [AI-Chat pro Cache](ai-chat.md) | Gezieltes Nachfragen/Diskutieren zu einem einzelnen Cache |

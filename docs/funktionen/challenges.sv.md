@@ -3,6 +3,15 @@
 För challenge-cacher (cacher som kräver att du tidigare har hittat vissa andra cacher) beräknar
 GCMystSolver automatiskt en **trafikljus-bedömning**: uppfyller dina befintliga fynd redan kravet?
 
+!!! warning "Kräver en importerad MyFinds-PocketQuery"
+    Bedömningen räknar enbart fynd som redan finns i din lokala databas — det finns **ingen**
+    online-jämförelse med din faktiska fyndhistorik på geocaching.com. För att fyndantal-,
+    Jasmer-, 365-dagars- och streak-challenges ska bedömas korrekt måste du importera din
+    kompletta **MyFinds-PocketQuery** en gång (se
+    [Import och export](import.md#vad-som-hander-automatiskt-vid-import)). En PQ vars namn börjar
+    med "my finds" identifieras automatiskt och alla cacher i den markeras som hittade — ingen
+    separat importläge behövs för det.
+
 ## När sker kontrollen?
 
 Vid **varje import** — inte först när du öppnar cachen. Så du ser genast i din cachelista vilka

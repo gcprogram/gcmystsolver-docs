@@ -4,7 +4,7 @@ GCMystSolver se skládá ze čtyř základních stavebních bloků, které spolu
 
 | Blok | Krátký popis |
 |---|---|
-| [Import](import.md) | Načtení GPX/PocketQuery, automatické určení regionu a nadmořské výšky |
+| [Import & Export](import.md) | Načtení GPX/PocketQuery, automatické určení regionu a nadmořské výšky |
 | [Automatické řešiče](solver.md) | ~15 vestavěných luštitelů hádanek, bez potřeby AI |
 | [Řešení pomocí AI](ki-solver.md) | Nastoupí, když se žádný vestavěný luštitel nehodí |
 | [AI chat pro keš](ai-chat.md) | Cílené dotazy/diskuse ke konkrétní keši |

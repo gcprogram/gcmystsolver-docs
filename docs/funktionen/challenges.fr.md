@@ -4,6 +4,15 @@ Pour les challenge caches (caches qui exigent d'avoir préalablement trouvé cer
 caches), GCMystSolver calcule automatiquement une **évaluation par feu tricolore** : tes
 trouvailles existantes remplissent-elles déjà la condition ?
 
+!!! warning "Nécessite une PocketQuery MyFinds importée"
+    L'évaluation ne compte que les trouvailles déjà présentes dans ta base de données locale — il
+    n'y a **aucune** comparaison en ligne avec ton historique réel de trouvailles geocaching.com.
+    Pour que les challenges de nombre de trouvailles, Jasmer, 365 jours et streak soient évalués
+    correctement, tu dois importer une fois ta **PocketQuery MyFinds** complète (voir
+    [Import et export](import.md#ce-qui-se-passe-automatiquement-a-limport)). Une PQ dont le nom
+    commence par « my finds » est reconnue automatiquement et toutes les caches qu'elle contient
+    sont marquées trouvées — aucun mode d'import séparé n'est nécessaire pour cela.
+
 ## Quand la vérification a-t-elle lieu ?
 
 À **chaque import** — pas seulement quand tu ouvres la cache. Tu vois donc immédiatement dans ta

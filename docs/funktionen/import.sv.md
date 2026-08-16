@@ -1,4 +1,4 @@
-# Import (GPX / PocketQuery)
+# Import och export (GPX / PocketQuery)
 
 <figure class="gcms-shot" markdown>
 ![Import-skärm med knappen "Choose GPX / ZIP"](../assets/screenshots/import-screen.png)
@@ -14,15 +14,54 @@
 Cacher som redan finns **uppdateras** vid ny import, dupliceras inte — du kan alltså importera
 samma lista om och om igen, till exempel för att hämta din aktuella fyndstatus.
 
+## Listnamn
+
+Innan importen anger du ett **fritt listnamn** (förifyllt med filnamnet; lämnar du det tomt heter
+listan "import"). Två fall:
+
+- **Nytt namn**: en ny lista med det namnet skapas.
+- **Namn på en befintlig lista**: de importerade cacherna läggs till i den listan — ingen
+  dubblerad lista och inga dubblerade cacher skapas.
+
+Det finns även alternativet **"Rename list by region (from cache locations)"** — efter importen
+bestämmer appen automatiskt ett namn utifrån cachernas koordinater (klusteridentifiering +
+platsuppslag), t.ex. "Kerpen, Nordrhein-Westfalen, DE".
+
+!!! warning "Inte för MyFinds-frågor"
+    I en MyFinds-PocketQuery är dina fynd utspridda över hela världen — en automatisk
+    regionomdöpning ger här inget meningsfullt namn. Ge sådana listor ett namn för hand istället
+    (t.ex. "MyFinds").
+
 ## Vad som händer automatiskt vid import
 
-1. **Regionbestämning** (offline, utan internetåtkomst): land, region och kommun/län bestäms
+1. **Fyndstatus-identifiering**: en PocketQuery vars namn börjar med "my finds" identifieras
+   automatiskt — alla cacher i den markeras som hittade (meddelande: *"Recognised as a My Finds
+   query — all of them marked found."*). I vanliga PQ:er/GPX-filer känner appen dessutom igen
+   dina egna "Found it"/"Attended"/"Webcam Photo Taken"-loggposter genom att matcha dem mot
+   geocaching.com-**username** som sparats i *Setup*. När en cache väl identifierats som hittad,
+   förblir den det vid varje senare import också.
+2. **Regionbestämning** (offline, utan internetåtkomst): land, region och kommun/län bestäms
    utifrån cachens koordinater.
-2. **Challenge-förkontroll**: för alla cacher som identifieras som en challenge beräknas
+3. **Challenge-förkontroll**: för alla cacher som identifieras som en challenge beräknas
    trafikljus-bedömningen omedelbart (se [Challenge-kontroll](challenges.md)) — inte först när du
    öppnar cachen.
-3. **Höjdbestämning i bakgrunden**: höjdvärden hämtas utan att blockera appen. Vid mycket stora
+4. **Höjdbestämning i bakgrunden**: höjdvärden hämtas utan att blockera appen. Vid mycket stora
    importer kan detta fortsätta köra i bakgrunden ett tag.
+
+!!! tip "MyFinds-PQ för korrekt challenge-bedömning"
+    Challenge-kontrollen räknar enbart fynd som redan finns i din lokala databas — det finns
+    ingen online-jämförelse med din faktiska fyndhistorik. För tillförlitliga resultat vid
+    fyndantal-/Jasmer-/365-dagars-/streak-challenges bör du därför importera din kompletta
+    **MyFinds-PocketQuery** en gång (se [Challenge-kontroll](challenges.md)).
+
+## Befintliga lösningar och anteckningar
+
+- **Lösningar skrivs aldrig över**: en redan sparad lösning överlever en ny import. Bara om den
+  importerade GPX:en själv bär på ett nyare `[GCMystSolver]`-block (t.ex. för att du läser in en
+  fil som GCMystSolver redan exporterat) tar appen över den nyare lösningen.
+- **Personliga anteckningar blandas, ersätts inte**: din egen fria text från GPX:ens personliga
+  anteckning bevaras och läggs till under det automatiskt genererade `[GCMystSolver]`-blocket —
+  inget går förlorat, och upprepad import/export staplar inte blocket flera gånger.
 
 ## Grundprincip: offline före nätverk
 
@@ -40,3 +79,24 @@ region-/höjdbestämning, innan någon nätverksåtkomst alls sker. Det gör imp
 4. Läs in den översta (senaste) GPX-filen.
 
 Med fler än 100 GPX-filer i c:geos exportmapp är rätt fil annars svår att hitta.
+
+## Export
+
+Via **"Export GPX"** (i *Lists*, i en cachelista, eller i "Solved"-listan) skriver du dina cacher,
+inklusive GCMystSolvers resultat, tillbaka till en GPX-fil — t.ex. för att använda dem i c:geo
+eller en annan app.
+
+- **Löst koordinat**: är en cache löst sätts den exporterade waypoint-koordinaten direkt till den
+  lösta positionen (ingen separat "Final"-waypoint — cachen själv "flyttar sig" i exporten till
+  lösningen).
+- **Lösning i den personliga anteckningen**: lösningen (ursprunglig koordinat, löst koordinat,
+  confidence, solve type, checker-länk) hamnar som ett `[GCMystSolver]`-block i den exporterade
+  cachens personliga anteckning — direkt följt av din egen anteckningstext.
+
+Under *Setup → Export privacy* kan du tona ner två detaljer av detta:
+
+- **"Show AI model in export"**: av, så att en AI-lösning bara visas som "AI" istället för t.ex.
+  "AI (gemini-2.5-flash)".
+- **"Show [GCMystSolver] tag in export"**: av, så att exporten bara innehåller **din egen
+  anteckningstext** — utan confidence, solve type eller lösningstext. Själva den lösta
+  koordinaten exporteras alltid oavsett detta.

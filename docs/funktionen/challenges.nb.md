@@ -4,6 +4,15 @@ For challenge-cacher (cacher som krever at du tidligere har funnet visse andre c
 GCMystSolver automatisk en **trafikklys-vurdering**: oppfyller dine eksisterende funn allerede
 kravet?
 
+!!! warning "Krever en importert MyFinds-PocketQuery"
+    Vurderingen teller utelukkende funn som allerede finnes i din lokale database — det finnes
+    **ingen** nettbasert sammenligning med din faktiske funnhistorikk på geocaching.com. For at
+    funnantall-, Jasmer-, 365-dagers- og streak-challenges skal vurderes korrekt, må du importere
+    din komplette **MyFinds-PocketQuery** én gang (se
+    [Import og eksport](import.md#hva-som-skjer-automatisk-ved-import)). En PQ hvis navn starter
+    med "my finds" gjenkjennes automatisk, og alle cachene i den merkes som funnet — det trengs
+    ingen egen importmodus for det.
+
 ## Når skjer kontrollen?
 
 Ved **hver import** — ikke først når du åpner cachen. Slik ser du med en gang i cachelisten din

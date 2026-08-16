@@ -4,7 +4,7 @@ GCMystSolver repose sur quatre éléments centraux qui fonctionnent ensemble :
 
 | Élément | Description rapide |
 |---|---|
-| [Import](import.md) | Lire un GPX/PocketQuery, résolution automatique de la région et de l'altitude |
+| [Import & Export](import.md) | Lire un GPX/PocketQuery, résolution automatique de la région et de l'altitude |
 | [Solveurs automatiques](solver.md) | ~15 solveurs d'énigmes intégrés, sans besoin d'IA |
 | [Résolution par IA](ki-solver.md) | Prend le relais quand aucun solveur intégré ne convient |
 | [Chat IA par cache](ai-chat.md) | Questions/discussion ciblées sur une seule cache |

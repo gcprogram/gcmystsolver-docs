@@ -4,7 +4,7 @@ GCMystSolver bestaat uit vier kernonderdelen die samenwerken:
 
 | Onderdeel | Korte beschrijving |
 |---|---|
-| [Import](import.md) | GPX/PocketQuery inlezen, automatische regio- en hoogtebepaling |
+| [Import & Export](import.md) | GPX/PocketQuery inlezen, automatische regio- en hoogtebepaling |
 | [Automatische oplossers](solver.md) | ~15 ingebouwde puzzeloplossers, geen AI nodig |
 | [AI-oplospoging](ki-solver.md) | Springt bij als geen enkele ingebouwde oplosser past |
 | [AI-chat per cache](ai-chat.md) | Gericht doorvragen/discussiëren over één cache |

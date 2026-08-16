@@ -43,7 +43,7 @@
     
     
       
-        <title>Import (GPX / PocketQuery) - GCMystSolver Handbuch</title>
+        <title>Import och export (GPX / PocketQuery) - GCMystSolver Handbuch</title>
       
     
     
@@ -96,7 +96,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#import-gpx-pocketquery" class="md-skip">
+        <a href="#import-och-export-gpx-pocketquery" class="md-skip">
           Gå till innehållet
         </a>
       
@@ -131,7 +131,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Import (GPX / PocketQuery)
+              Import och export (GPX / PocketQuery)
             
           </span>
         </div>
@@ -495,7 +495,7 @@
   <span class="md-ellipsis">
     
   
-    Import (GPX / PocketQuery)
+    Import och export (GPX / PocketQuery)
   
 
     
@@ -513,7 +513,7 @@
   <span class="md-ellipsis">
     
   
-    Import (GPX / PocketQuery)
+    Import och export (GPX / PocketQuery)
   
 
     
@@ -550,10 +550,32 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#listnamn" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Listnamn
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#vad-som-hander-automatiskt-vid-import" class="md-nav__link">
     <span class="md-ellipsis">
       
         Vad som händer automatiskt vid import
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#befintliga-losningar-och-anteckningar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Befintliga lösningar och anteckningar
       
     </span>
   </a>
@@ -576,6 +598,17 @@
     <span class="md-ellipsis">
       
         Snabbaste vägen från c:geo
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#export" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Export
       
     </span>
   </a>
@@ -864,7 +897,7 @@
 
 
 
-<h1 id="import-gpx-pocketquery">Import (GPX / PocketQuery)<a class="headerlink" href="#import-gpx-pocketquery" title="Permanent link">&para;</a></h1>
+<h1 id="import-och-export-gpx-pocketquery">Import och export (GPX / PocketQuery)<a class="headerlink" href="#import-och-export-gpx-pocketquery" title="Permanent link">&para;</a></h1>
 <figure class="gcms-shot">
 <p><img alt="Import-skärm med knappen &quot;Choose GPX / ZIP&quot;" src="../../../assets/screenshots/import-screen.png" /></p>
 <figcaption>Import-fliken</figcaption>
@@ -877,8 +910,31 @@
 </ul>
 <p>Cacher som redan finns <strong>uppdateras</strong> vid ny import, dupliceras inte — du kan alltså importera
 samma lista om och om igen, till exempel för att hämta din aktuella fyndstatus.</p>
+<h2 id="listnamn">Listnamn<a class="headerlink" href="#listnamn" title="Permanent link">&para;</a></h2>
+<p>Innan importen anger du ett <strong>fritt listnamn</strong> (förifyllt med filnamnet; lämnar du det tomt heter
+listan "import"). Två fall:</p>
+<ul>
+<li><strong>Nytt namn</strong>: en ny lista med det namnet skapas.</li>
+<li><strong>Namn på en befintlig lista</strong>: de importerade cacherna läggs till i den listan — ingen
+  dubblerad lista och inga dubblerade cacher skapas.</li>
+</ul>
+<p>Det finns även alternativet <strong>"Rename list by region (from cache locations)"</strong> — efter importen
+bestämmer appen automatiskt ett namn utifrån cachernas koordinater (klusteridentifiering +
+platsuppslag), t.ex. "Kerpen, Nordrhein-Westfalen, DE".</p>
+<div class="admonition warning">
+<p class="admonition-title">Inte för MyFinds-frågor</p>
+<p>I en MyFinds-PocketQuery är dina fynd utspridda över hela världen — en automatisk
+regionomdöpning ger här inget meningsfullt namn. Ge sådana listor ett namn för hand istället
+(t.ex. "MyFinds").</p>
+</div>
 <h2 id="vad-som-hander-automatiskt-vid-import">Vad som händer automatiskt vid import<a class="headerlink" href="#vad-som-hander-automatiskt-vid-import" title="Permanent link">&para;</a></h2>
 <ol>
+<li><strong>Fyndstatus-identifiering</strong>: en PocketQuery vars namn börjar med "my finds" identifieras
+   automatiskt — alla cacher i den markeras som hittade (meddelande: <em>"Recognised as a My Finds
+   query — all of them marked found."</em>). I vanliga PQ:er/GPX-filer känner appen dessutom igen
+   dina egna "Found it"/"Attended"/"Webcam Photo Taken"-loggposter genom att matcha dem mot
+   geocaching.com-<strong>username</strong> som sparats i <em>Setup</em>. När en cache väl identifierats som hittad,
+   förblir den det vid varje senare import också.</li>
 <li><strong>Regionbestämning</strong> (offline, utan internetåtkomst): land, region och kommun/län bestäms
    utifrån cachens koordinater.</li>
 <li><strong>Challenge-förkontroll</strong>: för alla cacher som identifieras som en challenge beräknas
@@ -887,6 +943,22 @@ samma lista om och om igen, till exempel för att hämta din aktuella fyndstatus
 <li><strong>Höjdbestämning i bakgrunden</strong>: höjdvärden hämtas utan att blockera appen. Vid mycket stora
    importer kan detta fortsätta köra i bakgrunden ett tag.</li>
 </ol>
+<div class="admonition tip">
+<p class="admonition-title">MyFinds-PQ för korrekt challenge-bedömning</p>
+<p>Challenge-kontrollen räknar enbart fynd som redan finns i din lokala databas — det finns
+ingen online-jämförelse med din faktiska fyndhistorik. För tillförlitliga resultat vid
+fyndantal-/Jasmer-/365-dagars-/streak-challenges bör du därför importera din kompletta
+<strong>MyFinds-PocketQuery</strong> en gång (se <a href="../challenges/">Challenge-kontroll</a>).</p>
+</div>
+<h2 id="befintliga-losningar-och-anteckningar">Befintliga lösningar och anteckningar<a class="headerlink" href="#befintliga-losningar-och-anteckningar" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Lösningar skrivs aldrig över</strong>: en redan sparad lösning överlever en ny import. Bara om den
+  importerade GPX:en själv bär på ett nyare <code>[GCMystSolver]</code>-block (t.ex. för att du läser in en
+  fil som GCMystSolver redan exporterat) tar appen över den nyare lösningen.</li>
+<li><strong>Personliga anteckningar blandas, ersätts inte</strong>: din egen fria text från GPX:ens personliga
+  anteckning bevaras och läggs till under det automatiskt genererade <code>[GCMystSolver]</code>-blocket —
+  inget går förlorat, och upprepad import/export staplar inte blocket flera gånger.</li>
+</ul>
 <h2 id="grundprincip-offline-fore-natverk">Grundprincip: offline före nätverk<a class="headerlink" href="#grundprincip-offline-fore-natverk" title="Permanent link">&para;</a></h2>
 <p>Där det är möjligt använder GCMystSolver <strong>lokal data och offline-referenser</strong> för import och för
 region-/höjdbestämning, innan någon nätverksåtkomst alls sker. Det gör importen pålitlig och snabb
@@ -901,6 +973,26 @@ region-/höjdbestämning, innan någon nätverksåtkomst alls sker. Det gör imp
 <li>Läs in den översta (senaste) GPX-filen.</li>
 </ol>
 <p>Med fler än 100 GPX-filer i c:geos exportmapp är rätt fil annars svår att hitta.</p>
+<h2 id="export">Export<a class="headerlink" href="#export" title="Permanent link">&para;</a></h2>
+<p>Via <strong>"Export GPX"</strong> (i <em>Lists</em>, i en cachelista, eller i "Solved"-listan) skriver du dina cacher,
+inklusive GCMystSolvers resultat, tillbaka till en GPX-fil — t.ex. för att använda dem i c:geo
+eller en annan app.</p>
+<ul>
+<li><strong>Löst koordinat</strong>: är en cache löst sätts den exporterade waypoint-koordinaten direkt till den
+  lösta positionen (ingen separat "Final"-waypoint — cachen själv "flyttar sig" i exporten till
+  lösningen).</li>
+<li><strong>Lösning i den personliga anteckningen</strong>: lösningen (ursprunglig koordinat, löst koordinat,
+  confidence, solve type, checker-länk) hamnar som ett <code>[GCMystSolver]</code>-block i den exporterade
+  cachens personliga anteckning — direkt följt av din egen anteckningstext.</li>
+</ul>
+<p>Under <em>Setup → Export privacy</em> kan du tona ner två detaljer av detta:</p>
+<ul>
+<li><strong>"Show AI model in export"</strong>: av, så att en AI-lösning bara visas som "AI" istället för t.ex.
+  "AI (gemini-2.5-flash)".</li>
+<li><strong>"Show [GCMystSolver] tag in export"</strong>: av, så att exporten bara innehåller <strong>din egen
+  anteckningstext</strong> — utan confidence, solve type eller lösningstext. Själva den lösta
+  koordinaten exporteras alltid oavsett detta.</li>
+</ul>
 
 
 

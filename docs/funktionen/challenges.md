@@ -4,6 +4,15 @@ Für Challenge-Caches (Caches, die verlangen, dass du zuvor bestimmte andere Cac
 berechnet GCMystSolver automatisch eine **Ampel-Bewertung**: erfüllt du die Anforderung bereits
 mit deinen bisherigen Funden?
 
+!!! warning "Setzt eine importierte MyFinds-PocketQuery voraus"
+    Die Bewertung zählt ausschließlich Funde, die bereits in deiner lokalen Datenbank stehen — es
+    gibt **keinen** Online-Abgleich mit deinem tatsächlichen geocaching.com-Fundprofil. Damit
+    Fundzahl-, Jasmer-, 365-Tage- und Streak-Challenges korrekt bewertet werden, musst du einmalig
+    deine komplette **MyFinds-PocketQuery importieren** (siehe
+    [Import & Export](import.md#was-beim-import-automatisch-passiert)). Eine PQ, deren Name mit
+    "my finds" beginnt, erkennt die App automatisch und markiert alle enthaltenen Caches als
+    gefunden — ein separater Import-Modus dafür ist nicht nötig.
+
 ## Wann wird geprüft?
 
 Bei **jedem Import** — nicht erst, wenn du den Cache öffnest. So siehst du sofort in deiner

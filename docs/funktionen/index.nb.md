@@ -4,7 +4,7 @@ GCMystSolver består av fire sentrale byggeklosser som spiller sammen:
 
 | Byggekloss | Kort beskrivelse |
 |---|---|
-| [Import](import.md) | Lese inn GPX/PocketQuery, automatisk bestemmelse av region og høyde |
+| [Import & Export](import.md) | Lese inn GPX/PocketQuery, automatisk bestemmelse av region og høyde |
 | [Automatiske løsere](solver.md) | ~15 innebygde puslespillløsere, ingen AI nødvendig |
 | [AI-løsningsforsøk](ki-solver.md) | Trer inn når ingen innebygd løser passer |
 | [AI-chat per cache](ai-chat.md) | Målrettede oppfølgingsspørsmål/diskusjon om én enkelt cache |

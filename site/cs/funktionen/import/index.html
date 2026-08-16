@@ -43,7 +43,7 @@
     
     
       
-        <title>Import (GPX / PocketQuery) - GCMystSolver Handbuch</title>
+        <title>Import a export (GPX / PocketQuery) - GCMystSolver Handbuch</title>
       
     
     
@@ -96,7 +96,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#import-gpx-pocketquery" class="md-skip">
+        <a href="#import-a-export-gpx-pocketquery" class="md-skip">
           Přeskočit obsah
         </a>
       
@@ -131,7 +131,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Import (GPX / PocketQuery)
+              Import a export (GPX / PocketQuery)
             
           </span>
         </div>
@@ -495,7 +495,7 @@
   <span class="md-ellipsis">
     
   
-    Import (GPX / PocketQuery)
+    Import a export (GPX / PocketQuery)
   
 
     
@@ -513,7 +513,7 @@
   <span class="md-ellipsis">
     
   
-    Import (GPX / PocketQuery)
+    Import a export (GPX / PocketQuery)
   
 
     
@@ -550,10 +550,32 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#nazev-seznamu" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Název seznamu
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#co-se-pri-importu-deje-automaticky" class="md-nav__link">
     <span class="md-ellipsis">
       
         Co se při importu děje automaticky
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#existujici-reseni-a-poznamky" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Existující řešení a poznámky
       
     </span>
   </a>
@@ -576,6 +598,17 @@
     <span class="md-ellipsis">
       
         Nejrychlejší cesta z c:geo
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#export" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Export
       
     </span>
   </a>
@@ -864,7 +897,7 @@
 
 
 
-<h1 id="import-gpx-pocketquery">Import (GPX / PocketQuery)<a class="headerlink" href="#import-gpx-pocketquery" title="Permanent link">&para;</a></h1>
+<h1 id="import-a-export-gpx-pocketquery">Import a export (GPX / PocketQuery)<a class="headerlink" href="#import-a-export-gpx-pocketquery" title="Permanent link">&para;</a></h1>
 <figure class="gcms-shot">
 <p><img alt="Obrazovka Import s tlačítkem &quot;Choose GPX / ZIP&quot;" src="../../../assets/screenshots/import-screen.png" /></p>
 <figcaption>Karta Import</figcaption>
@@ -877,8 +910,31 @@
 </ul>
 <p>Již existující keše se při opětovném importu <strong>aktualizují</strong>, ne duplikují — stejný seznam tak
 můžeš importovat opakovaně, například abys převzal/a svůj aktuální stav nálezů.</p>
+<h2 id="nazev-seznamu">Název seznamu<a class="headerlink" href="#nazev-seznamu" title="Permanent link">&para;</a></h2>
+<p>Před importem zadáš <strong>libovolný název seznamu</strong> (předvyplněný názvem souboru; necháš-li pole
+prázdné, seznam se jmenuje "import"). Dva případy:</p>
+<ul>
+<li><strong>Nový název</strong>: vytvoří se nový seznam s tímto názvem.</li>
+<li><strong>Název existujícího seznamu</strong>: naimportované keše se přidají do tohoto seznamu — nevznikne
+  duplicitní seznam ani duplicitní keše.</li>
+</ul>
+<p>Navíc existuje volba <strong>"Rename list by region (from cache locations)"</strong> — po importu aplikace
+automaticky určí název ze souřadnic keší (rozpoznání shluku + zjištění místa), např. "Kerpen,
+Nordrhein-Westfalen, DE".</p>
+<div class="admonition warning">
+<p class="admonition-title">Nevhodné pro MyFinds dotazy</p>
+<p>U MyFinds PocketQuery jsou tvé nálezy rozptýlené po celém světě — automatické přejmenování
+podle regionu by zde nedávalo smysluplný název. U takových seznamů zadej název raději ručně
+(např. "MyFinds").</p>
+</div>
 <h2 id="co-se-pri-importu-deje-automaticky">Co se při importu děje automaticky<a class="headerlink" href="#co-se-pri-importu-deje-automaticky" title="Permanent link">&para;</a></h2>
 <ol>
+<li><strong>Rozpoznání stavu nálezu</strong>: PocketQuery, jejíž název začíná na "my finds", se rozpozná
+   automaticky — všechny obsažené keše se označí jako nalezené (hláška: <em>"Recognised as a My
+   Finds query — all of them marked found."</em>). V běžných PQ/GPX souborech aplikace navíc rozpozná
+   tvé vlastní záznamy logu "Found it"/"Attended"/"Webcam Photo Taken" tím, že je porovná s
+   geocaching.com <strong>username</strong> uloženým v <em>Setup</em>. Jakmile je keš jednou rozpoznána jako
+   nalezená, zůstane taková i při každém dalším importu.</li>
 <li><strong>Určení regionu</strong> (offline, bez přístupu k internetu): země, kraj/region a okres se určí ze
    souřadnic keše.</li>
 <li><strong>Předběžná kontrola challenge</strong>: u všech keší rozpoznaných jako challenge se ihned spočítá
@@ -886,6 +942,22 @@ můžeš importovat opakovaně, například abys převzal/a svůj aktuální sta
 <li><strong>Určení nadmořské výšky na pozadí</strong>: hodnoty výšky se dotahují bez blokování aplikace. U
    velmi velkých importů to může na pozadí ještě chvíli běžet.</li>
 </ol>
+<div class="admonition tip">
+<p class="admonition-title">MyFinds PQ pro správné hodnocení challenge</p>
+<p>Kontrola challenge počítá výhradně nálezy, které už jsou v tvé lokální databázi — neexistuje
+žádné online porovnání s tvou skutečnou historií nálezů. Pro spolehlivé výsledky u challenge
+podle počtu nálezů/Jasmer/365 dní/streak proto jednou naimportuj svou kompletní <strong>MyFinds
+PocketQuery</strong> (viz <a href="../challenges/">Kontrola výzev</a>).</p>
+</div>
+<h2 id="existujici-reseni-a-poznamky">Existující řešení a poznámky<a class="headerlink" href="#existujici-reseni-a-poznamky" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Řešení se nikdy nepřepisují</strong>: již uložené řešení zůstane při opětovném importu zachováno.
+  Jen pokud sám importovaný GPX obsahuje novější blok <code>[GCMystSolver]</code> (např. protože zpětně
+  načítáš soubor už jednou exportovaný z GCMystSolver), aplikace toto novější řešení převezme.</li>
+<li><strong>Osobní poznámky se slučují, ne nahrazují</strong>: tvůj vlastní volný text z osobní poznámky GPX
+  zůstává zachován a připojí se pod automaticky vygenerovaný blok <code>[GCMystSolver]</code> — nic se
+  neztratí a při opakovaném importu/exportu se blok nehromadí vícekrát.</li>
+</ul>
 <h2 id="zakladni-princip-offline-pred-siti">Základní princip: offline před sítí<a class="headerlink" href="#zakladni-princip-offline-pred-siti" title="Permanent link">&para;</a></h2>
 <p>Kde je to možné, používá GCMystSolver pro import i pro určení regionu/výšky nejprve <strong>lokální data
 a offline podklady</strong>, než dojde k jakémukoli síťovému přístupu. Díky tomu je import spolehlivý a
@@ -901,6 +973,26 @@ rychlý i u velkých seznamů.</p>
 <li>Načti nejvýše umístěný (nejnovější) soubor GPX.</li>
 </ol>
 <p>Při více než 100 souborech GPX v exportní složce c:geo se ten správný jinak těžko hledá.</p>
+<h2 id="export">Export<a class="headerlink" href="#export" title="Permanent link">&para;</a></h2>
+<p>Přes <strong>"Export GPX"</strong> (v <em>Lists</em>, v seznamu keší, nebo v seznamu "Solved") zapíšeš své keše
+včetně výsledků GCMystSolver zpět do souboru GPX — např. pro další použití v c:geo nebo jiné
+aplikaci.</p>
+<ul>
+<li><strong>Vyřešená souřadnice</strong>: je-li keš vyřešena, exportovaná souřadnice waypointu se nastaví přímo
+  na vyřešenou pozici (žádný samostatný waypoint "Final" — keš sama se v exportu "přesune" na
+  řešení).</li>
+<li><strong>Řešení v osobní poznámce</strong>: řešení (původní souřadnice, vyřešená souřadnice, jistota, solve
+  type, odkaz na checker) skončí jako blok <code>[GCMystSolver]</code> v osobní poznámce exportované keše —
+  hned následovaný tvým vlastním textem poznámky.</li>
+</ul>
+<p>V <em>Setup → Export privacy</em> můžeš dva detaily z toho omezit:</p>
+<ul>
+<li><strong>"Show AI model in export"</strong>: vypnuto, aby se řešení od AI zobrazilo jen jako "AI" místo např.
+  "AI (gemini-2.5-flash)".</li>
+<li><strong>"Show [GCMystSolver] tag in export"</strong>: vypnuto, aby v exportu zůstal <strong>jen tvůj vlastní text
+  poznámky</strong> — bez jistoty, solve type nebo textu řešení. Samotná vyřešená souřadnice se přesto
+  vždy exportuje.</li>
+</ul>
 
 
 
