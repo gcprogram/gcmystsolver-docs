@@ -11,6 +11,13 @@ D/T, países, regiones, altitud, número de hallazgos y más).
 Este manual describe en detalle todas las funciones de la aplicación. Usa la navegación de arriba
 o la búsqueda para encontrar un tema.
 
+<figure class="gcms-hero" markdown>
+![Mapa geoart sin resolver vs. resuelto](assets/screenshots/geoart-animation.gif)
+<figcaption>Un enigma geoart real (un ciervo formado por ~300 mystery caches en los Países
+Bajos) — sin resolver a la izquierda, luego resuelto automáticamente por GCMystSolver, con un
+primer plano de los anillos verdes de solución</figcaption>
+</figure>
+
 ## Inicio rápido
 
 - [Primeros pasos](erste-schritte.md) — instalar la app, hacer tu primera importación

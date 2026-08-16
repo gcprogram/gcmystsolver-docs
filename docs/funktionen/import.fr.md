@@ -31,14 +31,20 @@ cluster + recherche du lieu), par ex. « Kerpen, Nordrhein-Westfalen, DE ».
 
 !!! warning "Pas pour les PocketQuery MyFinds"
     Dans une PocketQuery MyFinds, tes trouvailles sont dispersées dans le monde entier — un
-    renommage automatique par région ne donnerait ici aucun nom pertinent. Pour ce genre de
-    liste, donne plutôt le nom toi-même (par ex. « MyFinds »).
+    renommage automatique par région ne donnerait ici aucun nom pertinent. De plus, le fichier
+    téléchargé depuis geocaching.com est généralement nommé d'après l'ID de la PQ (par ex.
+    `1234567.gpx`), donc le champ nom de liste pré-rempli ne serait lui aussi que ce nombre. Pour
+    ce genre de liste, donne plutôt le nom toi-même (par ex. « MyFinds »).
 
 ## Ce qui se passe automatiquement à l'import
 
-1. **Détection du statut de trouvaille** : une PocketQuery dont le nom commence par « my finds »
-   est reconnue automatiquement — toutes les caches qu'elle contient sont marquées trouvées
-   (message : *« Recognised as a My Finds query — all of them marked found. »*). Dans les
+1. **Détection du statut de trouvaille** : le fait qu'un fichier soit une PocketQuery MyFinds est
+   reconnu grâce au champ `<name>` **dans le contenu même du fichier GPX** (sur geocaching.com,
+   toujours littéralement « My Finds Pocket Query », quelle que soit la langue de ton compte) —
+   **pas d'après le nom du fichier**. La détection fonctionne donc que le fichier s'appelle
+   `myfinds.gpx` ou simplement `1234567.gpx`. Toutes les caches qu'il contient sont alors
+   automatiquement marquées trouvées (message : *« Recognised as a My Finds query — all of them
+   marked found. »*). Dans les
    PQ/fichiers GPX normaux, l'application reconnaît en plus tes propres entrées de log « Found
    it »/« Attended »/« Webcam Photo Taken » en les comparant au **username** geocaching.com
    enregistré dans *Setup*. Une fois qu'une cache est reconnue comme trouvée, elle le reste à

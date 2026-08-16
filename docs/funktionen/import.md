@@ -30,14 +30,19 @@ Ortsauflösung), z. B. "Kerpen, Nordrhein-Westfalen, DE".
 
 !!! warning "Nicht für MyFinds-Queries"
     Bei einer MyFinds-PocketQuery sind die Funde über die ganze Welt verstreut — eine
-    automatische Regions-Umbenennung ergibt hier keinen sinnvollen Namen. Für solche Listen den
+    automatische Regions-Umbenennung ergibt hier keinen sinnvollen Namen. Zudem heißt die von
+    geocaching.com heruntergeladene Datei meist nur nach der PQ-ID (z. B. `1234567.gpx`) — das
+    vorausgefüllte Listenname-Feld wäre also ebenfalls nur diese Zahl. Für solche Listen den
     Namen lieber von Hand vergeben (z. B. "MyFinds").
 
 ## Was beim Import automatisch passiert
 
-1. **Fundstatus-Erkennung**: Eine PocketQuery, deren Name mit "my finds" beginnt, wird automatisch
-   erkannt — alle enthaltenen Caches werden als gefunden markiert (Meldung: *"Recognised as a My
-   Finds query — all of them marked found."*). In normalen PQs/GPX-Dateien erkennt die App
+1. **Fundstatus-Erkennung**: Ob es sich um eine MyFinds-PocketQuery handelt, erkennt die App am
+   `<name>`-Feld **im Inhalt der GPX-Datei selbst** (bei geocaching.com immer wörtlich "My Finds
+   Pocket Query", unabhängig von der Sprache deines Kontos) — **nicht am Dateinamen**. Die Erkennung
+   funktioniert also unabhängig davon, ob die Datei `myfinds.gpx` oder nur `1234567.gpx` heißt.
+   Alle enthaltenen Caches werden dabei automatisch als gefunden markiert (Meldung: *"Recognised
+   as a My Finds query — all of them marked found."*). In normalen PQs/GPX-Dateien erkennt die App
    zusätzlich deine eigenen "Found it"/"Attended"/"Webcam Photo Taken"-Logeinträge, indem sie sie
    mit deinem in *Setup* hinterlegten geocaching.com-**Username** abgleicht. Einmal als gefunden
    erkannt, bleibt ein Cache das auch bei jedem weiteren Import.

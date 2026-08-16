@@ -925,14 +925,20 @@ de clúster + búsqueda del lugar), p. ej. "Kerpen, Nordrhein-Westfalen, DE".</p
 <div class="admonition warning">
 <p class="admonition-title">No para consultas MyFinds</p>
 <p>En una PocketQuery MyFinds, tus hallazgos están repartidos por todo el mundo — un
-renombrado automático por región no produce aquí un nombre útil. Para ese tipo de listas,
-ponle el nombre tú mismo (p. ej. "MyFinds").</p>
+renombrado automático por región no produce aquí un nombre útil. Además, el archivo
+descargado de geocaching.com suele llamarse solo con el ID de la PQ (p. ej. <code>1234567.gpx</code>),
+así que el campo de nombre de lista prerrellenado también sería solo ese número. Para ese
+tipo de listas, ponle el nombre tú mismo (p. ej. "MyFinds").</p>
 </div>
 <h2 id="que-ocurre-automaticamente-al-importar">Qué ocurre automáticamente al importar<a class="headerlink" href="#que-ocurre-automaticamente-al-importar" title="Permanent link">&para;</a></h2>
 <ol>
-<li><strong>Detección del estado de hallazgo</strong>: una PocketQuery cuyo nombre empieza por "my finds" se
-   reconoce automáticamente — todos los caches que contiene se marcan como encontrados (mensaje:
-   <em>"Recognised as a My Finds query — all of them marked found."</em>). En PQ/archivos GPX normales,
+<li><strong>Detección del estado de hallazgo</strong>: si un archivo es una PocketQuery MyFinds se reconoce por
+   el campo <code>&lt;name&gt;</code> <strong>dentro del propio contenido del archivo GPX</strong> (en geocaching.com siempre
+   literalmente "My Finds Pocket Query", sea cual sea el idioma de tu cuenta) — <strong>no por el
+   nombre del archivo</strong>. La detección funciona por tanto tanto si el archivo se llama
+   <code>myfinds.gpx</code> como si se llama simplemente <code>1234567.gpx</code>. Todos los caches que contiene se
+   marcan entonces automáticamente como encontrados (mensaje: <em>"Recognised as a My Finds query —
+   all of them marked found."</em>). En PQ/archivos GPX normales,
    la app además reconoce tus propias entradas de log "Found it"/"Attended"/"Webcam Photo Taken"
    comparándolas con el <strong>username</strong> de geocaching.com guardado en <em>Setup</em>. Una vez que un caché
    se reconoce como encontrado, sigue siéndolo en cada importación posterior.</li>

@@ -10,6 +10,13 @@ challenge caches (D/T matrix, countries, states/regions, elevation, find counts,
 This handbook describes every feature of the app in detail. Use the navigation above or the
 search to find a topic.
 
+<figure class="gcms-hero" markdown>
+![Unsolved vs. solved geoart map](assets/screenshots/geoart-animation.gif)
+<figcaption>A real geoart puzzle (a deer made of ~300 mystery caches in the Netherlands) —
+unsolved on the left, then automatically solved by GCMystSolver, with a close-up of the green
+solution rings</figcaption>
+</figure>
+
 ## Quick start
 
 - [Getting Started](erste-schritte.md) — install the app, do your first import

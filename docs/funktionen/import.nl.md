@@ -30,14 +30,19 @@ plaatsbepaling), bijv. "Kerpen, Nordrhein-Westfalen, DE".
 
 !!! warning "Niet voor MyFinds-query's"
     Bij een MyFinds-PocketQuery liggen je vondsten over de hele wereld verspreid — een
-    automatische regio-hernoeming levert hier geen zinvolle naam op. Geef zo'n lijst liever
+    automatische regio-hernoeming levert hier geen zinvolle naam op. Bovendien heet het van
+    geocaching.com gedownloade bestand meestal alleen naar het PQ-ID (bijv. `1234567.gpx`) — het
+    vooraf ingevulde lijstnaam-veld zou dus ook alleen dat getal zijn. Geef zo'n lijst liever
     handmatig een naam (bijv. "MyFinds").
 
 ## Wat er automatisch gebeurt bij import
 
-1. **Vondststatus-herkenning**: een PocketQuery waarvan de naam begint met "my finds" wordt
-   automatisch herkend — alle caches erin worden als gevonden gemarkeerd (melding: *"Recognised
-   as a My Finds query — all of them marked found."*). In gewone PQ's/GPX-bestanden herkent de app
+1. **Vondststatus-herkenning**: of een bestand een MyFinds-PocketQuery is, herkent de app aan het
+   `<name>`-veld **in de inhoud van het GPX-bestand zelf** (bij geocaching.com altijd letterlijk
+   "My Finds Pocket Query", ongeacht de taal van je account) — **niet aan de bestandsnaam**. De
+   herkenning werkt dus ongeacht of het bestand `myfinds.gpx` of gewoon `1234567.gpx` heet. Alle
+   caches erin worden dan automatisch als gevonden gemarkeerd (melding: *"Recognised as a My
+   Finds query — all of them marked found."*). In gewone PQ's/GPX-bestanden herkent de app
    bovendien je eigen "Found it"/"Attended"/"Webcam Photo Taken"-logboekvermeldingen door ze te
    vergelijken met de geocaching.com-**username** die in *Setup* is ingesteld. Eenmaal als
    gevonden herkend, blijft een cache dat ook bij elke volgende import.

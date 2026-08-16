@@ -10,6 +10,13 @@ van challenge-caches (D/T-matrix, landen, regio's, hoogte, aantal vondsten en me
 Dit handboek beschrijft alle functies van de app in detail. Gebruik de navigatie hierboven of de
 zoekfunctie om een onderwerp te vinden.
 
+<figure class="gcms-hero" markdown>
+![Onopgeloste vs. opgeloste geoart-kaart](assets/screenshots/geoart-animation.gif)
+<figcaption>Een echte geoart-puzzel (een hert opgebouwd uit ~300 mystery-caches in Nederland) —
+links onopgelost, daarna automatisch opgelost door GCMystSolver, met een close-up van de groene
+oplossingsringen</figcaption>
+</figure>
+
 ## Snelstart
 
 - [Eerste stappen](erste-schritte.md) — app installeren, eerste import uitvoeren

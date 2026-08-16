@@ -10,6 +10,12 @@ challenge-cacher (D/T-matrise, land, regioner, høyde, antall funn med mer).
 Denne håndboken beskriver alle funksjonene i appen i detalj. Bruk navigasjonen øverst eller søket
 for å finne et tema.
 
+<figure class="gcms-hero" markdown>
+![Uløst kontra løst geoart-kart](assets/screenshots/geoart-animation.gif)
+<figcaption>En ekte geoart-gåte (en hjort bygget av ~300 mystery-cacher i Nederland) — uløst til
+venstre, deretter automatisk løst av GCMystSolver, med et nærbilde av de grønne løsningsringene</figcaption>
+</figure>
+
 ## Hurtigstart
 
 - [Kom i gang](erste-schritte.md) — installer appen, gjør din første import

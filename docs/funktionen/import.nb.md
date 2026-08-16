@@ -29,14 +29,20 @@ stedsoppslag), f.eks. "Kerpen, Nordrhein-Westfalen, DE".
 
 !!! warning "Ikke for MyFinds-spørringer"
     I en MyFinds-PocketQuery er funnene dine spredt over hele verden — en automatisk
-    regionomdøping gir her ikke noe meningsfylt navn. Gi slike lister et navn for hånd i stedet
-    (f.eks. "MyFinds").
+    regionomdøping gir her ikke noe meningsfylt navn. I tillegg heter filen som lastes ned fra
+    geocaching.com som regel bare etter PQ-ID-en (f.eks. `1234567.gpx`) — det forhåndsutfylte
+    listenavn-feltet ville da også bare vært det tallet. Gi slike lister et navn for hånd i
+    stedet (f.eks. "MyFinds").
 
 ## Hva som skjer automatisk ved import
 
-1. **Funnstatus-gjenkjenning**: en PocketQuery hvis navn starter med "my finds" gjenkjennes
-   automatisk — alle cachene i den merkes som funnet (melding: *"Recognised as a My Finds query —
-   all of them marked found."*). I vanlige PQ-er/GPX-filer gjenkjenner appen i tillegg dine egne
+1. **Funnstatus-gjenkjenning**: om en fil er en MyFinds-PocketQuery gjenkjennes ut fra
+   `<name>`-feltet **i selve innholdet i GPX-filen** (på geocaching.com alltid bokstavelig "My
+   Finds Pocket Query", uansett hvilket språk kontoen din har) — **ikke ut fra filnavnet**.
+   Gjenkjenningen fungerer altså uansett om filen heter `myfinds.gpx` eller bare `1234567.gpx`.
+   Alle cachene i den merkes deretter automatisk som funnet (melding: *"Recognised as a My Finds
+   query — all of them marked found."*). I vanlige PQ-er/GPX-filer gjenkjenner appen i tillegg
+   dine egne
    "Found it"/"Attended"/"Webcam Photo Taken"-loggoppføringer ved å sammenligne dem med
    geocaching.com-**username** lagret i *Setup*. Når en cache først er gjenkjent som funnet,
    forblir den det ved hver senere import også.

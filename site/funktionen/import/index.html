@@ -925,14 +925,19 @@ Ortsauflösung), z. B. "Kerpen, Nordrhein-Westfalen, DE".</p>
 <div class="admonition warning">
 <p class="admonition-title">Nicht für MyFinds-Queries</p>
 <p>Bei einer MyFinds-PocketQuery sind die Funde über die ganze Welt verstreut — eine
-automatische Regions-Umbenennung ergibt hier keinen sinnvollen Namen. Für solche Listen den
+automatische Regions-Umbenennung ergibt hier keinen sinnvollen Namen. Zudem heißt die von
+geocaching.com heruntergeladene Datei meist nur nach der PQ-ID (z. B. <code>1234567.gpx</code>) — das
+vorausgefüllte Listenname-Feld wäre also ebenfalls nur diese Zahl. Für solche Listen den
 Namen lieber von Hand vergeben (z. B. "MyFinds").</p>
 </div>
 <h2 id="was-beim-import-automatisch-passiert">Was beim Import automatisch passiert<a class="headerlink" href="#was-beim-import-automatisch-passiert" title="Permanent link">&para;</a></h2>
 <ol>
-<li><strong>Fundstatus-Erkennung</strong>: Eine PocketQuery, deren Name mit "my finds" beginnt, wird automatisch
-   erkannt — alle enthaltenen Caches werden als gefunden markiert (Meldung: <em>"Recognised as a My
-   Finds query — all of them marked found."</em>). In normalen PQs/GPX-Dateien erkennt die App
+<li><strong>Fundstatus-Erkennung</strong>: Ob es sich um eine MyFinds-PocketQuery handelt, erkennt die App am
+   <code>&lt;name&gt;</code>-Feld <strong>im Inhalt der GPX-Datei selbst</strong> (bei geocaching.com immer wörtlich "My Finds
+   Pocket Query", unabhängig von der Sprache deines Kontos) — <strong>nicht am Dateinamen</strong>. Die Erkennung
+   funktioniert also unabhängig davon, ob die Datei <code>myfinds.gpx</code> oder nur <code>1234567.gpx</code> heißt.
+   Alle enthaltenen Caches werden dabei automatisch als gefunden markiert (Meldung: <em>"Recognised
+   as a My Finds query — all of them marked found."</em>). In normalen PQs/GPX-Dateien erkennt die App
    zusätzlich deine eigenen "Found it"/"Attended"/"Webcam Photo Taken"-Logeinträge, indem sie sie
    mit deinem in <em>Setup</em> hinterlegten geocaching.com-<strong>Username</strong> abgleicht. Einmal als gefunden
    erkannt, bleibt ein Cache das auch bei jedem weiteren Import.</li>

@@ -925,14 +925,19 @@ plaatsbepaling), bijv. "Kerpen, Nordrhein-Westfalen, DE".</p>
 <div class="admonition warning">
 <p class="admonition-title">Niet voor MyFinds-query's</p>
 <p>Bij een MyFinds-PocketQuery liggen je vondsten over de hele wereld verspreid — een
-automatische regio-hernoeming levert hier geen zinvolle naam op. Geef zo'n lijst liever
+automatische regio-hernoeming levert hier geen zinvolle naam op. Bovendien heet het van
+geocaching.com gedownloade bestand meestal alleen naar het PQ-ID (bijv. <code>1234567.gpx</code>) — het
+vooraf ingevulde lijstnaam-veld zou dus ook alleen dat getal zijn. Geef zo'n lijst liever
 handmatig een naam (bijv. "MyFinds").</p>
 </div>
 <h2 id="wat-er-automatisch-gebeurt-bij-import">Wat er automatisch gebeurt bij import<a class="headerlink" href="#wat-er-automatisch-gebeurt-bij-import" title="Permanent link">&para;</a></h2>
 <ol>
-<li><strong>Vondststatus-herkenning</strong>: een PocketQuery waarvan de naam begint met "my finds" wordt
-   automatisch herkend — alle caches erin worden als gevonden gemarkeerd (melding: <em>"Recognised
-   as a My Finds query — all of them marked found."</em>). In gewone PQ's/GPX-bestanden herkent de app
+<li><strong>Vondststatus-herkenning</strong>: of een bestand een MyFinds-PocketQuery is, herkent de app aan het
+   <code>&lt;name&gt;</code>-veld <strong>in de inhoud van het GPX-bestand zelf</strong> (bij geocaching.com altijd letterlijk
+   "My Finds Pocket Query", ongeacht de taal van je account) — <strong>niet aan de bestandsnaam</strong>. De
+   herkenning werkt dus ongeacht of het bestand <code>myfinds.gpx</code> of gewoon <code>1234567.gpx</code> heet. Alle
+   caches erin worden dan automatisch als gevonden gemarkeerd (melding: <em>"Recognised as a My
+   Finds query — all of them marked found."</em>). In gewone PQ's/GPX-bestanden herkent de app
    bovendien je eigen "Found it"/"Attended"/"Webcam Photo Taken"-logboekvermeldingen door ze te
    vergelijken met de geocaching.com-<strong>username</strong> die in <em>Setup</em> is ingesteld. Eenmaal als
    gevonden herkend, blijft een cache dat ook bij elke volgende import.</li>

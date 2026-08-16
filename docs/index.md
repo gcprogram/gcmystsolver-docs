@@ -11,6 +11,13 @@ und mehr).
 Dieses Handbuch beschreibt alle Funktionen der App im Detail. Nutze die Navigation oben oder die
 Suche, um ein Thema zu finden.
 
+<figure class="gcms-hero" markdown>
+![Ungelöste vs. gelöste Geoart-Karte](assets/screenshots/geoart-animation.gif)
+<figcaption>Ein echtes Geoart-Rätsel (ein Hirsch aus ~300 Mystery-Caches in den Niederlanden) —
+links ungelöst, dann automatisch von GCMystSolver gelöst, mit Detailansicht der grünen
+Lösungs-Ringe</figcaption>
+</figure>
+
 ## Schnelleinstieg
 
 - [Erste Schritte](erste-schritte.md) — App installieren, ersten Import durchführen

@@ -28,13 +28,18 @@ e.g. "Kerpen, Nordrhein-Westfalen, DE".
 
 !!! warning "Not for MyFinds queries"
     In a MyFinds PocketQuery, your finds are scattered across the whole world — an automatic
-    region rename won't produce a meaningful name here. For such lists, give the name by hand
-    instead (e.g. "MyFinds").
+    region rename won't produce a meaningful name here. On top of that, the file downloaded from
+    geocaching.com is usually named just after the PQ ID (e.g. `1234567.gpx`), so the pre-filled
+    list-name field would be just that number too. For such lists, give the name by hand instead
+    (e.g. "MyFinds").
 
 ## What happens automatically on import
 
-1. **Find-status detection**: a PocketQuery whose name starts with "my finds" is recognized
-   automatically — every cache in it is marked found (message: *"Recognised as a My Finds query —
+1. **Find-status detection**: whether a file is a MyFinds PocketQuery is recognized from the
+   `<name>` field **inside the GPX file's own content** (on geocaching.com always literally "My
+   Finds Pocket Query", regardless of your account language) — **not from the file name**.
+   Detection therefore works whether the file is called `myfinds.gpx` or just `1234567.gpx`. Every
+   cache in it is then automatically marked found (message: *"Recognised as a My Finds query —
    all of them marked found."*). In regular PQs/GPX files, the app additionally recognizes your
    own "Found it"/"Attended"/"Webcam Photo Taken" log entries by matching them against the
    geocaching.com **username** stored in *Setup*. Once a cache is recognized as found, it stays

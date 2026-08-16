@@ -10,6 +10,13 @@ kraje/regiony, nadmořská výška, počet nálezů a další).
 Tato příručka podrobně popisuje všechny funkce aplikace. Pro vyhledání tématu použij navigaci
 nahoře nebo vyhledávání.
 
+<figure class="gcms-hero" markdown>
+![Nevyřešená vs. vyřešená geoart mapa](assets/screenshots/geoart-animation.gif)
+<figcaption>Skutečná geoart hádanka (jelen složený z ~300 mystery keší v Nizozemsku) — vlevo
+nevyřešená, poté automaticky vyřešená GCMystSolverem, s detailním záběrem na zelené kroužky
+řešení</figcaption>
+</figure>
+
 ## Rychlý start
 
 - [První kroky](erste-schritte.md) — instalace aplikace, první import

@@ -10,6 +10,13 @@ challenge-cacher (D/T-matris, länder, regioner, höjd, antal fynd med mera).
 Den här handboken beskriver alla appens funktioner i detalj. Använd navigeringen ovan eller
 sökfunktionen för att hitta ett ämne.
 
+<figure class="gcms-hero" markdown>
+![Olöst kontra löst geoart-karta](assets/screenshots/geoart-animation.gif)
+<figcaption>Ett verkligt geoart-pussel (en hjort uppbyggd av ~300 mystery-cacher i Nederländerna)
+— olöst till vänster, sedan automatiskt löst av GCMystSolver, med en närbild på de gröna
+lösningsringarna</figcaption>
+</figure>
+
 ## Snabbstart
 
 - [Kom igång](erste-schritte.md) — installera appen, gör din första import

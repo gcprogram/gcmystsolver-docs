@@ -11,6 +11,13 @@ D/T, pays, régions, altitude, nombre de trouvailles, et plus encore).
 Ce manuel décrit en détail toutes les fonctions de l'application. Utilise la navigation en haut ou
 la recherche pour trouver un sujet.
 
+<figure class="gcms-hero" markdown>
+![Carte geoart non résolue vs. résolue](assets/screenshots/geoart-animation.gif)
+<figcaption>Une véritable énigme geoart (un cerf composé d'environ 300 mystery caches aux
+Pays-Bas) — non résolue à gauche, puis résolue automatiquement par GCMystSolver, avec un gros
+plan sur les anneaux verts de solution</figcaption>
+</figure>
+
 ## Démarrage rapide
 
 - [Premiers pas](erste-schritte.md) — installer l'application, faire son premier import

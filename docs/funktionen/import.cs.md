@@ -29,14 +29,18 @@ Nordrhein-Westfalen, DE".
 
 !!! warning "Nevhodné pro MyFinds dotazy"
     U MyFinds PocketQuery jsou tvé nálezy rozptýlené po celém světě — automatické přejmenování
-    podle regionu by zde nedávalo smysluplný název. U takových seznamů zadej název raději ručně
-    (např. "MyFinds").
+    podle regionu by zde nedávalo smysluplný název. Soubor stažený z geocaching.com navíc bývá
+    pojmenovaný jen podle ID PQ (např. `1234567.gpx`) — předvyplněné pole názvu seznamu by tak
+    bylo jen toto číslo. U takových seznamů zadej název raději ručně (např. "MyFinds").
 
 ## Co se při importu děje automaticky
 
-1. **Rozpoznání stavu nálezu**: PocketQuery, jejíž název začíná na "my finds", se rozpozná
-   automaticky — všechny obsažené keše se označí jako nalezené (hláška: *"Recognised as a My
-   Finds query — all of them marked found."*). V běžných PQ/GPX souborech aplikace navíc rozpozná
+1. **Rozpoznání stavu nálezu**: zda jde o MyFinds PocketQuery, aplikace rozpozná podle pole
+   `<name>` **přímo v obsahu souboru GPX** (na geocaching.com vždy doslovně "My Finds Pocket
+   Query", bez ohledu na jazyk tvého účtu) — **ne podle názvu souboru**. Rozpoznání tedy funguje
+   bez ohledu na to, zda se soubor jmenuje `myfinds.gpx`, nebo jen `1234567.gpx`. Všechny obsažené
+   keše se pak automaticky označí jako nalezené (hláška: *"Recognised as a My Finds query — all of
+   them marked found."*). V běžných PQ/GPX souborech aplikace navíc rozpozná
    tvé vlastní záznamy logu "Found it"/"Attended"/"Webcam Photo Taken" tím, že je porovná s
    geocaching.com **username** uloženým v *Setup*. Jakmile je keš jednou rozpoznána jako
    nalezená, zůstane taková i při každém dalším importu.
