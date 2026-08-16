@@ -1,5 +1,10 @@
 # Import (GPX / PocketQuery)
 
+<figure class="gcms-shot" markdown>
+![Import-Screen mit "Choose GPX / ZIP"-Button](../assets/screenshots/import-screen.png)
+<figcaption>Import-Tab</figcaption>
+</figure>
+
 ## Unterstützte Dateien
 
 - Einzelne **GPX-Dateien**, wie sie geocaching.com oder c:geo für einen Cache oder eine Liste

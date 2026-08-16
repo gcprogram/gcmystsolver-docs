@@ -1,5 +1,10 @@
 # Import (GPX / PocketQuery)
 
+<figure class="gcms-shot" markdown>
+![Import-skjerm med knappen "Choose GPX / ZIP"](../assets/screenshots/import-screen.png)
+<figcaption>Import-fanen</figcaption>
+</figure>
+
 ## Støttede filer
 
 - Enkeltstående **GPX-filer**, slik geocaching.com eller c:geo eksporterer for én cache eller en

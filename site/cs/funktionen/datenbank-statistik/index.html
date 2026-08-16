@@ -679,6 +679,17 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#lists" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lists
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#seznam-kesi" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -686,6 +697,23 @@
       
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="Seznam keší">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#dva-nezavisle-semafory-stav-reseni-a-stav-challenge" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dva nezávislé semafory: stav řešení a stav challenge
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -697,6 +725,34 @@
       
     </span>
   </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#map" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Map
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Map">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#offline-mapy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Offline mapy
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -865,18 +921,84 @@
 
 
 <h1 id="databaze-seznamy-a-statistiky">Databáze, seznamy a statistiky<a class="headerlink" href="#databaze-seznamy-a-statistiky" title="Permanent link">&para;</a></h1>
+<h2 id="lists">Lists<a class="headerlink" href="#lists" title="Permanent link">&para;</a></h2>
+<p>Úvodní karta zobrazuje všechny tvé naimportované seznamy plus dvě pevné položky: <strong>"All caches"</strong>
+(všechny keše dohromady) a <strong>"Solved"</strong> (všechny vyřešené keše kolem středu, který si zvolíš).</p>
+<figure class="gcms-shot">
+<p><img alt="Lists: úvodní obrazovka se všemi naimportovanými seznamy" src="../../../assets/screenshots/lists-home.png" /></p>
+<figcaption>Lists — úvodní obrazovka</figcaption>
+</figure>
 <h2 id="seznam-kesi">Seznam keší<a class="headerlink" href="#seznam-kesi" title="Permanent link">&para;</a></h2>
-<p>Všechny naimportované keše skončí v prohledávatelném, filtrovatelném seznamu — podle barvy
-semaforu, stavu nálezu, typu keše a dalšího. Odtud otevřeš detailní stránku keše.</p>
+<p>Klepnutím na seznam se otevře prohledávatelný, filtrovatelný seznam keší — podle barvy semaforu,
+typu keše a dalšího. Odtud otevřeš detailní stránku keše.</p>
+<figure class="gcms-shot">
+<p><img alt="Seznam keší se semaforem na levém okraji a filtrovacím řádkem nahoře" src="../../../assets/screenshots/list-detail-arrows.png" /></p>
+<figcaption>Vlevo: semafor u každé keše. Nahoře: filtr podle typu keše, podle barvy semaforu, podle řešiče</figcaption>
+</figure>
+<ul>
+<li><strong>Horní červená šipka</strong> ukazuje na filtrovací řádek: ikony typů keší, tři barvy semaforu
+  (zelená/žlutá/červená) k zapnutí/vypnutí a rozbalovací nabídku <strong>"Solver"</strong> pro filtrování podle
+  konkrétních řešičů.</li>
+<li><strong>Dolní levá červená šipka</strong> ukazuje na malý trojtečkový <strong>semafor na levém okraji každé keše</strong>
+  — aktuální barva je plně zbarvená, zbylé dvě tečky zůstávají bledé. Stejné barevné kódování
+  červená/žlutá/zelená jako všude jinde v aplikaci.</li>
+</ul>
+<h3 id="dva-nezavisle-semafory-stav-reseni-a-stav-challenge">Dva nezávislé semafory: stav řešení a stav challenge<a class="headerlink" href="#dva-nezavisle-semafory-stav-reseni-a-stav-challenge" title="Permanent link">&para;</a></h3>
+<p>U challenge keší mohou být viditelné <strong>dva</strong> semafory najednou — jeden vlevo, druhý vpravo na
+okraji řádku:</p>
+<figure class="gcms-shot">
+<p><img alt="Dva semafory: stav řešení vlevo, splnění challenge vpravo" src="../../../assets/screenshots/ampel-legend.png" /></p>
+<figcaption>Vlevo: stav řešení (zde zelená). Vpravo: splnění challenge (zde žlutá/partial)</figcaption>
+</figure>
+<ul>
+<li><strong>Vlevo = stav řešení</strong>: byla podmínka keše (např. text challenge) rozpoznána a je
+  řešení/vyhodnocení důvěryhodné?</li>
+<li><strong>Vpravo = splnění challenge</strong>: splňují tvé dosavadní nálezy rozpoznanou podmínku už teď? (Viz
+  <a href="../challenges/">Kontrola výzev</a> pro podrobnosti k tomuto druhému, nezávislému hodnocení.)</li>
+</ul>
 <h2 id="detail-kese">Detail keše<a class="headerlink" href="#detail-kese" title="Permanent link">&para;</a></h2>
 <p>Na detailní stránce keše najdeš listing, hint, aktuální řešení, barvu semaforu a — všechny
 pohromadě v <strong>jedné společné kartě "Solver results"</strong> — relevantní doplňková tlačítka pro danou
 keš: např. odkaz na Geochecker, na gc-project (pokud na něj listing odkazuje), nebo na stránku se
 záznamem webkamery u webcam keší.</p>
+<h2 id="map">Map<a class="headerlink" href="#map" title="Permanent link">&para;</a></h2>
+<p>Karta mapy zobrazuje aktuálně vybraný seznam jako značky na mapě OpenStreetMap. Každá značka
+kombinuje dva údaje:</p>
+<ul>
+<li><strong>Symbol typu keše</strong> uprostřed (např. „?" pro Mystery, ikonu knihy pro Traditional).</li>
+<li><strong>Barevný kroužek</strong> kolem symbolu, jakmile existuje stav řešení: <strong>zelená</strong> = důvěryhodné řešení
+  (jistota ≥ 90 %), <strong>žlutá/amber</strong> = nejisté/částečné řešení. Žádný kroužek znamená: stále
+  nevyřešeno.</li>
+</ul>
+<figure class="gcms-shot">
+<p><img alt="Mapa s několika zeleně orámovanými, vyřešenými mystery kešemi" src="../../../assets/screenshots/map-solved-marker.png" /></p>
+<figcaption>Zeleně orámované značky „?" jsou vyřešené mystery keše</figcaption>
+</figure>
+<p>U challenge keší navíc přibývá malý <strong>odznak vpravo dole na značce</strong> — to je splnění challenge
+(stejný druhý semafor jako v seznamu, viz výše), nezávislý na stavu řešení kroužku. Při velmi
+mnoha značkách blízko sebe aplikace automaticky přepne do kompaktnějšího tečkového režimu, kde
+plochu vyplní barva typu keše a stav řešení je kolem ní tenký kroužek.</p>
+<h3 id="offline-mapy">Offline mapy<a class="headerlink" href="#offline-mapy" title="Permanent link">&para;</a></h3>
+<p>Přes ikonu vrstev vpravo nahoře můžeš přepínat mezi online mapou (OpenStreetMap) a vlastní
+načtenou <strong>offline mapou (soubor .map)</strong> — praktické pro použití bez internetového připojení.
+Takové soubory <code>.map</code> lze stáhnout např. pomocí <strong>c:geo</strong> a poté jsou k výběru i zde.</p>
+<figure class="gcms-shot">
+<p><img alt="Výběr vrstvy mapy: Online (OSM), Offline (.map), Select Offline Map" src="../../../assets/screenshots/map-offline-selector.png" /></p>
+<figcaption>Výběr online/offline mapy</figcaption>
+</figure>
 <h2 id="statistiky">Statistiky<a class="headerlink" href="#statistiky" title="Permanent link">&para;</a></h2>
 <p>Obrazovka statistik ti pro každý typ keše ukáže, kolik keší je celkem vyřešeno, částečně vyřešeno
 a rozpoznáno jako terénní hádanka — na první pohled tak vidíš, kde ještě čeká práce a kde je
 návštěva na místě stejně nevyhnutelná.</p>
+<figure class="gcms-shot">
+<p><img alt="Tabulka statistik podle typu keše" src="../../../assets/screenshots/statistics.png" /></p>
+<figcaption>Statistiky podle typu keše, s rozpisem "By solver" pod ní</figcaption>
+</figure>
+<div class="admonition tip">
+<p class="admonition-title">Přímo do filtrovaného seznamu</p>
+<p>Klepnutím na řádek typu keše ve statistické tabulce (např. "Mystery") se dostaneš přímo do
+seznamu keší, už filtrovaného přesně na tento typ.</p>
+</div>
 <h2 id="zaloha-a-obnova">Záloha a obnova<a class="headerlink" href="#zaloha-a-obnova" title="Permanent link">&para;</a></h2>
 <p>V <em>Setup</em> si můžeš zálohovat celou databázi (včetně všech nastavení) a obnovit ji na jiném
 zařízení. Podrobnosti: <a href="../einstellungen-backup/">Nastavení a záloha</a>.</p>

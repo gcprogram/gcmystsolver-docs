@@ -679,6 +679,17 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#lists" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lists
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#cache-liste" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -686,6 +697,23 @@
       
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="Cache-Liste">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#zwei-unabhangige-ampeln-losungsstatus-und-challenge-status" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Zwei unabhängige Ampeln: Lösungsstatus und Challenge-Status
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -697,6 +725,34 @@
       
     </span>
   </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#map" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Map
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Map">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#offline-karten" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Offline-Karten
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -865,18 +921,88 @@
 
 
 <h1 id="datenbank-listen-statistik">Datenbank, Listen &amp; Statistik<a class="headerlink" href="#datenbank-listen-statistik" title="Permanent link">&para;</a></h1>
+<h2 id="lists">Lists<a class="headerlink" href="#lists" title="Permanent link">&para;</a></h2>
+<p>Der Start-Tab zeigt alle deine importierten Listen sowie zwei feste Einträge: <strong>"All caches"</strong>
+(alle Caches zusammen) und <strong>"Solved"</strong> (alle gelösten Caches rund um einen von dir gewählten
+Mittelpunkt).</p>
+<figure class="gcms-shot">
+<p><img alt="Lists: Startbildschirm mit allen importierten Listen" src="../../assets/screenshots/lists-home.png" /></p>
+<figcaption>Lists — Startbildschirm</figcaption>
+</figure>
 <h2 id="cache-liste">Cache-Liste<a class="headerlink" href="#cache-liste" title="Permanent link">&para;</a></h2>
-<p>Alle importierten Caches landen in einer durchsuch- und filterbaren Liste — nach Ampelfarbe,
-Fundstatus, Cache-Typ und mehr. Von dort öffnest du die Detailseite eines Caches.</p>
+<p>Tippst du eine Liste an, landest du in einer durchsuch- und filterbaren Cache-Liste — nach
+Ampelfarbe, Cache-Typ und mehr. Von dort öffnest du die Detailseite eines Caches.</p>
+<figure class="gcms-shot">
+<p><img alt="Cache-Liste mit Ampel am linken Rand und Filterleiste oben" src="../../assets/screenshots/list-detail-arrows.png" /></p>
+<figcaption>Links: Ampel je Cache. Oben: Cache-Typ-Filter, Ampelfarben-Filter, Solver-Filter</figcaption>
+</figure>
+<ul>
+<li>Der <strong>rote Pfeil oben</strong> zeigt auf die Filterleiste: Cache-Typ-Icons, die drei Ampelfarben
+  (grün/gelb/rot) zum Ein-/Ausblenden und ein <strong>"Solver"</strong>-Dropdown, um nach bestimmten Solvern zu
+  filtern.</li>
+<li>Der <strong>rote Pfeil unten links</strong> zeigt auf die kleine dreiteilige <strong>Ampel am linken Rand jedes
+  Caches</strong> — die aktuelle Farbe ist kräftig eingefärbt, die anderen beiden Punkte sind blass. Das
+  ist derselbe Rot/Gelb/Grün-Code wie überall sonst in der App.</li>
+</ul>
+<h3 id="zwei-unabhangige-ampeln-losungsstatus-und-challenge-status">Zwei unabhängige Ampeln: Lösungsstatus und Challenge-Status<a class="headerlink" href="#zwei-unabhangige-ampeln-losungsstatus-und-challenge-status" title="Permanent link">&para;</a></h3>
+<p>Bei Challenge-Caches können <strong>zwei</strong> Ampeln gleichzeitig sichtbar sein — eine links, eine rechts
+am Zeilenrand:</p>
+<figure class="gcms-shot">
+<p><img alt="Zwei Ampeln: links Lösungsstatus, rechts Challenge-Erfüllung" src="../../assets/screenshots/ampel-legend.png" /></p>
+<figcaption>Links: Lösungsstatus (hier Grün). Rechts: Challenge-Erfüllung (hier Gelb/Partial)</figcaption>
+</figure>
+<ul>
+<li><strong>Links = Lösungsstatus</strong>: Wurde die Anforderung des Caches (z. B. der Challenge-Text) erkannt
+  und ist die Lösung/Auswertung vertrauenswürdig?</li>
+<li><strong>Rechts = Challenge-Erfüllung</strong>: Erfüllst du mit deinen bisherigen Funden die erkannte
+  Anforderung bereits? (Siehe <a href="../challenges/">Challenge-Prüfung</a> für Details zu dieser zweiten,
+  unabhängigen Bewertung.)</li>
+</ul>
 <h2 id="cache-detail">Cache-Detail<a class="headerlink" href="#cache-detail" title="Permanent link">&para;</a></h2>
 <p>Auf der Detailseite eines Caches findest du Listing, Hinweis, aktuelle Lösung, Ampelfarbe sowie —
 alle in <strong>einer gemeinsamen Karte "Solver results"</strong> — die relevanten Zusatz-Buttons für diesen
 Cache: z. B. einen Link zum Geochecker, zu gc-project (sofern das Listing so etwas verlinkt), oder
 zu einer Webcam-Aufzeichnungsseite bei Webcam-Caches.</p>
+<h2 id="map">Map<a class="headerlink" href="#map" title="Permanent link">&para;</a></h2>
+<p>Der Karten-Tab zeigt die aktuell gewählte Liste als Marker auf einer OpenStreetMap-Karte. Jeder
+Marker kombiniert zwei Informationen:</p>
+<ul>
+<li><strong>Das Cache-Typ-Symbol</strong> in der Mitte (z. B. "?" für Mystery, Buch-Icon für Traditional).</li>
+<li><strong>Ein farbiger Ring</strong> um das Symbol, sobald ein Lösungsstatus vorliegt: <strong>grün</strong> = Lösung
+  vertrauenswürdig (Confidence ≥ 90 %), <strong>gelb/amber</strong> = unsichere/teilweise Lösung. Kein Ring
+  bedeutet: noch ungelöst.</li>
+</ul>
+<figure class="gcms-shot">
+<p><img alt="Karte mit mehreren grün umrandeten, gelösten Mystery-Caches" src="../../assets/screenshots/map-solved-marker.png" /></p>
+<figcaption>Die grün umrandeten "?"-Marker sind gelöste Mystery-Caches</figcaption>
+</figure>
+<p>Bei Challenge-Caches kommt zusätzlich ein kleines <strong>Badge unten rechts am Marker</strong> hinzu — das ist
+die Challenge-Erfüllung (dieselbe zweite Ampel wie in der Liste, siehe oben), unabhängig vom
+Ring-Lösungsstatus. Bei sehr vielen Markern auf engem Raum zoomt die App automatisch in einen
+kompakteren Punkt-Modus, bei dem die Cache-Typ-Farbe die Fläche füllt und der Lösungsstatus als
+dünner Ring darum liegt.</p>
+<h3 id="offline-karten">Offline-Karten<a class="headerlink" href="#offline-karten" title="Permanent link">&para;</a></h3>
+<p>Über das Ebenen-Symbol oben rechts kannst du zwischen der Online-Karte (OpenStreetMap) und einer
+selbst geladenen <strong>Offline-Karte (.map-Datei)</strong> umschalten — praktisch für den Einsatz ohne
+Internetverbindung. Solche <code>.map</code>-Dateien lassen sich z. B. mit <strong>c:geo</strong> herunterladen und stehen
+dann auch hier zur Auswahl.</p>
+<figure class="gcms-shot">
+<p><img alt="Karten-Ebenen-Auswahl: Online (OSM), Offline (.map), Select Offline Map" src="../../assets/screenshots/map-offline-selector.png" /></p>
+<figcaption>Online/Offline-Kartenauswahl</figcaption>
+</figure>
 <h2 id="statistik">Statistik<a class="headerlink" href="#statistik" title="Permanent link">&para;</a></h2>
 <p>Der Statistik-Screen zeigt dir pro Cache-Typ, wie viele Caches insgesamt, gelöst, teilweise gelöst
 und als Feld-Rätsel erkannt sind — so siehst du auf einen Blick, wo noch Arbeit wartet und wo ein
 Vor-Ort-Besuch ohnehin unumgänglich ist.</p>
+<figure class="gcms-shot">
+<p><img alt="Statistik-Tabelle nach Cache-Typ" src="../../assets/screenshots/statistics.png" /></p>
+<figcaption>Statistik nach Cache-Typ, mit "By solver"-Auswertung darunter</figcaption>
+</figure>
+<div class="admonition tip">
+<p class="admonition-title">Direkt zur gefilterten Liste</p>
+<p>Tippst du in der Statistik-Tabelle auf eine Cache-Typ-Zeile (z. B. "Mystery"), springt die App
+direkt in die Cache-Liste, bereits nach genau diesem Typ gefiltert.</p>
+</div>
 <h2 id="backup-wiederherstellung">Backup &amp; Wiederherstellung<a class="headerlink" href="#backup-wiederherstellung" title="Permanent link">&para;</a></h2>
 <p>Über <em>Setup</em> kannst du deine gesamte Datenbank (inkl. aller Einstellungen) sichern und auf einem
 anderen Gerät wiederherstellen. Details dazu: <a href="../einstellungen-backup/">Einstellungen &amp; Backup</a>.</p>

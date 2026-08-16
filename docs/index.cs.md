@@ -26,3 +26,8 @@ nahoře nebo vyhledávání.
     Automatické luštitele a AI podpora jsou pomocníci, ne kouzlo. U terénních hádanek (multi keše
     s více stanovišti, azimuty měřené na místě apod.) nedokáže aplikace udělat víc než tě
     nasměrovat na vhodný luštitel — keš je nakonec stále potřeba rozlousknout přímo na místě.
+
+!!! note "Stažení APK"
+    Odkaz na aktuální APK najdeš nahoře v menu ("APK herunterladen"). Jde o debug verzi mimo Play
+    Store — zařízení tě při první instalaci požádá o povolení instalovat aplikace z neznámých
+    zdrojů.

@@ -679,6 +679,17 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#lists" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lists
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#cachelista" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -686,6 +697,23 @@
       
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="Cachelista">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tva-oberoende-trafikljus-losningsstatus-och-challenge-status" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Två oberoende trafikljus: lösningsstatus och challenge-status
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -697,6 +725,34 @@
       
     </span>
   </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#map" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Map
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Map">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#offline-kartor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Offline-kartor
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -865,18 +921,85 @@
 
 
 <h1 id="databas-listor-och-statistik">Databas, listor och statistik<a class="headerlink" href="#databas-listor-och-statistik" title="Permanent link">&para;</a></h1>
+<h2 id="lists">Lists<a class="headerlink" href="#lists" title="Permanent link">&para;</a></h2>
+<p>Startfliken visar alla dina importerade listor plus två fasta poster: <strong>"All caches"</strong> (alla
+cacher tillsammans) och <strong>"Solved"</strong> (alla lösta cacher runt en mittpunkt du väljer).</p>
+<figure class="gcms-shot">
+<p><img alt="Lists: startskärm med alla importerade listor" src="../../../assets/screenshots/lists-home.png" /></p>
+<figcaption>Lists — startskärm</figcaption>
+</figure>
 <h2 id="cachelista">Cachelista<a class="headerlink" href="#cachelista" title="Permanent link">&para;</a></h2>
-<p>Alla importerade cacher hamnar i en sökbar, filtrerbar lista — efter trafikljusfärg, fyndstatus,
-cachetyp med mera. Därifrån öppnar du en caches detaljsida.</p>
+<p>Trycker du på en lista öppnas en sökbar, filtrerbar cachelista — efter trafikljusfärg, cachetyp
+med mera. Därifrån öppnar du en caches detaljsida.</p>
+<figure class="gcms-shot">
+<p><img alt="Cachelista med ett trafikljus på vänsterkanten och en filterrad högst upp" src="../../../assets/screenshots/list-detail-arrows.png" /></p>
+<figcaption>Vänster: trafikljus per cache. Överst: filter för cachetyp, filter för trafikljusfärg, filter för lösare</figcaption>
+</figure>
+<ul>
+<li>Den <strong>övre röda pilen</strong> pekar på filterraden: cachetyp-ikoner, de tre trafikljusfärgerna
+  (grön/gul/röd) att visa/dölja, och en <strong>"Solver"</strong>-rullgardinsmeny för att filtrera efter
+  specifika lösare.</li>
+<li>Den <strong>nedre vänstra röda pilen</strong> pekar på det lilla tredelade <strong>trafikljuset på vänsterkanten av
+  varje cache</strong> — den aktuella färgen visas fylld, de andra två punkterna förblir bleka. Samma
+  röd/gul/grön-kod som överallt annars i appen.</li>
+</ul>
+<h3 id="tva-oberoende-trafikljus-losningsstatus-och-challenge-status">Två oberoende trafikljus: lösningsstatus och challenge-status<a class="headerlink" href="#tva-oberoende-trafikljus-losningsstatus-och-challenge-status" title="Permanent link">&para;</a></h3>
+<p>För challenge-cacher kan <strong>två</strong> trafikljus synas samtidigt — ett till vänster, ett till höger på
+radens kant:</p>
+<figure class="gcms-shot">
+<p><img alt="Två trafikljus: lösningsstatus till vänster, challenge-uppfyllnad till höger" src="../../../assets/screenshots/ampel-legend.png" /></p>
+<figcaption>Vänster: lösningsstatus (här grönt). Höger: challenge-uppfyllnad (här gult/partial)</figcaption>
+</figure>
+<ul>
+<li><strong>Vänster = lösningsstatus</strong>: identifierades cachens krav (t.ex. challenge-texten), och är
+  lösningen/bedömningen pålitlig?</li>
+<li><strong>Höger = challenge-uppfyllnad</strong>: uppfyller dina befintliga fynd redan det identifierade kravet?
+  (Se <a href="../challenges/">Challenge-kontroll</a> för detaljer om denna andra, oberoende bedömning.)</li>
+</ul>
 <h2 id="cachedetalj">Cachedetalj<a class="headerlink" href="#cachedetalj" title="Permanent link">&para;</a></h2>
 <p>På en caches detaljsida hittar du listningen, ledtråden, aktuell lösning, trafikljusfärg samt —
 alla samlade i <strong>ett gemensamt "Solver results"-kort</strong> — de relevanta extraknapparna för den
 cachen: t.ex. en länk till en Geochecker, till gc-project (om listningen länkar till en sådan),
 eller till en webbkamerasida för webbkamera-cacher.</p>
+<h2 id="map">Map<a class="headerlink" href="#map" title="Permanent link">&para;</a></h2>
+<p>Kartfliken visar den för tillfället valda listan som markörer på en OpenStreetMap-karta. Varje
+markör kombinerar två uppgifter:</p>
+<ul>
+<li><strong>Cachetyp-symbolen</strong> i mitten (t.ex. "?" för Mystery, en bokikon för Traditional).</li>
+<li><strong>En färgad ring</strong> runt symbolen så snart en lösningsstatus finns: <strong>grönt</strong> = pålitlig lösning
+  (confidence ≥ 90 %), <strong>gult/amber</strong> = osäker/delvis lösning. Ingen ring betyder: fortfarande
+  olöst.</li>
+</ul>
+<figure class="gcms-shot">
+<p><img alt="Karta med flera grönringade, lösta mystery-cacher" src="../../../assets/screenshots/map-solved-marker.png" /></p>
+<figcaption>De grönringade "?"-markörerna är lösta mystery-cacher</figcaption>
+</figure>
+<p>För challenge-cacher tillkommer dessutom en liten <strong>badge nere till höger på markören</strong> — det är
+challenge-uppfyllnaden (samma andra trafikljus som i listan, se ovan), oberoende av ringens
+lösningsstatus. Vid väldigt många markörer nära varandra zoomar appen automatiskt till ett mer
+kompakt punktläge, där cachetyp-färgen fyller ytan och lösningsstatusen ligger som en tunn ring
+runt om.</p>
+<h3 id="offline-kartor">Offline-kartor<a class="headerlink" href="#offline-kartor" title="Permanent link">&para;</a></h3>
+<p>Via lagerikonen uppe till höger kan du växla mellan onlinekartan (OpenStreetMap) och en egen
+inläst <strong>offline-karta (.map-fil)</strong> — praktiskt för användning utan internetuppkoppling. Sådana
+<code>.map</code>-filer kan laddas ner t.ex. med <strong>c:geo</strong>, och är sedan valbara här också.</p>
+<figure class="gcms-shot">
+<p><img alt="Kartlagerval: Online (OSM), Offline (.map), Select Offline Map" src="../../../assets/screenshots/map-offline-selector.png" /></p>
+<figcaption>Val av online-/offlinekarta</figcaption>
+</figure>
 <h2 id="statistik">Statistik<a class="headerlink" href="#statistik" title="Permanent link">&para;</a></h2>
 <p>Statistikskärmen visar dig, per cachetyp, hur många cacher totalt är lösta, delvis lösta och
 identifierade som fältpussel — så du ser på ett ögonblick var det fortfarande väntar arbete och
 var ett besök på plats ändå är oundvikligt.</p>
+<figure class="gcms-shot">
+<p><img alt="Statistiktabell per cachetyp" src="../../../assets/screenshots/statistics.png" /></p>
+<figcaption>Statistik per cachetyp, med en "By solver"-uppdelning nedanför</figcaption>
+</figure>
+<div class="admonition tip">
+<p class="admonition-title">Direkt till den filtrerade listan</p>
+<p>Trycker du på en cachetyp-rad i statistiktabellen (t.ex. "Mystery") hoppar du direkt till
+cachelistan, redan filtrerad på exakt den typen.</p>
+</div>
 <h2 id="sakerhetskopiering-och-aterstallning">Säkerhetskopiering och återställning<a class="headerlink" href="#sakerhetskopiering-och-aterstallning" title="Permanent link">&para;</a></h2>
 <p>Via <em>Setup</em> kan du säkerhetskopiera hela din databas (inklusive alla inställningar) och återställa
 den på en annan enhet. Detaljer: <a href="../einstellungen-backup/">Inställningar och säkerhetskopiering</a>.</p>

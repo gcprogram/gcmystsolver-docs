@@ -4,6 +4,15 @@ Antes de consultar siquiera a una IA, GCMystSolver intenta resolver tu enigma co
 solucionadores clásicos integrados. Eso es más rápido, gratis y funciona incluso sin ninguna IA
 conectada.
 
+Llegas a la pestaña *Solve* directamente a través de la navegación inferior (una sesión de
+resolución sobre toda una lista), o mediante el botón Solve explícito en la página de detalle de
+un solo caché (resuelve solo ese caché, sin importar el modo de resolución elegido).
+
+<figure class="gcms-shot" markdown>
+![Pestaña Solve con todos los chips de solucionadores](../assets/screenshots/solve-chips.png)
+<figcaption>Modo de resolución, preset y chips de solucionadores activables individualmente</figcaption>
+</figure>
+
 ## Qué se reconoce
 
 | Solucionador | Reconoce |

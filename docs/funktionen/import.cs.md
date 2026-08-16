@@ -1,5 +1,10 @@
 # Import (GPX / PocketQuery)
 
+<figure class="gcms-shot" markdown>
+![Obrazovka Import s tlačítkem "Choose GPX / ZIP"](../assets/screenshots/import-screen.png)
+<figcaption>Karta Import</figcaption>
+</figure>
+
 ## Podporované soubory
 
 - Jednotlivé **soubory GPX**, jak je exportuje geocaching.com nebo c:geo pro jednu keš nebo

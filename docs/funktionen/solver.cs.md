@@ -3,6 +3,15 @@
 Ještě než se vůbec zeptá AI, zkusí GCMystSolver tvou hádanku rozlousknout pomocí řady vestavěných,
 klasických luštitelů. Je to rychlejší, zdarma a funguje to i úplně bez připojené AI.
 
+Na kartu *Solve* se dostaneš buď přímo přes spodní navigaci (luštění nad celým seznamem), nebo
+přes výslovné tlačítko Solve na detailní stránce jedné keše (vyřeší jen tuto jednu keš, bez ohledu
+na zvolený režim řešení).
+
+<figure class="gcms-shot" markdown>
+![Karta Solve se všemi chipy řešičů](../assets/screenshots/solve-chips.png)
+<figcaption>Režim řešení, přednastavení a jednotlivě zapínatelné chipy řešičů</figcaption>
+</figure>
+
 ## Co se rozpozná
 
 | Řešič | Rozpoznává |

@@ -3,6 +3,15 @@
 Før en AI i det hele tatt spørres, prøver GCMystSolver å knekke gåten din med en kjede av
 innebygde, klassiske løsere. Det er raskere, gratis og fungerer selv helt uten tilkoblet AI.
 
+Du når fanen *Solve* enten direkte via den nederste navigasjonen (en løsingsrunde over en hel
+liste), eller via den eksplisitte Solve-knappen på detaljsiden til én cache (løser bare den ene
+cachen, uavhengig av valgt løsingsmodus).
+
+<figure class="gcms-shot" markdown>
+![Solve-fanen med alle løser-chips](../assets/screenshots/solve-chips.png)
+<figcaption>Løsingsmodus, forhåndsinnstilling og individuelt av/på-slåbare løser-chips</figcaption>
+</figure>
+
 ## Hva som gjenkjennes
 
 | Løser | Gjenkjenner |

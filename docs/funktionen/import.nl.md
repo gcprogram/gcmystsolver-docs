@@ -1,5 +1,10 @@
 # Import (GPX / PocketQuery)
 
+<figure class="gcms-shot" markdown>
+![Import-scherm met de knop "Choose GPX / ZIP"](../assets/screenshots/import-screen.png)
+<figcaption>Import-tabblad</figcaption>
+</figure>
+
 ## Ondersteunde bestanden
 
 - Losse **GPX-bestanden**, zoals geocaching.com of c:geo die exporteert voor één cache of een

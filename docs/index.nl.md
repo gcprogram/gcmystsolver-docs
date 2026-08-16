@@ -27,3 +27,8 @@ zoekfunctie om een onderwerp te vinden.
     veldpuzzels (multi's met meerdere stations, peilingen ter plekke e.d.) kan de app niet meer
     doen dan je naar de juiste oplosser te wijzen — gekraakt moet de cache uiteindelijk nog steeds
     op de verstopplek worden.
+
+!!! note "APK downloaden"
+    De link naar de actuele APK vind je bovenaan het menu ("APK herunterladen"). Het is een
+    debug-build buiten de Play Store om — je apparaat vraagt bij de eerste installatie om
+    toestemming voor apps uit onbekende bronnen.

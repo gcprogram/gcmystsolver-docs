@@ -4,6 +4,15 @@ Bevor überhaupt eine KI angefragt wird, versucht GCMystSolver dein Rätsel mit 
 eingebauter, klassischer Löser zu knacken. Das ist schneller, kostenlos und funktioniert auch ganz
 ohne KI-Anbindung.
 
+Du erreichst den *Solve*-Tab entweder direkt über die untere Navigation (Löse-Lauf über eine ganze
+Liste) oder über den expliziten Solve-Button auf der Detailseite eines einzelnen Caches (löst nur
+diesen einen Cache, unabhängig vom gewählten Solve-Modus).
+
+<figure class="gcms-shot" markdown>
+![Solve-Tab mit allen Solver-Chips](../assets/screenshots/solve-chips.png)
+<figcaption>Solve-Modus, Preset und einzeln an/abwählbare Solver-Chips</figcaption>
+</figure>
+
 ## Was erkannt wird
 
 | Solver | Erkennt |

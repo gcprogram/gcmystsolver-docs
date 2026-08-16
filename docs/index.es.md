@@ -28,3 +28,8 @@ o la búsqueda para encontrar un tema.
     de campo (multis con varias etapas, rumbos tomados in situ, etc.), la aplicación no puede
     hacer más que indicarte el solucionador adecuado — al final siempre tendrás que resolver el
     cache en el lugar del escondite.
+
+!!! note "Descargar la APK"
+    El enlace a la APK actual está arriba en el menú ("APK herunterladen"). Es una compilación de
+    depuración fuera de Play Store — tu dispositivo pedirá permiso para instalar apps de orígenes
+    desconocidos la primera vez.

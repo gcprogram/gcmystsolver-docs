@@ -28,3 +28,8 @@ la recherche pour trouver un sujet.
     énigmes de terrain (multis à plusieurs étapes, relèvements sur place, etc.), l'application ne
     peut rien faire de plus que t'orienter vers le bon solveur — c'est toujours toi qui dois
     percer la cache sur le terrain.
+
+!!! note "Télécharger l'APK"
+    Le lien vers l'APK actuelle se trouve en haut du menu (« APK herunterladen »). Il s'agit d'une
+    version de débogage hors Play Store — ton appareil te demandera l'autorisation d'installer des
+    applications provenant de sources inconnues lors de la première installation.

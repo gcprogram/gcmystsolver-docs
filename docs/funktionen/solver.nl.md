@@ -4,6 +4,15 @@ Voordat er überhaupt een AI wordt geraadpleegd, probeert GCMystSolver je puzzel
 reeks ingebouwde, klassieke oplossers. Dat is sneller, gratis en werkt ook volledig zonder
 AI-koppeling.
 
+Je bereikt het *Solve*-tabblad ofwel direct via de onderste navigatie (een oplosronde over een
+hele lijst), ofwel via de expliciete Solve-knop op de detailpagina van één cache (lost alleen die
+ene cache op, ongeacht de gekozen oplosmodus).
+
+<figure class="gcms-shot" markdown>
+![Solve-tabblad met alle oplosser-chips](../assets/screenshots/solve-chips.png)
+<figcaption>Oplosmodus, preset, en individueel aan/uit te zetten oplosser-chips</figcaption>
+</figure>
+
 ## Wat wordt herkend
 
 | Oplosser | Herkent |

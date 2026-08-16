@@ -679,6 +679,17 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#lists" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lists
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#cacheliste" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -686,6 +697,23 @@
       
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="Cacheliste">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#to-uavhengige-trafikklys-lsingsstatus-og-challenge-status" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        To uavhengige trafikklys: løsingsstatus og challenge-status
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -697,6 +725,34 @@
       
     </span>
   </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#map" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Map
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Map">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#offline-kart" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Offline-kart
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -865,18 +921,86 @@
 
 
 <h1 id="database-lister-og-statistikk">Database, lister og statistikk<a class="headerlink" href="#database-lister-og-statistikk" title="Permanent link">&para;</a></h1>
+<h2 id="lists">Lists<a class="headerlink" href="#lists" title="Permanent link">&para;</a></h2>
+<p>Startfanen viser alle dine importerte lister pluss to faste oppføringer: <strong>"All caches"</strong> (alle
+cacher samlet) og <strong>"Solved"</strong> (alle løste cacher rundt et midtpunkt du velger).</p>
+<figure class="gcms-shot">
+<p><img alt="Lists: startskjerm med alle importerte lister" src="../../../assets/screenshots/lists-home.png" /></p>
+<figcaption>Lists — startskjerm</figcaption>
+</figure>
 <h2 id="cacheliste">Cacheliste<a class="headerlink" href="#cacheliste" title="Permanent link">&para;</a></h2>
-<p>Alle importerte cacher havner i en søkbar, filtrerbar liste — etter trafikklysfarge, funnstatus,
-cachetype med mer. Derfra åpner du detaljsiden til en cache.</p>
+<p>Trykker du på en liste, åpnes en søkbar, filtrerbar cacheliste — etter trafikklysfarge, cachetype
+med mer. Derfra åpner du detaljsiden til en cache.</p>
+<figure class="gcms-shot">
+<p><img alt="Cacheliste med et trafikklys på venstre kant og en filterrad øverst" src="../../../assets/screenshots/list-detail-arrows.png" /></p>
+<figcaption>Venstre: trafikklys per cache. Øverst: filter for cachetype, filter for trafikklysfarge, filter for løser</figcaption>
+</figure>
+<ul>
+<li>Den <strong>øverste røde pilen</strong> peker på filterraden: cachetype-ikoner, de tre trafikklysfargene
+  (grønn/gul/rød) som kan vises/skjules, og en <strong>"Solver"</strong>-nedtrekksmeny for å filtrere etter
+  bestemte løsere.</li>
+<li>Den <strong>nederste venstre røde pilen</strong> peker på det lille tredelte <strong>trafikklyset på venstre kant
+  av hver cache</strong> — gjeldende farge vises fylt, de to andre punktene forblir bleke. Samme
+  rød/gul/grønn-kode som ellers i appen.</li>
+</ul>
+<h3 id="to-uavhengige-trafikklys-lsingsstatus-og-challenge-status">To uavhengige trafikklys: løsingsstatus og challenge-status<a class="headerlink" href="#to-uavhengige-trafikklys-lsingsstatus-og-challenge-status" title="Permanent link">&para;</a></h3>
+<p>For challenge-cacher kan <strong>to</strong> trafikklys være synlige samtidig — ett til venstre, ett til høyre
+på kanten av raden:</p>
+<figure class="gcms-shot">
+<p><img alt="To trafikklys: løsingsstatus til venstre, challenge-oppfyllelse til høyre" src="../../../assets/screenshots/ampel-legend.png" /></p>
+<figcaption>Venstre: løsingsstatus (her grønn). Høyre: challenge-oppfyllelse (her gul/partial)</figcaption>
+</figure>
+<ul>
+<li><strong>Venstre = løsingsstatus</strong>: ble cachens krav (f.eks. challenge-teksten) gjenkjent, og er
+  løsningen/vurderingen pålitelig?</li>
+<li><strong>Høyre = challenge-oppfyllelse</strong>: oppfyller dine eksisterende funn allerede det gjenkjente
+  kravet? (Se <a href="../challenges/">Challenge-kontroll</a> for detaljer om denne andre, uavhengige
+  vurderingen.)</li>
+</ul>
 <h2 id="cachedetalj">Cachedetalj<a class="headerlink" href="#cachedetalj" title="Permanent link">&para;</a></h2>
 <p>På detaljsiden til en cache finner du listingen, hintet, gjeldende løsning, trafikklysfarge samt —
 alle samlet i <strong>ett felles "Solver results"-kort</strong> — de relevante ekstraknappene for den cachen:
 f.eks. en lenke til en Geochecker, til gc-project (hvis listingen lenker til en), eller til en
 webkamera-opptakside for webkamera-cacher.</p>
+<h2 id="map">Map<a class="headerlink" href="#map" title="Permanent link">&para;</a></h2>
+<p>Kartfanen viser den for øyeblikket valgte listen som markører på et OpenStreetMap-kart. Hver
+markør kombinerer to opplysninger:</p>
+<ul>
+<li><strong>Cachetype-symbolet</strong> i midten (f.eks. "?" for Mystery, et bokikon for Traditional).</li>
+<li><strong>En fargelagt ring</strong> rundt symbolet så snart det finnes en løsingsstatus: <strong>grønn</strong> = pålitelig
+  løsning (confidence ≥ 90 %), <strong>gul/amber</strong> = usikker/delvis løsning. Ingen ring betyr: fortsatt
+  uløst.</li>
+</ul>
+<figure class="gcms-shot">
+<p><img alt="Kart med flere grønnringede, løste mystery-cacher" src="../../../assets/screenshots/map-solved-marker.png" /></p>
+<figcaption>De grønnringede "?"-markørene er løste mystery-cacher</figcaption>
+</figure>
+<p>For challenge-cacher kommer det i tillegg en liten <strong>badge nederst til høyre på markøren</strong> — det
+er challenge-oppfyllelsen (det samme andre trafikklyset som i listen, se ovenfor), uavhengig av
+ringens løsingsstatus. Ved svært mange markører tett sammen zoomer appen automatisk til en mer
+kompakt punktmodus, der cachetype-fargen fyller flaten og løsingsstatusen ligger som en tynn ring
+rundt.</p>
+<h3 id="offline-kart">Offline-kart<a class="headerlink" href="#offline-kart" title="Permanent link">&para;</a></h3>
+<p>Via lag-ikonet øverst til høyre kan du bytte mellom nettkartet (OpenStreetMap) og et selv innlastet
+<strong>offline-kart (.map-fil)</strong> — praktisk for bruk uten internettforbindelse. Slike <code>.map</code>-filer kan
+lastes ned f.eks. med <strong>c:geo</strong>, og er da også valgbare her.</p>
+<figure class="gcms-shot">
+<p><img alt="Kartlag-valg: Online (OSM), Offline (.map), Select Offline Map" src="../../../assets/screenshots/map-offline-selector.png" /></p>
+<figcaption>Valg av nett-/offline-kart</figcaption>
+</figure>
 <h2 id="statistikk">Statistikk<a class="headerlink" href="#statistikk" title="Permanent link">&para;</a></h2>
 <p>Statistikkskjermen viser deg, per cachetype, hvor mange cacher totalt er løst, delvis løst og
 gjenkjent som feltgåte — slik ser du med et blikk hvor det fortsatt venter arbeid, og hvor et
 besøk på stedet uansett er uunngåelig.</p>
+<figure class="gcms-shot">
+<p><img alt="Statistikktabell etter cachetype" src="../../../assets/screenshots/statistics.png" /></p>
+<figcaption>Statistikk etter cachetype, med en "By solver"-oppdeling under</figcaption>
+</figure>
+<div class="admonition tip">
+<p class="admonition-title">Rett til den filtrerte listen</p>
+<p>Trykker du på en cachetype-rad i statistikktabellen (f.eks. "Mystery"), hopper du rett til
+cachelisten, allerede filtrert på nettopp den typen.</p>
+</div>
 <h2 id="sikkerhetskopi-og-gjenoppretting">Sikkerhetskopi og gjenoppretting<a class="headerlink" href="#sikkerhetskopi-og-gjenoppretting" title="Permanent link">&para;</a></h2>
 <p>Via <em>Setup</em> kan du ta sikkerhetskopi av hele databasen din (inkludert alle innstillinger) og
 gjenopprette den på en annen enhet. Detaljer: <a href="../einstellungen-backup/">Innstillinger og sikkerhetskopi</a>.</p>

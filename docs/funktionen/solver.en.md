@@ -3,6 +3,15 @@
 Before an AI is ever consulted, GCMystSolver tries to crack your puzzle with a chain of built-in,
 classic solvers. That's faster, free, and works even with no AI connected at all.
 
+You reach the *Solve* tab either directly via the bottom navigation (a solving run over a whole
+list) or via the explicit Solve button on a single cache's detail page (solves only that one
+cache, regardless of the chosen solve mode).
+
+<figure class="gcms-shot" markdown>
+![Solve tab with all solver chips](../assets/screenshots/solve-chips.png)
+<figcaption>Solve mode, preset, and individually toggleable solver chips</figcaption>
+</figure>
+
 ## What gets recognized
 
 | Solver | Recognizes |

@@ -679,6 +679,17 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#lists" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lists
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#cachelijst" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -686,6 +697,23 @@
       
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="Cachelijst">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#twee-onafhankelijke-stoplichten-oplosstatus-en-challenge-status" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Twee onafhankelijke stoplichten: oplosstatus en challenge-status
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -697,6 +725,34 @@
       
     </span>
   </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#map" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Map
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Map">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#offline-kaarten" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Offline kaarten
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -865,19 +921,87 @@
 
 
 <h1 id="database-lijsten-statistiek">Database, lijsten &amp; statistiek<a class="headerlink" href="#database-lijsten-statistiek" title="Permanent link">&para;</a></h1>
+<h2 id="lists">Lists<a class="headerlink" href="#lists" title="Permanent link">&para;</a></h2>
+<p>Het starttabblad toont al je geïmporteerde lijsten plus twee vaste items: <strong>"All caches"</strong> (alle
+caches samen) en <strong>"Solved"</strong> (alle opgeloste caches rond een middelpunt dat jij kiest).</p>
+<figure class="gcms-shot">
+<p><img alt="Lists: startscherm met alle geïmporteerde lijsten" src="../../../assets/screenshots/lists-home.png" /></p>
+<figcaption>Lists — startscherm</figcaption>
+</figure>
 <h2 id="cachelijst">Cachelijst<a class="headerlink" href="#cachelijst" title="Permanent link">&para;</a></h2>
-<p>Alle geïmporteerde caches komen terecht in een doorzoekbare, filterbare lijst — op
-stoplichtkleur, vondststatus, cachetype en meer. Van daaruit open je de detailpagina van een
-cache.</p>
+<p>Tik je op een lijst, dan kom je in een doorzoekbare, filterbare cachelijst — op stoplichtkleur,
+cachetype en meer. Van daaruit open je de detailpagina van een cache.</p>
+<figure class="gcms-shot">
+<p><img alt="Cachelijst met een stoplicht aan de linkerrand en een filterbalk bovenaan" src="../../../assets/screenshots/list-detail-arrows.png" /></p>
+<figcaption>Links: stoplicht per cache. Boven: cachetype-filter, stoplichtkleur-filter, oplosser-filter</figcaption>
+</figure>
+<ul>
+<li>De <strong>rode pijl bovenaan</strong> wijst naar de filterbalk: cachetype-iconen, de drie stoplichtkleuren
+  (groen/geel/rood) om te tonen/verbergen, en een <strong>"Solver"</strong>-dropdown om op specifieke oplossers
+  te filteren.</li>
+<li>De <strong>rode pijl linksonder</strong> wijst naar het kleine driepuntige <strong>stoplicht aan de linkerrand van
+  elke cache</strong> — de huidige kleur is vol ingekleurd, de andere twee stippen blijven bleek. Dezelfde
+  rood/geel/groen-codering als overal elders in de app.</li>
+</ul>
+<h3 id="twee-onafhankelijke-stoplichten-oplosstatus-en-challenge-status">Twee onafhankelijke stoplichten: oplosstatus en challenge-status<a class="headerlink" href="#twee-onafhankelijke-stoplichten-oplosstatus-en-challenge-status" title="Permanent link">&para;</a></h3>
+<p>Bij challenge-caches kunnen <strong>twee</strong> stoplichten tegelijk zichtbaar zijn — één links, één rechts
+aan de rand van de rij:</p>
+<figure class="gcms-shot">
+<p><img alt="Twee stoplichten: oplosstatus links, challenge-vervulling rechts" src="../../../assets/screenshots/ampel-legend.png" /></p>
+<figcaption>Links: oplosstatus (hier groen). Rechts: challenge-vervulling (hier geel/partial)</figcaption>
+</figure>
+<ul>
+<li><strong>Links = oplosstatus</strong>: is de eis van de cache (bijv. de challenge-tekst) herkend, en is de
+  oplossing/beoordeling betrouwbaar?</li>
+<li><strong>Rechts = challenge-vervulling</strong>: voldoe je met je bestaande vondsten al aan de herkende eis?
+  (Zie <a href="../challenges/">Challenge-controle</a> voor details over deze tweede, onafhankelijke
+  beoordeling.)</li>
+</ul>
 <h2 id="cachedetail">Cachedetail<a class="headerlink" href="#cachedetail" title="Permanent link">&para;</a></h2>
 <p>Op de detailpagina van een cache vind je de listing, hint, huidige oplossing, stoplichtkleur en —
 allemaal samen in <strong>één gedeelde kaart "Solver results"</strong> — de relevante extra knoppen voor die
 cache: bijv. een link naar een Geochecker, naar gc-project (als de listing daarnaar linkt), of
 naar een webcam-opnamepagina bij webcam-caches.</p>
+<h2 id="map">Map<a class="headerlink" href="#map" title="Permanent link">&para;</a></h2>
+<p>Het kaart-tabblad toont de op dat moment gekozen lijst als markers op een OpenStreetMap-kaart.
+Elke marker combineert twee stukjes informatie:</p>
+<ul>
+<li><strong>Het cachetype-symbool</strong> in het midden (bijv. "?" voor Mystery, een boekicoon voor
+  Traditional).</li>
+<li><strong>Een gekleurde ring</strong> om het symbool zodra er een oplosstatus is: <strong>groen</strong> = betrouwbare
+  oplossing (confidence ≥ 90%), <strong>geel/amber</strong> = onzekere/gedeeltelijke oplossing. Geen ring
+  betekent: nog onopgelost.</li>
+</ul>
+<figure class="gcms-shot">
+<p><img alt="Kaart met meerdere groen omrande, opgeloste mystery-caches" src="../../../assets/screenshots/map-solved-marker.png" /></p>
+<figcaption>De groen omrande "?"-markers zijn opgeloste mystery-caches</figcaption>
+</figure>
+<p>Bij challenge-caches komt er bovendien een klein <strong>badge rechtsonder aan de marker</strong> bij — dat is
+de challenge-vervulling (hetzelfde tweede stoplicht als in de lijst, zie hierboven), onafhankelijk
+van de oplosstatus van de ring. Bij heel veel markers dicht bij elkaar zoomt de app automatisch
+naar een compactere puntmodus, waarbij de cachetype-kleur het vlak vult en de oplosstatus als een
+dunne ring eromheen ligt.</p>
+<h3 id="offline-kaarten">Offline kaarten<a class="headerlink" href="#offline-kaarten" title="Permanent link">&para;</a></h3>
+<p>Via het lagen-icoon rechtsboven kun je wisselen tussen de online kaart (OpenStreetMap) en een zelf
+geladen <strong>offline kaart (.map-bestand)</strong> — handig voor gebruik zonder internetverbinding. Zulke
+<code>.map</code>-bestanden kun je bijv. met <strong>c:geo</strong> downloaden, en zijn dan ook hier selecteerbaar.</p>
+<figure class="gcms-shot">
+<p><img alt="Kaartlaag-selectie: Online (OSM), Offline (.map), Select Offline Map" src="../../../assets/screenshots/map-offline-selector.png" /></p>
+<figcaption>Online/offline kaartkeuze</figcaption>
+</figure>
 <h2 id="statistiek">Statistiek<a class="headerlink" href="#statistiek" title="Permanent link">&para;</a></h2>
 <p>Het statistiekscherm toont je per cachetype hoeveel caches in totaal opgelost, deels opgelost en
 als veldpuzzel herkend zijn — zo zie je in één oogopslag waar nog werk wacht en waar een bezoek
 ter plekke sowieso onvermijdelijk is.</p>
+<figure class="gcms-shot">
+<p><img alt="Statistiektabel per cachetype" src="../../../assets/screenshots/statistics.png" /></p>
+<figcaption>Statistiek per cachetype, met een "By solver"-overzicht eronder</figcaption>
+</figure>
+<div class="admonition tip">
+<p class="admonition-title">Direct naar de gefilterde lijst</p>
+<p>Tik je in de statistiektabel op een cachetype-rij (bijv. "Mystery"), dan spring je direct naar
+de cachelijst, al gefilterd op precies dat type.</p>
+</div>
 <h2 id="back-up-herstel">Back-up &amp; herstel<a class="headerlink" href="#back-up-herstel" title="Permanent link">&para;</a></h2>
 <p>Via <em>Setup</em> kun je je hele database (inclusief alle instellingen) een back-up geven en op een
 ander apparaat herstellen. Details: <a href="../einstellungen-backup/">Instellingen &amp; back-up</a>.</p>

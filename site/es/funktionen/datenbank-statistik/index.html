@@ -679,6 +679,17 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#lists" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lists
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#lista-de-caches" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -686,6 +697,23 @@
       
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="Lista de caches">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#dos-semaforos-independientes-estado-de-resolucion-y-estado-de-challenge" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dos semáforos independientes: estado de resolución y estado de challenge
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -697,6 +725,34 @@
       
     </span>
   </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#map" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Map
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Map">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mapas-sin-conexion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mapas sin conexión
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -865,18 +921,89 @@
 
 
 <h1 id="base-de-datos-listas-y-estadisticas">Base de datos, listas y estadísticas<a class="headerlink" href="#base-de-datos-listas-y-estadisticas" title="Permanent link">&para;</a></h1>
+<h2 id="lists">Lists<a class="headerlink" href="#lists" title="Permanent link">&para;</a></h2>
+<p>La pestaña de inicio muestra todas tus listas importadas más dos entradas fijas: <strong>"All caches"</strong>
+(todos los caches juntos) y <strong>"Solved"</strong> (todos los caches resueltos alrededor de un punto central
+que tú eliges).</p>
+<figure class="gcms-shot">
+<p><img alt="Lists: pantalla de inicio con todas las listas importadas" src="../../../assets/screenshots/lists-home.png" /></p>
+<figcaption>Lists — pantalla de inicio</figcaption>
+</figure>
 <h2 id="lista-de-caches">Lista de caches<a class="headerlink" href="#lista-de-caches" title="Permanent link">&para;</a></h2>
-<p>Todos los caches importados terminan en una lista buscable y filtrable — por color de semáforo,
-estado de hallazgo, tipo de caché y más. Desde ahí abres la página de detalle de un caché.</p>
+<p>Al tocar una lista se abre una lista de caches buscable y filtrable — por color de semáforo, tipo
+de caché y más. Desde ahí abres la página de detalle de un caché.</p>
+<figure class="gcms-shot">
+<p><img alt="Lista de caches con un semáforo en el borde izquierdo y una barra de filtros arriba" src="../../../assets/screenshots/list-detail-arrows.png" /></p>
+<figcaption>Izquierda: semáforo por caché. Arriba: filtro por tipo de caché, filtro por color, filtro por solucionador</figcaption>
+</figure>
+<ul>
+<li>La <strong>flecha roja superior</strong> señala la barra de filtros: iconos de tipo de caché, los tres
+  colores de semáforo (verde/amarillo/rojo) para mostrar/ocultar, y un menú desplegable
+  <strong>"Solver"</strong> para filtrar por solucionadores concretos.</li>
+<li>La <strong>flecha roja inferior izquierda</strong> señala el pequeño <strong>semáforo de tres puntos en el borde
+  izquierdo de cada caché</strong> — el color actual aparece sólido, los otros dos puntos quedan pálidos.
+  El mismo código rojo/amarillo/verde que en el resto de la app.</li>
+</ul>
+<h3 id="dos-semaforos-independientes-estado-de-resolucion-y-estado-de-challenge">Dos semáforos independientes: estado de resolución y estado de challenge<a class="headerlink" href="#dos-semaforos-independientes-estado-de-resolucion-y-estado-de-challenge" title="Permanent link">&para;</a></h3>
+<p>En los challenge caches pueden verse <strong>dos</strong> semáforos a la vez — uno a la izquierda, otro a la
+derecha del borde de la fila:</p>
+<figure class="gcms-shot">
+<p><img alt="Dos semáforos: estado de resolución a la izquierda, cumplimiento del challenge a la derecha" src="../../../assets/screenshots/ampel-legend.png" /></p>
+<figcaption>Izquierda: estado de resolución (aquí verde). Derecha: cumplimiento del challenge (aquí amarillo/parcial)</figcaption>
+</figure>
+<ul>
+<li><strong>Izquierda = estado de resolución</strong>: ¿se reconoció el requisito del caché (p. ej. el texto del
+  challenge) y es fiable la solución/evaluación?</li>
+<li><strong>Derecha = cumplimiento del challenge</strong>: ¿cumples ya con tus hallazgos existentes el requisito
+  reconocido? (Ver <a href="../challenges/">Verificación de challenges</a> para más detalles sobre esta
+  segunda evaluación, independiente.)</li>
+</ul>
 <h2 id="detalle-del-cache">Detalle del caché<a class="headerlink" href="#detalle-del-cache" title="Permanent link">&para;</a></h2>
 <p>En la página de detalle de un caché encuentras el listado, la pista, la solución actual, el color
 del semáforo y — todos juntos en <strong>una sola tarjeta "Solver results"</strong> — los botones adicionales
 relevantes para ese caché: p. ej. un enlace a un Geochecker, a gc-project (si el listado lo
 enlaza), o a una página de grabación de webcam en caches de tipo webcam.</p>
+<h2 id="map">Map<a class="headerlink" href="#map" title="Permanent link">&para;</a></h2>
+<p>La pestaña de mapa muestra la lista seleccionada actualmente como marcadores en un mapa de
+OpenStreetMap. Cada marcador combina dos informaciones:</p>
+<ul>
+<li><strong>El símbolo del tipo de caché</strong> en el centro (p. ej. "?" para Mystery, un icono de libro para
+  Traditional).</li>
+<li><strong>Un anillo de color</strong> alrededor del símbolo en cuanto existe un estado de resolución: <strong>verde</strong>
+  = solución fiable (confianza ≥ 90 %), <strong>amarillo/ámbar</strong> = solución incierta/parcial. Sin anillo
+  significa: todavía sin resolver.</li>
+</ul>
+<figure class="gcms-shot">
+<p><img alt="Mapa con varios mystery caches resueltos, con anillo verde" src="../../../assets/screenshots/map-solved-marker.png" /></p>
+<figcaption>Los marcadores "?" con anillo verde son mystery caches resueltos</figcaption>
+</figure>
+<p>En los challenge caches se añade además una pequeña <strong>insignia en la esquina inferior derecha del
+marcador</strong> — es el cumplimiento del challenge (el mismo segundo semáforo que en la lista, ver
+arriba), independiente del estado de resolución del anillo. Con muchos marcadores muy juntos, la
+app cambia automáticamente a un modo de puntos más compacto, donde el color del tipo de caché
+rellena la superficie y el estado de resolución aparece como un anillo fino alrededor.</p>
+<h3 id="mapas-sin-conexion">Mapas sin conexión<a class="headerlink" href="#mapas-sin-conexion" title="Permanent link">&para;</a></h3>
+<p>El icono de capas arriba a la derecha te permite cambiar entre el mapa en línea (OpenStreetMap) y
+un <strong>mapa sin conexión (archivo .map)</strong> cargado por ti mismo — práctico para usar sin conexión a
+internet. Esos archivos <code>.map</code> se pueden descargar p. ej. con <strong>c:geo</strong>, y luego también están
+disponibles aquí para seleccionarlos.</p>
+<figure class="gcms-shot">
+<p><img alt="Selector de capa de mapa: Online (OSM), Offline (.map), Select Offline Map" src="../../../assets/screenshots/map-offline-selector.png" /></p>
+<figcaption>Selección de mapa en línea/sin conexión</figcaption>
+</figure>
 <h2 id="estadisticas">Estadísticas<a class="headerlink" href="#estadisticas" title="Permanent link">&para;</a></h2>
 <p>La pantalla de estadísticas te muestra, por tipo de caché, cuántos caches están resueltos,
 parcialmente resueltos y reconocidos como enigmas de campo en total — así ves de un vistazo dónde
 queda trabajo por hacer y dónde una visita in situ es de todos modos inevitable.</p>
+<figure class="gcms-shot">
+<p><img alt="Tabla de estadísticas por tipo de caché" src="../../../assets/screenshots/statistics.png" /></p>
+<figcaption>Estadísticas por tipo de caché, con un desglose "By solver" debajo</figcaption>
+</figure>
+<div class="admonition tip">
+<p class="admonition-title">Directo a la lista filtrada</p>
+<p>Tocar una fila de tipo de caché en la tabla de estadísticas (p. ej. "Mystery") te lleva
+directamente a la lista de caches, ya filtrada exactamente por ese tipo.</p>
+</div>
 <h2 id="copia-de-seguridad-y-restauracion">Copia de seguridad y restauración<a class="headerlink" href="#copia-de-seguridad-y-restauracion" title="Permanent link">&para;</a></h2>
 <p>En <em>Setup</em> puedes hacer una copia de seguridad de toda tu base de datos (incluidos todos los
 ajustes) y restaurarla en otro dispositivo. Detalles: <a href="../einstellungen-backup/">Ajustes y copia de seguridad</a>.</p>

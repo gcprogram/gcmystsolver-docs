@@ -26,3 +26,8 @@ sökfunktionen för att hitta ett ämne.
     Automatiska lösare och AI-stöd är verktyg, ingen magi. Vid fältpussel (multicacher med flera
     etapper, bäringar som mäts på plats med mera) kan appen inte göra mer än att peka dig mot rätt
     lösare — cachen måste ändå knäckas på plats vid gömstället.
+
+!!! note "Ladda ner APK"
+    Länken till den aktuella APK:n hittar du högst upp i menyn ("APK herunterladen"). Det är en
+    debug-build utanför Play Store — enheten din frågar om tillstånd att installera appar från
+    okända källor vid första installationen.

@@ -4,6 +4,15 @@ Avant même de solliciter une IA, GCMystSolver essaie de résoudre ton énigme a
 solveurs classiques intégrés. C'est plus rapide, gratuit, et fonctionne même sans aucune IA
 connectée.
 
+Tu accèdes à l'onglet *Solve* soit directement via la navigation du bas (une session de résolution
+sur toute une liste), soit via le bouton Solve explicite sur la page de détail d'une seule cache
+(résout uniquement cette cache, quel que soit le mode de résolution choisi).
+
+<figure class="gcms-shot" markdown>
+![Onglet Solve avec tous les chips de solveurs](../assets/screenshots/solve-chips.png)
+<figcaption>Mode de résolution, preset, et chips de solveurs activables individuellement</figcaption>
+</figure>
+
 ## Ce qui est reconnu
 
 | Solveur | Reconnaît |

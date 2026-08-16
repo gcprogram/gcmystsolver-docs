@@ -679,6 +679,17 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#lists" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lists
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#liste-des-caches" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -686,6 +697,23 @@
       
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="Liste des caches">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#deux-feux-tricolores-independants-statut-de-resolution-et-statut-de-challenge" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Deux feux tricolores indépendants : statut de résolution et statut de challenge
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -697,6 +725,34 @@
       
     </span>
   </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#map" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Map
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Map">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cartes-hors-ligne" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cartes hors ligne
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -865,20 +921,91 @@
 
 
 <h1 id="base-de-donnees-listes-et-statistiques">Base de données, listes et statistiques<a class="headerlink" href="#base-de-donnees-listes-et-statistiques" title="Permanent link">&para;</a></h1>
+<h2 id="lists">Lists<a class="headerlink" href="#lists" title="Permanent link">&para;</a></h2>
+<p>L'onglet de démarrage affiche toutes tes listes importées ainsi que deux entrées fixes :
+<strong>« All caches »</strong> (toutes les caches réunies) et <strong>« Solved »</strong> (toutes les caches résolues
+autour d'un point central que tu choisis).</p>
+<figure class="gcms-shot">
+<p><img alt="Lists : écran d'accueil avec toutes les listes importées" src="../../../assets/screenshots/lists-home.png" /></p>
+<figcaption>Lists — écran d'accueil</figcaption>
+</figure>
 <h2 id="liste-des-caches">Liste des caches<a class="headerlink" href="#liste-des-caches" title="Permanent link">&para;</a></h2>
-<p>Toutes les caches importées se retrouvent dans une liste consultable et filtrable — par couleur
-de feu tricolore, statut de trouvaille, type de cache et plus encore. C'est de là que tu ouvres la
-page de détail d'une cache.</p>
+<p>En touchant une liste, tu ouvres une liste de caches consultable et filtrable — par couleur de
+feu tricolore, type de cache et plus encore. C'est de là que tu ouvres la page de détail d'une
+cache.</p>
+<figure class="gcms-shot">
+<p><img alt="Liste de caches avec un feu tricolore sur le bord gauche et une barre de filtres en haut" src="../../../assets/screenshots/list-detail-arrows.png" /></p>
+<figcaption>À gauche : feu tricolore par cache. En haut : filtre par type de cache, filtre par couleur, filtre par solveur</figcaption>
+</figure>
+<ul>
+<li>La <strong>flèche rouge du haut</strong> pointe vers la barre de filtres : icônes de type de cache, les trois
+  couleurs de feu tricolore (vert/jaune/rouge) à afficher/masquer, et un menu déroulant
+  <strong>« Solver »</strong> pour filtrer par solveur spécifique.</li>
+<li>La <strong>flèche rouge en bas à gauche</strong> pointe vers le petit <strong>feu tricolore à trois points sur le
+  bord gauche de chaque cache</strong> — la couleur actuelle est pleine, les deux autres points restent
+  pâles. Le même code rouge/jaune/vert que partout ailleurs dans l'application.</li>
+</ul>
+<h3 id="deux-feux-tricolores-independants-statut-de-resolution-et-statut-de-challenge">Deux feux tricolores indépendants : statut de résolution et statut de challenge<a class="headerlink" href="#deux-feux-tricolores-independants-statut-de-resolution-et-statut-de-challenge" title="Permanent link">&para;</a></h3>
+<p>Pour les challenge caches, <strong>deux</strong> feux tricolores peuvent être visibles en même temps — un à
+gauche, un à droite du bord de la ligne :</p>
+<figure class="gcms-shot">
+<p><img alt="Deux feux tricolores : statut de résolution à gauche, accomplissement du challenge à droite" src="../../../assets/screenshots/ampel-legend.png" /></p>
+<figcaption>Gauche : statut de résolution (ici vert). Droite : accomplissement du challenge (ici jaune/partiel)</figcaption>
+</figure>
+<ul>
+<li><strong>Gauche = statut de résolution</strong> : la condition de la cache (par ex. le texte du challenge) a-t-elle
+  été reconnue, et la solution/l'évaluation est-elle fiable ?</li>
+<li><strong>Droite = accomplissement du challenge</strong> : tes trouvailles existantes remplissent-elles déjà la
+  condition reconnue ? (Voir <a href="../challenges/">Vérification des challenges</a> pour les détails de
+  cette seconde évaluation, indépendante.)</li>
+</ul>
 <h2 id="detail-dune-cache">Détail d'une cache<a class="headerlink" href="#detail-dune-cache" title="Permanent link">&para;</a></h2>
 <p>Sur la page de détail d'une cache, tu trouves le listing, l'indice, la solution actuelle, la
 couleur du feu tricolore ainsi que — tous regroupés dans <strong>une seule carte « Solver results »</strong> —
 les boutons supplémentaires pertinents pour cette cache : par ex. un lien vers un Geochecker, vers
 gc-project (si le listing en propose un), ou vers une page d'enregistrement webcam pour les
 webcam caches.</p>
+<h2 id="map">Map<a class="headerlink" href="#map" title="Permanent link">&para;</a></h2>
+<p>L'onglet carte affiche la liste actuellement sélectionnée sous forme de marqueurs sur une carte
+OpenStreetMap. Chaque marqueur combine deux informations :</p>
+<ul>
+<li><strong>Le symbole du type de cache</strong> au centre (par ex. « ? » pour Mystery, une icône de livre pour
+  Traditional).</li>
+<li><strong>Un anneau coloré</strong> autour du symbole dès qu'un statut de résolution existe : <strong>vert</strong> =
+  solution fiable (confiance ≥ 90 %), <strong>jaune/ambre</strong> = solution incertaine/partielle. Pas
+  d'anneau signifie : toujours non résolue.</li>
+</ul>
+<figure class="gcms-shot">
+<p><img alt="Carte avec plusieurs mystery caches résolues, entourées de vert" src="../../../assets/screenshots/map-solved-marker.png" /></p>
+<figcaption>Les marqueurs « ? » entourés de vert sont des mystery caches résolues</figcaption>
+</figure>
+<p>Pour les challenge caches, un petit <strong>badge en bas à droite du marqueur</strong> s'ajoute — c'est
+l'accomplissement du challenge (le même second feu tricolore que dans la liste, voir ci-dessus),
+indépendant du statut de résolution de l'anneau. Avec beaucoup de marqueurs proches les uns des
+autres, l'application passe automatiquement à un mode point plus compact, où la couleur du type de
+cache remplit la surface et le statut de résolution apparaît sous forme d'un fin anneau autour.</p>
+<h3 id="cartes-hors-ligne">Cartes hors ligne<a class="headerlink" href="#cartes-hors-ligne" title="Permanent link">&para;</a></h3>
+<p>L'icône de calques en haut à droite te permet de basculer entre la carte en ligne (OpenStreetMap)
+et une <strong>carte hors ligne (fichier .map)</strong> que tu as chargée toi-même — pratique pour une
+utilisation sans connexion Internet. De tels fichiers <code>.map</code> peuvent être téléchargés par ex. avec
+<strong>c:geo</strong>, et sont ensuite aussi disponibles ici pour sélection.</p>
+<figure class="gcms-shot">
+<p><img alt="Sélecteur de calque carte : Online (OSM), Offline (.map), Select Offline Map" src="../../../assets/screenshots/map-offline-selector.png" /></p>
+<figcaption>Sélection carte en ligne/hors ligne</figcaption>
+</figure>
 <h2 id="statistiques">Statistiques<a class="headerlink" href="#statistiques" title="Permanent link">&para;</a></h2>
 <p>L'écran des statistiques t'indique, par type de cache, combien de caches sont résolues,
 partiellement résolues et reconnues comme énigmes de terrain au total — tu vois ainsi d'un coup
 d'œil où il reste du travail et où une visite sur place est de toute façon incontournable.</p>
+<figure class="gcms-shot">
+<p><img alt="Tableau des statistiques par type de cache" src="../../../assets/screenshots/statistics.png" /></p>
+<figcaption>Statistiques par type de cache, avec une répartition « By solver » en dessous</figcaption>
+</figure>
+<div class="admonition tip">
+<p class="admonition-title">Directement vers la liste filtrée</p>
+<p>Toucher une ligne de type de cache dans le tableau des statistiques (par ex. « Mystery »)
+t'amène directement à la liste des caches, déjà filtrée sur exactement ce type.</p>
+</div>
 <h2 id="sauvegarde-et-restauration">Sauvegarde et restauration<a class="headerlink" href="#sauvegarde-et-restauration" title="Permanent link">&para;</a></h2>
 <p>Dans <em>Setup</em>, tu peux sauvegarder toute ta base de données (y compris tous les paramètres) et la
 restaurer sur un autre appareil. Détails : <a href="../einstellungen-backup/">Paramètres et sauvegarde</a>.</p>

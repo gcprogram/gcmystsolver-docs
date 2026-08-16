@@ -26,3 +26,8 @@ for å finne et tema.
     Automatiske løsere og AI-støtte er verktøy, ikke magi. Ved feltpuslespill (multier med flere
     stasjoner, peilinger tatt på stedet med mer) kan appen ikke gjøre mer enn å peke deg mot riktig
     løser — cachen må uansett knekkes på selve gjemmestedet.
+
+!!! note "Last ned APK"
+    Lenken til gjeldende APK finner du øverst i menyen ("APK herunterladen"). Det er en
+    debug-build utenfor Play Store — enheten din vil be om tillatelse til å installere apper fra
+    ukjente kilder ved første installasjon.

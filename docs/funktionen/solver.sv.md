@@ -3,6 +3,15 @@
 Innan en AI ens tillfrågas försöker GCMystSolver knäcka ditt pussel med en kedja av inbyggda,
 klassiska lösare. Det är snabbare, gratis och fungerar även helt utan ansluten AI.
 
+Du når fliken *Solve* antingen direkt via den nedre navigeringen (en lösningsomgång över en hel
+lista), eller via den uttryckliga Solve-knappen på en enskild caches detaljsida (löser bara den
+cachen, oavsett vald lösningsläge).
+
+<figure class="gcms-shot" markdown>
+![Solve-fliken med alla lösar-chips](../assets/screenshots/solve-chips.png)
+<figcaption>Lösningsläge, preset och individuellt på-/avslagbara lösar-chips</figcaption>
+</figure>
+
 ## Vad som känns igen
 
 | Lösare | Känner igen |

@@ -28,3 +28,8 @@ Suche, um ein Thema zu finden.
     mehreren Stationen, Peilungen vor Ort, o.ä.) kann die App nicht mehr tun, als dich auf den
     passenden Löser hinzuweisen — geknackt werden muss der Cache am Ende immer noch am
     Versteckort.
+
+!!! note "APK-Download"
+    Den Link zur aktuellen APK findest du oben im Menü ("APK herunterladen"). Es handelt sich um
+    einen Debug-Build außerhalb des Play Store — dein Gerät fragt beim ersten Installieren nach
+    der Erlaubnis, Apps aus unbekannten Quellen zu installieren.

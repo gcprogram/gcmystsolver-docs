@@ -26,3 +26,8 @@ search to find a topic.
     Automatic solvers and AI assistance are tools, not magic. For field puzzles (multis with
     several stages, on-site bearings, and similar) the app can do no more than point you to the
     right solver — you still have to crack the cache at the hide location.
+
+!!! note "APK download"
+    You'll find the link to the current APK at the top of the menu ("APK herunterladen"). It's a
+    debug build outside the Play Store — your device will ask for permission to install apps from
+    unknown sources the first time.
