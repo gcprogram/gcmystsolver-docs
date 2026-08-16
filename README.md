@@ -3,7 +3,7 @@
 Quelltext der Doku-Website für GCMystSolver (live: [gcmystsolver.de](https://gcmystsolver.de/)),
 gebaut mit [MkDocs Material](https://squidfunk.github.io/mkdocs-material/) +
 [mkdocs-static-i18n](https://github.com/ultrabug/mkdocs-static-i18n) (Deutsch als Standard, plus
-Englisch/Französisch/Niederländisch/Tschechisch).
+Englisch/Französisch/Niederländisch/Tschechisch/Spanisch/Schwedisch/Norwegisch-Bokmål).
 
 ## Lokal entwickeln
 
@@ -47,6 +47,32 @@ von `docs/support.md`.
 
 `.md`-Dateien ändern → `mkdocs build --strict` → `site/` mit committen → `git push` → Stefan
 klickt in Plesk auf "Pull updates" (Push allein deployt nicht, siehe Bitpalast/Plesk-Memory).
+
+## APK aktuell halten (`docs/downloads/GCMystSolver.apk`)
+
+Die APK wird in einem **anderen, privaten Repo** gebaut (GCToolkit-App). Hier im Doku-Repo landet
+nur das fertige `app-debug.apk`, verlinkt vom Header-Button "APK herunterladen". Da jede
+inhaltlich neue APK-Version einen neuen ~24-MB-Blob dauerhaft in der Git-Historie hinterlässt
+(auch ein "löschen + neu einchecken" entfernt alte Versionen **nicht** rückwirkend — dafür bräuchte
+es einen destruktiven `git filter-repo` + Force-Push, den wir bewusst nicht routinemäßig machen),
+vor jedem Ersetzen erst prüfen, ob sich der Inhalt überhaupt geändert hat:
+
+```bash
+# Unter Windows/Git Bash, aus diesem Repo-Root:
+sha256sum docs/downloads/GCMystSolver.apk
+sha256sum /pfad/zur/frisch/gebauten/app-debug.apk
+```
+
+Nur committen, wenn die Hashes voneinander abweichen. Sind sie identisch, nichts tun (auch wenn
+der Zeitstempel der neu gebauten APK anders ist) — spart unnötige Historie.
+
+```bash
+cp /pfad/zur/frisch/gebauten/app-debug.apk docs/downloads/GCMystSolver.apk
+mkdocs build --strict   # kopiert automatisch nach site/downloads/ mit
+git add docs/downloads/GCMystSolver.apk site/downloads/GCMystSolver.apk
+git commit -m "Update APK to <Anlass/Version>"
+git push
+```
 
 ## Offene TODOs
 
