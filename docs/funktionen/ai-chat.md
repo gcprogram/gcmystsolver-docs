@@ -21,6 +21,5 @@ verliert.
 
 ## Lösung übernehmen
 
-Kommt ihr im Chat auf eine bessere Lösung, übernimmst du sie über den Button **"Als Lösung
-übernehmen"** direkt in die Cache-Datenbank — ohne die Lösung manuell woanders eintragen zu
-müssen.
+Kommt ihr im Chat auf eine bessere Lösung, übernimmst du sie über den Button **"Take over as
+solution"** direkt in die Cache-Datenbank — ohne die Lösung manuell woanders eintragen zu müssen.

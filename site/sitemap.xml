@@ -1,55 +1,653 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
-         <loc>https://gcmystsolver.de/</loc>
-         <lastmod>2026-08-14</lastmod>
+        <loc>https://gcmystsolver.de/</loc>
+        <lastmod>2026-08-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://gcmystsolver.de/"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://gcmystsolver.de/cs/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gcmystsolver.de/en/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://gcmystsolver.de/fr/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://gcmystsolver.de/nl/"/>
     </url>
     <url>
-         <loc>https://gcmystsolver.de/datenschutz/</loc>
-         <lastmod>2026-08-14</lastmod>
+        <loc>https://gcmystsolver.de/datenschutz/</loc>
+        <lastmod>2026-08-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://gcmystsolver.de/datenschutz/"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://gcmystsolver.de/cs/datenschutz/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gcmystsolver.de/en/datenschutz/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://gcmystsolver.de/fr/datenschutz/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://gcmystsolver.de/nl/datenschutz/"/>
     </url>
     <url>
-         <loc>https://gcmystsolver.de/erste-schritte/</loc>
-         <lastmod>2026-08-14</lastmod>
+        <loc>https://gcmystsolver.de/erste-schritte/</loc>
+        <lastmod>2026-08-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://gcmystsolver.de/erste-schritte/"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://gcmystsolver.de/cs/erste-schritte/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gcmystsolver.de/en/erste-schritte/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://gcmystsolver.de/fr/erste-schritte/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://gcmystsolver.de/nl/erste-schritte/"/>
     </url>
     <url>
-         <loc>https://gcmystsolver.de/faq/</loc>
-         <lastmod>2026-08-14</lastmod>
+        <loc>https://gcmystsolver.de/faq/</loc>
+        <lastmod>2026-08-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://gcmystsolver.de/faq/"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://gcmystsolver.de/cs/faq/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gcmystsolver.de/en/faq/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://gcmystsolver.de/fr/faq/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://gcmystsolver.de/nl/faq/"/>
     </url>
     <url>
-         <loc>https://gcmystsolver.de/support/</loc>
-         <lastmod>2026-08-14</lastmod>
+        <loc>https://gcmystsolver.de/support/</loc>
+        <lastmod>2026-08-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://gcmystsolver.de/support/"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://gcmystsolver.de/cs/support/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gcmystsolver.de/en/support/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://gcmystsolver.de/fr/support/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://gcmystsolver.de/nl/support/"/>
     </url>
     <url>
-         <loc>https://gcmystsolver.de/funktionen/</loc>
-         <lastmod>2026-08-14</lastmod>
+        <loc>https://gcmystsolver.de/funktionen/</loc>
+        <lastmod>2026-08-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://gcmystsolver.de/funktionen/"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://gcmystsolver.de/cs/funktionen/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gcmystsolver.de/en/funktionen/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://gcmystsolver.de/fr/funktionen/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://gcmystsolver.de/nl/funktionen/"/>
     </url>
     <url>
-         <loc>https://gcmystsolver.de/funktionen/ai-chat/</loc>
-         <lastmod>2026-08-14</lastmod>
+        <loc>https://gcmystsolver.de/funktionen/ai-chat/</loc>
+        <lastmod>2026-08-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://gcmystsolver.de/funktionen/ai-chat/"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://gcmystsolver.de/cs/funktionen/ai-chat/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gcmystsolver.de/en/funktionen/ai-chat/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://gcmystsolver.de/fr/funktionen/ai-chat/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://gcmystsolver.de/nl/funktionen/ai-chat/"/>
     </url>
     <url>
-         <loc>https://gcmystsolver.de/funktionen/challenges/</loc>
-         <lastmod>2026-08-14</lastmod>
+        <loc>https://gcmystsolver.de/funktionen/challenges/</loc>
+        <lastmod>2026-08-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://gcmystsolver.de/funktionen/challenges/"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://gcmystsolver.de/cs/funktionen/challenges/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gcmystsolver.de/en/funktionen/challenges/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://gcmystsolver.de/fr/funktionen/challenges/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://gcmystsolver.de/nl/funktionen/challenges/"/>
     </url>
     <url>
-         <loc>https://gcmystsolver.de/funktionen/datenbank-statistik/</loc>
-         <lastmod>2026-08-14</lastmod>
+        <loc>https://gcmystsolver.de/funktionen/datenbank-statistik/</loc>
+        <lastmod>2026-08-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://gcmystsolver.de/funktionen/datenbank-statistik/"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://gcmystsolver.de/cs/funktionen/datenbank-statistik/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gcmystsolver.de/en/funktionen/datenbank-statistik/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://gcmystsolver.de/fr/funktionen/datenbank-statistik/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://gcmystsolver.de/nl/funktionen/datenbank-statistik/"/>
     </url>
     <url>
-         <loc>https://gcmystsolver.de/funktionen/einstellungen-backup/</loc>
-         <lastmod>2026-08-14</lastmod>
+        <loc>https://gcmystsolver.de/funktionen/einstellungen-backup/</loc>
+        <lastmod>2026-08-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://gcmystsolver.de/funktionen/einstellungen-backup/"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://gcmystsolver.de/cs/funktionen/einstellungen-backup/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gcmystsolver.de/en/funktionen/einstellungen-backup/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://gcmystsolver.de/fr/funktionen/einstellungen-backup/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://gcmystsolver.de/nl/funktionen/einstellungen-backup/"/>
     </url>
     <url>
-         <loc>https://gcmystsolver.de/funktionen/import/</loc>
-         <lastmod>2026-08-14</lastmod>
+        <loc>https://gcmystsolver.de/funktionen/import/</loc>
+        <lastmod>2026-08-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://gcmystsolver.de/funktionen/import/"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://gcmystsolver.de/cs/funktionen/import/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gcmystsolver.de/en/funktionen/import/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://gcmystsolver.de/fr/funktionen/import/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://gcmystsolver.de/nl/funktionen/import/"/>
     </url>
     <url>
-         <loc>https://gcmystsolver.de/funktionen/ki-solver/</loc>
-         <lastmod>2026-08-14</lastmod>
+        <loc>https://gcmystsolver.de/funktionen/ki-solver/</loc>
+        <lastmod>2026-08-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://gcmystsolver.de/funktionen/ki-solver/"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://gcmystsolver.de/cs/funktionen/ki-solver/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gcmystsolver.de/en/funktionen/ki-solver/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://gcmystsolver.de/fr/funktionen/ki-solver/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://gcmystsolver.de/nl/funktionen/ki-solver/"/>
     </url>
     <url>
-         <loc>https://gcmystsolver.de/funktionen/solver/</loc>
-         <lastmod>2026-08-14</lastmod>
+        <loc>https://gcmystsolver.de/funktionen/solver/</loc>
+        <lastmod>2026-08-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://gcmystsolver.de/funktionen/solver/"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://gcmystsolver.de/cs/funktionen/solver/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gcmystsolver.de/en/funktionen/solver/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://gcmystsolver.de/fr/funktionen/solver/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://gcmystsolver.de/nl/funktionen/solver/"/>
+    </url>
+    <url>
+        <loc>https://gcmystsolver.de/en/</loc>
+        <lastmod>2026-08-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gcmystsolver.de/en/"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://gcmystsolver.de/cs/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://gcmystsolver.de/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://gcmystsolver.de/fr/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://gcmystsolver.de/nl/"/>
+    </url>
+    <url>
+        <loc>https://gcmystsolver.de/en/datenschutz/</loc>
+        <lastmod>2026-08-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gcmystsolver.de/en/datenschutz/"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://gcmystsolver.de/cs/datenschutz/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://gcmystsolver.de/datenschutz/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://gcmystsolver.de/fr/datenschutz/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://gcmystsolver.de/nl/datenschutz/"/>
+    </url>
+    <url>
+        <loc>https://gcmystsolver.de/en/erste-schritte/</loc>
+        <lastmod>2026-08-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gcmystsolver.de/en/erste-schritte/"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://gcmystsolver.de/cs/erste-schritte/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://gcmystsolver.de/erste-schritte/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://gcmystsolver.de/fr/erste-schritte/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://gcmystsolver.de/nl/erste-schritte/"/>
+    </url>
+    <url>
+        <loc>https://gcmystsolver.de/en/faq/</loc>
+        <lastmod>2026-08-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gcmystsolver.de/en/faq/"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://gcmystsolver.de/cs/faq/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://gcmystsolver.de/faq/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://gcmystsolver.de/fr/faq/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://gcmystsolver.de/nl/faq/"/>
+    </url>
+    <url>
+        <loc>https://gcmystsolver.de/en/support/</loc>
+        <lastmod>2026-08-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gcmystsolver.de/en/support/"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://gcmystsolver.de/cs/support/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://gcmystsolver.de/support/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://gcmystsolver.de/fr/support/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://gcmystsolver.de/nl/support/"/>
+    </url>
+    <url>
+        <loc>https://gcmystsolver.de/en/funktionen/</loc>
+        <lastmod>2026-08-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gcmystsolver.de/en/funktionen/"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://gcmystsolver.de/cs/funktionen/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://gcmystsolver.de/funktionen/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://gcmystsolver.de/fr/funktionen/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://gcmystsolver.de/nl/funktionen/"/>
+    </url>
+    <url>
+        <loc>https://gcmystsolver.de/en/funktionen/ai-chat/</loc>
+        <lastmod>2026-08-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gcmystsolver.de/en/funktionen/ai-chat/"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://gcmystsolver.de/cs/funktionen/ai-chat/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://gcmystsolver.de/funktionen/ai-chat/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://gcmystsolver.de/fr/funktionen/ai-chat/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://gcmystsolver.de/nl/funktionen/ai-chat/"/>
+    </url>
+    <url>
+        <loc>https://gcmystsolver.de/en/funktionen/challenges/</loc>
+        <lastmod>2026-08-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gcmystsolver.de/en/funktionen/challenges/"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://gcmystsolver.de/cs/funktionen/challenges/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://gcmystsolver.de/funktionen/challenges/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://gcmystsolver.de/fr/funktionen/challenges/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://gcmystsolver.de/nl/funktionen/challenges/"/>
+    </url>
+    <url>
+        <loc>https://gcmystsolver.de/en/funktionen/datenbank-statistik/</loc>
+        <lastmod>2026-08-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gcmystsolver.de/en/funktionen/datenbank-statistik/"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://gcmystsolver.de/cs/funktionen/datenbank-statistik/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://gcmystsolver.de/funktionen/datenbank-statistik/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://gcmystsolver.de/fr/funktionen/datenbank-statistik/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://gcmystsolver.de/nl/funktionen/datenbank-statistik/"/>
+    </url>
+    <url>
+        <loc>https://gcmystsolver.de/en/funktionen/einstellungen-backup/</loc>
+        <lastmod>2026-08-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gcmystsolver.de/en/funktionen/einstellungen-backup/"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://gcmystsolver.de/cs/funktionen/einstellungen-backup/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://gcmystsolver.de/funktionen/einstellungen-backup/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://gcmystsolver.de/fr/funktionen/einstellungen-backup/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://gcmystsolver.de/nl/funktionen/einstellungen-backup/"/>
+    </url>
+    <url>
+        <loc>https://gcmystsolver.de/en/funktionen/import/</loc>
+        <lastmod>2026-08-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gcmystsolver.de/en/funktionen/import/"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://gcmystsolver.de/cs/funktionen/import/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://gcmystsolver.de/funktionen/import/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://gcmystsolver.de/fr/funktionen/import/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://gcmystsolver.de/nl/funktionen/import/"/>
+    </url>
+    <url>
+        <loc>https://gcmystsolver.de/en/funktionen/ki-solver/</loc>
+        <lastmod>2026-08-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gcmystsolver.de/en/funktionen/ki-solver/"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://gcmystsolver.de/cs/funktionen/ki-solver/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://gcmystsolver.de/funktionen/ki-solver/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://gcmystsolver.de/fr/funktionen/ki-solver/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://gcmystsolver.de/nl/funktionen/ki-solver/"/>
+    </url>
+    <url>
+        <loc>https://gcmystsolver.de/en/funktionen/solver/</loc>
+        <lastmod>2026-08-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gcmystsolver.de/en/funktionen/solver/"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://gcmystsolver.de/cs/funktionen/solver/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://gcmystsolver.de/funktionen/solver/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://gcmystsolver.de/fr/funktionen/solver/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://gcmystsolver.de/nl/funktionen/solver/"/>
+    </url>
+    <url>
+        <loc>https://gcmystsolver.de/fr/</loc>
+        <lastmod>2026-08-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://gcmystsolver.de/fr/"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://gcmystsolver.de/cs/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://gcmystsolver.de/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gcmystsolver.de/en/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://gcmystsolver.de/nl/"/>
+    </url>
+    <url>
+        <loc>https://gcmystsolver.de/fr/datenschutz/</loc>
+        <lastmod>2026-08-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://gcmystsolver.de/fr/datenschutz/"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://gcmystsolver.de/cs/datenschutz/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://gcmystsolver.de/datenschutz/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gcmystsolver.de/en/datenschutz/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://gcmystsolver.de/nl/datenschutz/"/>
+    </url>
+    <url>
+        <loc>https://gcmystsolver.de/fr/erste-schritte/</loc>
+        <lastmod>2026-08-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://gcmystsolver.de/fr/erste-schritte/"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://gcmystsolver.de/cs/erste-schritte/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://gcmystsolver.de/erste-schritte/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gcmystsolver.de/en/erste-schritte/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://gcmystsolver.de/nl/erste-schritte/"/>
+    </url>
+    <url>
+        <loc>https://gcmystsolver.de/fr/faq/</loc>
+        <lastmod>2026-08-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://gcmystsolver.de/fr/faq/"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://gcmystsolver.de/cs/faq/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://gcmystsolver.de/faq/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gcmystsolver.de/en/faq/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://gcmystsolver.de/nl/faq/"/>
+    </url>
+    <url>
+        <loc>https://gcmystsolver.de/fr/support/</loc>
+        <lastmod>2026-08-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://gcmystsolver.de/fr/support/"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://gcmystsolver.de/cs/support/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://gcmystsolver.de/support/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gcmystsolver.de/en/support/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://gcmystsolver.de/nl/support/"/>
+    </url>
+    <url>
+        <loc>https://gcmystsolver.de/fr/funktionen/</loc>
+        <lastmod>2026-08-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://gcmystsolver.de/fr/funktionen/"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://gcmystsolver.de/cs/funktionen/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://gcmystsolver.de/funktionen/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gcmystsolver.de/en/funktionen/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://gcmystsolver.de/nl/funktionen/"/>
+    </url>
+    <url>
+        <loc>https://gcmystsolver.de/fr/funktionen/ai-chat/</loc>
+        <lastmod>2026-08-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://gcmystsolver.de/fr/funktionen/ai-chat/"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://gcmystsolver.de/cs/funktionen/ai-chat/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://gcmystsolver.de/funktionen/ai-chat/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gcmystsolver.de/en/funktionen/ai-chat/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://gcmystsolver.de/nl/funktionen/ai-chat/"/>
+    </url>
+    <url>
+        <loc>https://gcmystsolver.de/fr/funktionen/challenges/</loc>
+        <lastmod>2026-08-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://gcmystsolver.de/fr/funktionen/challenges/"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://gcmystsolver.de/cs/funktionen/challenges/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://gcmystsolver.de/funktionen/challenges/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gcmystsolver.de/en/funktionen/challenges/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://gcmystsolver.de/nl/funktionen/challenges/"/>
+    </url>
+    <url>
+        <loc>https://gcmystsolver.de/fr/funktionen/datenbank-statistik/</loc>
+        <lastmod>2026-08-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://gcmystsolver.de/fr/funktionen/datenbank-statistik/"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://gcmystsolver.de/cs/funktionen/datenbank-statistik/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://gcmystsolver.de/funktionen/datenbank-statistik/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gcmystsolver.de/en/funktionen/datenbank-statistik/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://gcmystsolver.de/nl/funktionen/datenbank-statistik/"/>
+    </url>
+    <url>
+        <loc>https://gcmystsolver.de/fr/funktionen/einstellungen-backup/</loc>
+        <lastmod>2026-08-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://gcmystsolver.de/fr/funktionen/einstellungen-backup/"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://gcmystsolver.de/cs/funktionen/einstellungen-backup/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://gcmystsolver.de/funktionen/einstellungen-backup/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gcmystsolver.de/en/funktionen/einstellungen-backup/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://gcmystsolver.de/nl/funktionen/einstellungen-backup/"/>
+    </url>
+    <url>
+        <loc>https://gcmystsolver.de/fr/funktionen/import/</loc>
+        <lastmod>2026-08-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://gcmystsolver.de/fr/funktionen/import/"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://gcmystsolver.de/cs/funktionen/import/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://gcmystsolver.de/funktionen/import/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gcmystsolver.de/en/funktionen/import/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://gcmystsolver.de/nl/funktionen/import/"/>
+    </url>
+    <url>
+        <loc>https://gcmystsolver.de/fr/funktionen/ki-solver/</loc>
+        <lastmod>2026-08-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://gcmystsolver.de/fr/funktionen/ki-solver/"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://gcmystsolver.de/cs/funktionen/ki-solver/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://gcmystsolver.de/funktionen/ki-solver/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gcmystsolver.de/en/funktionen/ki-solver/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://gcmystsolver.de/nl/funktionen/ki-solver/"/>
+    </url>
+    <url>
+        <loc>https://gcmystsolver.de/fr/funktionen/solver/</loc>
+        <lastmod>2026-08-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://gcmystsolver.de/fr/funktionen/solver/"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://gcmystsolver.de/cs/funktionen/solver/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://gcmystsolver.de/funktionen/solver/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gcmystsolver.de/en/funktionen/solver/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://gcmystsolver.de/nl/funktionen/solver/"/>
+    </url>
+    <url>
+        <loc>https://gcmystsolver.de/nl/</loc>
+        <lastmod>2026-08-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://gcmystsolver.de/nl/"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://gcmystsolver.de/cs/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://gcmystsolver.de/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gcmystsolver.de/en/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://gcmystsolver.de/fr/"/>
+    </url>
+    <url>
+        <loc>https://gcmystsolver.de/nl/datenschutz/</loc>
+        <lastmod>2026-08-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://gcmystsolver.de/nl/datenschutz/"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://gcmystsolver.de/cs/datenschutz/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://gcmystsolver.de/datenschutz/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gcmystsolver.de/en/datenschutz/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://gcmystsolver.de/fr/datenschutz/"/>
+    </url>
+    <url>
+        <loc>https://gcmystsolver.de/nl/erste-schritte/</loc>
+        <lastmod>2026-08-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://gcmystsolver.de/nl/erste-schritte/"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://gcmystsolver.de/cs/erste-schritte/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://gcmystsolver.de/erste-schritte/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gcmystsolver.de/en/erste-schritte/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://gcmystsolver.de/fr/erste-schritte/"/>
+    </url>
+    <url>
+        <loc>https://gcmystsolver.de/nl/faq/</loc>
+        <lastmod>2026-08-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://gcmystsolver.de/nl/faq/"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://gcmystsolver.de/cs/faq/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://gcmystsolver.de/faq/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gcmystsolver.de/en/faq/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://gcmystsolver.de/fr/faq/"/>
+    </url>
+    <url>
+        <loc>https://gcmystsolver.de/nl/support/</loc>
+        <lastmod>2026-08-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://gcmystsolver.de/nl/support/"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://gcmystsolver.de/cs/support/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://gcmystsolver.de/support/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gcmystsolver.de/en/support/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://gcmystsolver.de/fr/support/"/>
+    </url>
+    <url>
+        <loc>https://gcmystsolver.de/nl/funktionen/</loc>
+        <lastmod>2026-08-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://gcmystsolver.de/nl/funktionen/"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://gcmystsolver.de/cs/funktionen/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://gcmystsolver.de/funktionen/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gcmystsolver.de/en/funktionen/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://gcmystsolver.de/fr/funktionen/"/>
+    </url>
+    <url>
+        <loc>https://gcmystsolver.de/nl/funktionen/ai-chat/</loc>
+        <lastmod>2026-08-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://gcmystsolver.de/nl/funktionen/ai-chat/"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://gcmystsolver.de/cs/funktionen/ai-chat/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://gcmystsolver.de/funktionen/ai-chat/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gcmystsolver.de/en/funktionen/ai-chat/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://gcmystsolver.de/fr/funktionen/ai-chat/"/>
+    </url>
+    <url>
+        <loc>https://gcmystsolver.de/nl/funktionen/challenges/</loc>
+        <lastmod>2026-08-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://gcmystsolver.de/nl/funktionen/challenges/"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://gcmystsolver.de/cs/funktionen/challenges/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://gcmystsolver.de/funktionen/challenges/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gcmystsolver.de/en/funktionen/challenges/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://gcmystsolver.de/fr/funktionen/challenges/"/>
+    </url>
+    <url>
+        <loc>https://gcmystsolver.de/nl/funktionen/datenbank-statistik/</loc>
+        <lastmod>2026-08-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://gcmystsolver.de/nl/funktionen/datenbank-statistik/"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://gcmystsolver.de/cs/funktionen/datenbank-statistik/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://gcmystsolver.de/funktionen/datenbank-statistik/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gcmystsolver.de/en/funktionen/datenbank-statistik/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://gcmystsolver.de/fr/funktionen/datenbank-statistik/"/>
+    </url>
+    <url>
+        <loc>https://gcmystsolver.de/nl/funktionen/einstellungen-backup/</loc>
+        <lastmod>2026-08-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://gcmystsolver.de/nl/funktionen/einstellungen-backup/"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://gcmystsolver.de/cs/funktionen/einstellungen-backup/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://gcmystsolver.de/funktionen/einstellungen-backup/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gcmystsolver.de/en/funktionen/einstellungen-backup/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://gcmystsolver.de/fr/funktionen/einstellungen-backup/"/>
+    </url>
+    <url>
+        <loc>https://gcmystsolver.de/nl/funktionen/import/</loc>
+        <lastmod>2026-08-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://gcmystsolver.de/nl/funktionen/import/"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://gcmystsolver.de/cs/funktionen/import/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://gcmystsolver.de/funktionen/import/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gcmystsolver.de/en/funktionen/import/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://gcmystsolver.de/fr/funktionen/import/"/>
+    </url>
+    <url>
+        <loc>https://gcmystsolver.de/nl/funktionen/ki-solver/</loc>
+        <lastmod>2026-08-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://gcmystsolver.de/nl/funktionen/ki-solver/"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://gcmystsolver.de/cs/funktionen/ki-solver/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://gcmystsolver.de/funktionen/ki-solver/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gcmystsolver.de/en/funktionen/ki-solver/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://gcmystsolver.de/fr/funktionen/ki-solver/"/>
+    </url>
+    <url>
+        <loc>https://gcmystsolver.de/nl/funktionen/solver/</loc>
+        <lastmod>2026-08-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://gcmystsolver.de/nl/funktionen/solver/"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://gcmystsolver.de/cs/funktionen/solver/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://gcmystsolver.de/funktionen/solver/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gcmystsolver.de/en/funktionen/solver/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://gcmystsolver.de/fr/funktionen/solver/"/>
+    </url>
+    <url>
+        <loc>https://gcmystsolver.de/cs/</loc>
+        <lastmod>2026-08-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://gcmystsolver.de/cs/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://gcmystsolver.de/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gcmystsolver.de/en/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://gcmystsolver.de/fr/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://gcmystsolver.de/nl/"/>
+    </url>
+    <url>
+        <loc>https://gcmystsolver.de/cs/datenschutz/</loc>
+        <lastmod>2026-08-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://gcmystsolver.de/cs/datenschutz/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://gcmystsolver.de/datenschutz/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gcmystsolver.de/en/datenschutz/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://gcmystsolver.de/fr/datenschutz/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://gcmystsolver.de/nl/datenschutz/"/>
+    </url>
+    <url>
+        <loc>https://gcmystsolver.de/cs/erste-schritte/</loc>
+        <lastmod>2026-08-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://gcmystsolver.de/cs/erste-schritte/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://gcmystsolver.de/erste-schritte/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gcmystsolver.de/en/erste-schritte/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://gcmystsolver.de/fr/erste-schritte/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://gcmystsolver.de/nl/erste-schritte/"/>
+    </url>
+    <url>
+        <loc>https://gcmystsolver.de/cs/faq/</loc>
+        <lastmod>2026-08-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://gcmystsolver.de/cs/faq/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://gcmystsolver.de/faq/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gcmystsolver.de/en/faq/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://gcmystsolver.de/fr/faq/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://gcmystsolver.de/nl/faq/"/>
+    </url>
+    <url>
+        <loc>https://gcmystsolver.de/cs/support/</loc>
+        <lastmod>2026-08-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://gcmystsolver.de/cs/support/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://gcmystsolver.de/support/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gcmystsolver.de/en/support/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://gcmystsolver.de/fr/support/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://gcmystsolver.de/nl/support/"/>
+    </url>
+    <url>
+        <loc>https://gcmystsolver.de/cs/funktionen/</loc>
+        <lastmod>2026-08-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://gcmystsolver.de/cs/funktionen/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://gcmystsolver.de/funktionen/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gcmystsolver.de/en/funktionen/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://gcmystsolver.de/fr/funktionen/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://gcmystsolver.de/nl/funktionen/"/>
+    </url>
+    <url>
+        <loc>https://gcmystsolver.de/cs/funktionen/ai-chat/</loc>
+        <lastmod>2026-08-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://gcmystsolver.de/cs/funktionen/ai-chat/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://gcmystsolver.de/funktionen/ai-chat/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gcmystsolver.de/en/funktionen/ai-chat/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://gcmystsolver.de/fr/funktionen/ai-chat/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://gcmystsolver.de/nl/funktionen/ai-chat/"/>
+    </url>
+    <url>
+        <loc>https://gcmystsolver.de/cs/funktionen/challenges/</loc>
+        <lastmod>2026-08-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://gcmystsolver.de/cs/funktionen/challenges/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://gcmystsolver.de/funktionen/challenges/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gcmystsolver.de/en/funktionen/challenges/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://gcmystsolver.de/fr/funktionen/challenges/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://gcmystsolver.de/nl/funktionen/challenges/"/>
+    </url>
+    <url>
+        <loc>https://gcmystsolver.de/cs/funktionen/datenbank-statistik/</loc>
+        <lastmod>2026-08-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://gcmystsolver.de/cs/funktionen/datenbank-statistik/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://gcmystsolver.de/funktionen/datenbank-statistik/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gcmystsolver.de/en/funktionen/datenbank-statistik/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://gcmystsolver.de/fr/funktionen/datenbank-statistik/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://gcmystsolver.de/nl/funktionen/datenbank-statistik/"/>
+    </url>
+    <url>
+        <loc>https://gcmystsolver.de/cs/funktionen/einstellungen-backup/</loc>
+        <lastmod>2026-08-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://gcmystsolver.de/cs/funktionen/einstellungen-backup/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://gcmystsolver.de/funktionen/einstellungen-backup/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gcmystsolver.de/en/funktionen/einstellungen-backup/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://gcmystsolver.de/fr/funktionen/einstellungen-backup/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://gcmystsolver.de/nl/funktionen/einstellungen-backup/"/>
+    </url>
+    <url>
+        <loc>https://gcmystsolver.de/cs/funktionen/import/</loc>
+        <lastmod>2026-08-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://gcmystsolver.de/cs/funktionen/import/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://gcmystsolver.de/funktionen/import/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gcmystsolver.de/en/funktionen/import/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://gcmystsolver.de/fr/funktionen/import/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://gcmystsolver.de/nl/funktionen/import/"/>
+    </url>
+    <url>
+        <loc>https://gcmystsolver.de/cs/funktionen/ki-solver/</loc>
+        <lastmod>2026-08-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://gcmystsolver.de/cs/funktionen/ki-solver/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://gcmystsolver.de/funktionen/ki-solver/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gcmystsolver.de/en/funktionen/ki-solver/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://gcmystsolver.de/fr/funktionen/ki-solver/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://gcmystsolver.de/nl/funktionen/ki-solver/"/>
+    </url>
+    <url>
+        <loc>https://gcmystsolver.de/cs/funktionen/solver/</loc>
+        <lastmod>2026-08-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://gcmystsolver.de/cs/funktionen/solver/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://gcmystsolver.de/funktionen/solver/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gcmystsolver.de/en/funktionen/solver/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://gcmystsolver.de/fr/funktionen/solver/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://gcmystsolver.de/nl/funktionen/solver/"/>
     </url>
 </urlset>

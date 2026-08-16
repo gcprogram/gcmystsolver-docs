@@ -7,6 +7,9 @@ Liste von Modellen. Diese Liste dient gleichzeitig als automatische Fallback-Rei
 [KI-Lösungsversuch](ki-solver.md)) — es gibt keine gesonderte "Backup-Modell"-Einstellung mehr.
 Über **"Test models"** kannst du jedes hinterlegte Modell einzeln testen.
 
+Für einen kostenlosen Einstieg in einen ersten API-Key siehe die
+[NVIDIA/Google-Gemini-Empfehlung](ki-solver.md#empfehlung-kostenlos-starten-mit-nvidia-oder-google-gemini).
+
 ## what3words
 
 Für die Erkennung von what3words-Koordinaten kannst du optional einen eigenen what3words-API-Key

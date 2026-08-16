@@ -1,16 +1,13 @@
 # Datenschutzerklärung
 
-!!! danger "Entwurf — noch nicht veröffentlichungsreif"
-    Diese Seite ist ein **Platzhalter/Entwurf**, kein rechtlich geprüfter Text. Für die Anmeldung
-    im Google Play Developer Program braucht es eine echte, verlinkte Datenschutzerklärung.
-    Bitte vor Veröffentlichung inhaltlich prüfen (lassen) und die markierten Lücken ausfüllen —
-    idealerweise mit anwaltlicher/DSGVO-fachkundiger Durchsicht, da es sich um eine App mit
-    Standortdaten und optionaler KI-Anbindung handelt.
+!!! info "Kein Ersatz für Rechtsberatung"
+    Diese Erklärung beschreibt so genau wie möglich, welche Daten GCMystSolver verarbeitet und
+    warum. Sie ersetzt keine individuelle Rechtsberatung.
 
 ## Verantwortlicher
 
-`TODO: Name, Anschrift, E-Mail des Verantwortlichen (bei einer Privatperson ggf. nur E-Mail, je
-nach Rechtslage prüfen)`
+Entwickler: **LoveCaching**
+E-Mail: [LoveCaching@gcmystsolver.de](mailto:LoveCaching@gcmystsolver.de)
 
 ## Welche Daten verarbeitet GCMystSolver?
 
@@ -21,7 +18,9 @@ nach Rechtslage prüfen)`
   Koordinaten lokal auf dem Gerät bestimmt, ohne Netzwerkzugriff.
 - **Höhendaten**: für importierte Caches werden Koordinaten zur Höhenermittlung an
   [OpenTopoData](https://www.opentopodata.org/) (SRTM30m-Datensatz) übertragen. Das läuft
-  automatisch im Hintergrund, ohne dass du dafür einen eigenen Account/Key brauchst.
+  automatisch im Hintergrund, ohne dass du dafür einen eigenen Account/Key brauchst. Grund dafür
+  sind Höhen-Challenges, die einen Fund über/unter einer bestimmten Meereshöhe verlangen (z. B.
+  "x Caches über 2.000 m") — ohne Höhendaten könnte die App diese Challenges nicht bewerten.
 - **KI-Anfragen (optional, nur falls von dir aktiviert)**: GCMystSolver bringt selbst **keinen**
   fest verdrahteten KI-Anbieter mit. In *Setup* wählst und konfigurierst du selbst, welchen
   KI-Dienst du nutzen möchtest — vorbereitete Presets für u. a. Anthropic, OpenAI, Google Gemini,
@@ -32,12 +31,16 @@ nach Rechtslage prüfen)`
   gewählten Dienst übertragen. Welche Daten dieser Dienst wie verarbeitet, regelt dessen **eigene**
   Datenschutzerklärung — bitte vor der Nutzung eines Anbieters dessen Bedingungen prüfen. Wir als
   App-Anbieter haben auf diese Verarbeitung keinen Einfluss und erhalten selbst keine Kopie deiner
-  Anfragen oder deines API-Keys.
+  Anfragen oder deines API-Keys. (Eine Einstiegshilfe zur Auswahl eines Anbieters findest du unter
+  [KI-Lösungsversuch](funktionen/ki-solver.md).)
 - **what3words-Anfragen (optional)**: bei hinterlegtem what3words-Key werden entsprechende Anfragen
   an what3words gestellt.
 - **API-Keys**: werden geräte-gebunden verschlüsselt gespeichert, optional zusätzlich
   passwortgeschützt für ein geräteübergreifendes Backup (siehe
-  [Einstellungen & Backup](funktionen/einstellungen-backup.md)).
+  [Einstellungen & Backup](funktionen/einstellungen-backup.md)). Sie werden ausschließlich zur
+  Authentifizierung gegen den von dir konfigurierten KI-Anbieter verwendet — für nichts anderes.
+- **Dein Nickname** (für die automatische Erkennung deiner eigenen Funde in Listings) verlässt dein
+  Gerät nicht.
 
 ## Was GCMystSolver nicht tut
 
@@ -57,11 +60,12 @@ Rechte gegenüber dem Verantwortlichen: Auskunft (Art. 15), Berichtigung (Art. 1
 Widerspruch (Art. 21). Außerdem besteht ein Beschwerderecht bei einer Datenschutz-Aufsichtsbehörde,
 insbesondere in dem Mitgliedstaat deines gewöhnlichen Aufenthaltsorts.
 
-`TODO (Stefan): diesen Abschnitt vor Veröffentlichung von einer sachkundigen Stelle gegenprüfen
-lassen — die obige Aufzählung ist eine gängige Standardformulierung, aber keine
-Rechtsberatung.`
+In der Praxis ist nach derzeitigem Stand aber ohnehin fast alles allein in deiner Hand, auf deinem
+Gerät: dein Nickname verlässt das Gerät nicht, und deine API-Keys werden verschlüsselt auf dem
+Gerät gespeichert und ausschließlich zur Authentifizierung gegen den von dir gewählten
+KI-Anbieter verwendet.
 
 ## Kontakt für Datenschutzfragen
 
-`TODO (Stefan): Kontakt-E-Mail hier eintragen — dieselbe wie unter "Verantwortlicher" oben, oder
-eine eigene datenschutz@…-Adresse.`
+Für Fragen rund um den Datenschutz erreichst du uns unter
+[data_privacy@gcmystsolver.de](mailto:data_privacy@gcmystsolver.de).

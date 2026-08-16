@@ -7,7 +7,8 @@ edit_uri: ""
 
 theme:
   name: material
-  language: de
+  logo: assets/app-icon.png
+  favicon: assets/favicon.png
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -15,14 +16,14 @@ theme:
       accent: amber
       toggle:
         icon: material/weather-night
-        name: Dunkles Design
+        name: Dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: green
       accent: amber
       toggle:
         icon: material/weather-sunny
-        name: Helles Design
+        name: Light mode
   features:
     - navigation.tabs
     - navigation.sections
@@ -39,7 +40,84 @@ markdown_extensions:
   - pymdownx.superfences
   - toc:
       permalink: true
-      title: Auf dieser Seite
+
+plugins:
+  - search
+  - i18n:
+      docs_structure: suffix
+      languages:
+        - locale: de
+          name: Deutsch
+          default: true
+          build: true
+        - locale: en
+          name: English
+          build: true
+          nav_translations:
+            Start: Home
+            Erste Schritte: Getting Started
+            Funktionen: Features
+            "Import (GPX / PocketQuery)": "Import (GPX / PocketQuery)"
+            Automatische Solver: Automatic Solvers
+            KI-Lösungsversuch: AI Solving
+            AI-Chat pro Cache: AI Chat per Cache
+            Challenge-Prüfung: Challenge Checking
+            "Datenbank, Listen & Statistik": "Database, Lists & Statistics"
+            Einstellungen & Backup: Settings & Backup
+            FAQ: FAQ
+            "Support (Bugs & Ideen)": "Support (Bugs & Ideas)"
+            Datenschutz: Privacy Policy
+        - locale: fr
+          name: Français
+          build: true
+          nav_translations:
+            Start: Accueil
+            Erste Schritte: Premiers pas
+            Funktionen: Fonctionnalités
+            "Import (GPX / PocketQuery)": "Import (GPX / PocketQuery)"
+            Automatische Solver: Solveurs automatiques
+            KI-Lösungsversuch: Résolution par IA
+            AI-Chat pro Cache: Chat IA par cache
+            Challenge-Prüfung: Vérification des challenges
+            "Datenbank, Listen & Statistik": "Base de données, listes et statistiques"
+            Einstellungen & Backup: Paramètres et sauvegarde
+            FAQ: FAQ
+            "Support (Bugs & Ideen)": "Support (bugs et idées)"
+            Datenschutz: Confidentialité
+        - locale: nl
+          name: Nederlands
+          build: true
+          nav_translations:
+            Start: Start
+            Erste Schritte: Eerste stappen
+            Funktionen: Functies
+            "Import (GPX / PocketQuery)": "Import (GPX / PocketQuery)"
+            Automatische Solver: Automatische oplossers
+            KI-Lösungsversuch: AI-oplospoging
+            AI-Chat pro Cache: AI-chat per cache
+            Challenge-Prüfung: Challenge-controle
+            "Datenbank, Listen & Statistik": "Database, lijsten & statistiek"
+            Einstellungen & Backup: Instellingen & back-up
+            FAQ: Veelgestelde vragen
+            "Support (Bugs & Ideen)": "Ondersteuning (bugs & ideeën)"
+            Datenschutz: Privacybeleid
+        - locale: cs
+          name: Čeština
+          build: true
+          nav_translations:
+            Start: Domů
+            Erste Schritte: První kroky
+            Funktionen: Funkce
+            "Import (GPX / PocketQuery)": "Import (GPX / PocketQuery)"
+            Automatische Solver: Automatické řešiče
+            KI-Lösungsversuch: Řešení pomocí AI
+            AI-Chat pro Cache: AI chat ke keši
+            Challenge-Prüfung: Kontrola výzev
+            "Datenbank, Listen & Statistik": "Databáze, seznamy a statistiky"
+            Einstellungen & Backup: Nastavení a záloha
+            FAQ: Časté dotazy
+            "Support (Bugs & Ideen)": "Podpora (chyby a nápady)"
+            Datenschutz: Ochrana soukromí
 
 nav:
   - Start: index.md
