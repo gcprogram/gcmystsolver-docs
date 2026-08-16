@@ -43,12 +43,15 @@
   }
 }
 
-/* Centered hero eyecatcher (e.g. the animated before/after geoart GIF on the start page). */
+/* Left-aligned hero eyecatcher (the animated before/after geoart GIF on the start page). The GIF
+   itself bakes in the growing-from-the-left effect (its own frames are left-packed on a fixed
+   white canvas), so this just needs to sit left, not centered, and cap at a sensible width. */
 .md-typeset .gcms-hero {
   display: block;
-  max-width: 380px;
-  margin: 1.5rem auto;
-  text-align: center;
+  max-width: 640px;
+  width: 100%;
+  margin: 1.5rem 0;
+  text-align: left;
 }
 .md-typeset .gcms-hero img {
   width: 100%;
@@ -59,4 +62,5 @@
   font-size: 0.75rem;
   color: var(--md-default-fg-color--light);
   margin-top: 0.5rem;
+  text-align: left;
 }
