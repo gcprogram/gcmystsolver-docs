@@ -40,6 +40,10 @@ Email: [LoveCaching@gcmystsolver.de](mailto:LoveCaching@gcmystsolver.de)
   else.
 - **Your nickname** (for automatically recognizing your own finds in listings) never leaves your
   device.
+- **Home location**: the reference point you enter in *Setup* (GC code, coordinates, or address)
+  stays exclusively on your device. It's used for challenges that require a minimum distance from
+  your home location (e.g. a "360°" challenge with finds in every compass direction around your
+  location).
 
 ## What GCMystSolver does not do
 

@@ -1,14 +1,21 @@
 site_name: GCMystSolver Handbuch
 site_url: https://gcmystsolver.de/
 site_description: Anleitung und Referenz für GCMystSolver – die Android-App zum Lösen von Geocaching-Mystery-Caches.
-repo_url: https://github.com/gcprogram/Geocaching-Mystery-Solver
-repo_name: GCMystSolver (App)
+repo_url: https://gcmystsolver.de/downloads/GCMystSolver.apk
+repo_name: APK herunterladen
 edit_uri: ""
+
+extra_css:
+  - assets/extra.css
+extra_javascript:
+  - assets/lang-redirect.js
 
 theme:
   name: material
   logo: assets/app-icon.png
   favicon: assets/favicon.png
+  icon:
+    repo: material/download
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -25,7 +32,6 @@ theme:
         icon: material/weather-sunny
         name: Light mode
   features:
-    - navigation.tabs
     - navigation.sections
     - navigation.top
     - navigation.indexes
@@ -33,9 +39,12 @@ theme:
     - search.highlight
     - content.code.copy
     - toc.follow
+    - toc.integrate
 
 markdown_extensions:
   - admonition
+  - attr_list
+  - md_in_html
   - pymdownx.details
   - pymdownx.superfences
   - toc:
@@ -118,6 +127,57 @@ plugins:
             FAQ: Časté dotazy
             "Support (Bugs & Ideen)": "Podpora (chyby a nápady)"
             Datenschutz: Ochrana soukromí
+        - locale: es
+          name: Español
+          build: true
+          nav_translations:
+            Start: Inicio
+            Erste Schritte: Primeros pasos
+            Funktionen: Funciones
+            "Import (GPX / PocketQuery)": "Import (GPX / PocketQuery)"
+            Automatische Solver: Solucionadores automáticos
+            KI-Lösungsversuch: Resolución con IA
+            AI-Chat pro Cache: Chat con IA por caché
+            Challenge-Prüfung: Verificación de challenges
+            "Datenbank, Listen & Statistik": "Base de datos, listas y estadísticas"
+            Einstellungen & Backup: Ajustes y copia de seguridad
+            FAQ: Preguntas frecuentes
+            "Support (Bugs & Ideen)": "Soporte (errores e ideas)"
+            Datenschutz: Privacidad
+        - locale: sv
+          name: Svenska
+          build: true
+          nav_translations:
+            Start: Start
+            Erste Schritte: Kom igång
+            Funktionen: Funktioner
+            "Import (GPX / PocketQuery)": "Import (GPX / PocketQuery)"
+            Automatische Solver: Automatiska lösare
+            KI-Lösungsversuch: AI-lösningsförsök
+            AI-Chat pro Cache: AI-chatt per cache
+            Challenge-Prüfung: Challenge-kontroll
+            "Datenbank, Listen & Statistik": "Databas, listor och statistik"
+            Einstellungen & Backup: Inställningar och säkerhetskopiering
+            FAQ: Vanliga frågor
+            "Support (Bugs & Ideen)": "Support (buggar och idéer)"
+            Datenschutz: Integritetspolicy
+        - locale: nb
+          name: Norsk (bokmål)
+          build: true
+          nav_translations:
+            Start: Start
+            Erste Schritte: Kom i gang
+            Funktionen: Funksjoner
+            "Import (GPX / PocketQuery)": "Import (GPX / PocketQuery)"
+            Automatische Solver: Automatiske løsere
+            KI-Lösungsversuch: AI-løsningsforsøk
+            AI-Chat pro Cache: AI-chat per cache
+            Challenge-Prüfung: Challenge-kontroll
+            "Datenbank, Listen & Statistik": "Database, lister og statistikk"
+            Einstellungen & Backup: Innstillinger og sikkerhetskopi
+            FAQ: Ofte stilte spørsmål
+            "Support (Bugs & Ideen)": "Support (feil og idéer)"
+            Datenschutz: Personvern
 
 nav:
   - Start: index.md

@@ -45,9 +45,15 @@ základní URL tak nemusíš hledat ručně.
 5. Volitelně: krok 3 zopakuj pro druhého poskytovatele — oba pak skončí v pořadí náhradního
    řešení.
 
+<figure class="gcms-shot" markdown>
 ![Setup: zapnutí AI solver a přidání modelu](../assets/screenshots/setup-ai-solver.png)
+<figcaption>Zapnutí AI solver, modely a limity</figcaption>
+</figure>
 
+<figure class="gcms-shot" markdown>
 ![Setup: výběr poskytovatele s přednastaveními NVIDIA/Google Gemini](../assets/screenshots/setup-add-model.png)
+<figcaption>Výběr poskytovatele v dialogu "Add model"</figcaption>
+</figure>
 
 ## Rotace modelů místo pevného záložního modelu
 

@@ -49,9 +49,15 @@ Les deux sont déjà configurés comme **presets** prêts à l'emploi dans GCMys
 5. Optionnel : répète l'étape 3 pour un second fournisseur — les deux se retrouvent alors dans
    l'ordre de repli.
 
+<figure class="gcms-shot" markdown>
 ![Setup : activer AI solver et ajouter un modèle](../assets/screenshots/setup-ai-solver.png)
+<figcaption>Activer AI solver, modèles et limites</figcaption>
+</figure>
 
+<figure class="gcms-shot" markdown>
 ![Setup : sélection du fournisseur avec les presets NVIDIA/Google Gemini](../assets/screenshots/setup-add-model.png)
+<figcaption>Sélection du fournisseur dans la boîte de dialogue « Add model »</figcaption>
+</figure>
 
 ## Rotation des modèles plutôt qu'un modèle de secours fixe
 

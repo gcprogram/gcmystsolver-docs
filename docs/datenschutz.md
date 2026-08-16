@@ -41,6 +41,10 @@ E-Mail: [LoveCaching@gcmystsolver.de](mailto:LoveCaching@gcmystsolver.de)
   Authentifizierung gegen den von dir konfigurierten KI-Anbieter verwendet — für nichts anderes.
 - **Dein Nickname** (für die automatische Erkennung deiner eigenen Funde in Listings) verlässt dein
   Gerät nicht.
+- **Home location**: der von dir in *Setup* eingetragene Referenzpunkt (GC-Code, Koordinaten oder
+  Adresse) verbleibt ausschließlich auf deinem Gerät. Er wird für Challenges gebraucht, die eine
+  Mindest-Entfernung zu deinem Wohnort voraussetzen (z. B. eine "360°"-Challenge mit Funden in
+  jeder Himmelsrichtung um deinen Standort).
 
 ## Was GCMystSolver nicht tut
 

@@ -23,3 +23,15 @@ můžeš importovat opakovaně, například abys převzal/a svůj aktuální sta
 Kde je to možné, používá GCMystSolver pro import i pro určení regionu/výšky nejprve **lokální data
 a offline podklady**, než dojde k jakémukoli síťovému přístupu. Díky tomu je import spolehlivý a
 rychlý i u velkých seznamů.
+
+## Nejrychlejší cesta z c:geo
+
+1. V c:geo v detailním zobrazení seznamu otevři menu → **"Exportovat/Nahrát"** →
+   **"Exportovat GPX"**.
+2. V GCMystSolver přejdi do *Import* a ve výběru souborů přejdi do exportní složky c:geo (obvykle
+   `\cgeo\gpx`).
+3. V menu se třemi tečkami ve výběru souborů nastav **"Seřadit podle"** → **"Datum úpravy
+   (nejnovější první)"**.
+4. Načti nejvýše umístěný (nejnovější) soubor GPX.
+
+Při více než 100 souborech GPX v exportní složce c:geo se ten správný jinak těžko hledá.

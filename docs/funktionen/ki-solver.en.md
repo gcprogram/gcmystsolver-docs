@@ -47,9 +47,15 @@ below) — so you don't have to look up a base URL by hand.
    **"Main model"**, provided none was set yet.
 5. Optional: repeat step 3 for a second provider — both then end up in the fallback order.
 
+<figure class="gcms-shot" markdown>
 ![Setup: enable AI solver and add a model](../assets/screenshots/setup-ai-solver.png)
+<figcaption>Enable AI solver, models & limits</figcaption>
+</figure>
 
+<figure class="gcms-shot" markdown>
 ![Setup: provider selection with NVIDIA/Google Gemini presets](../assets/screenshots/setup-add-model.png)
+<figcaption>Provider selection in the "Add model" dialog</figcaption>
+</figure>
 
 ## Model rotation instead of a fixed backup model
 

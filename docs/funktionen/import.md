@@ -25,3 +25,15 @@ kannst also dieselbe Liste beliebig oft neu importieren, um z. B. deinen aktuell
 GCMystSolver nutzt beim Import und bei der Region-/Höhenauflösung wo immer möglich **lokale
 Daten und Offline-Nachschlagewerke**, bevor überhaupt ein Netzwerkzugriff stattfindet. Das macht
 den Import auch bei großen Listen zuverlässig und schnell.
+
+## Schnellster Weg von c:geo
+
+1. In c:geo in der Listen-Detailansicht das Menü öffnen → **"Exportieren/Hochladen"** →
+   **"GPX exportieren"**.
+2. In GCMystSolver zu *Import* wechseln und im Dateiauswahl-Dialog ins Export-Verzeichnis von
+   c:geo wechseln (üblicherweise `\cgeo\gpx`).
+3. Im Dreipunkt-Menü des Dateiauswahl-Dialogs **"Sortieren nach"** → **"Änderungszeitpunkt
+   (neueste zuerst)"** einstellen.
+4. Die oberste (neueste) GPX-Datei laden.
+
+Bei über 100 GPX-Dateien im c:geo-Export-Ordner ist die richtige Datei sonst nur schwer zu finden.

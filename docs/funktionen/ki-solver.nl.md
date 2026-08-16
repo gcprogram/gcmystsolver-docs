@@ -48,9 +48,15 @@ hieronder) — je hoeft dus geen basis-URL met de hand op te zoeken.
 5. Optioneel: herhaal stap 3 voor een tweede provider — beide komen dan in de fallback-volgorde
    terecht.
 
+<figure class="gcms-shot" markdown>
 ![Setup: AI solver inschakelen en een model toevoegen](../assets/screenshots/setup-ai-solver.png)
+<figcaption>AI solver inschakelen, modellen & limieten</figcaption>
+</figure>
 
+<figure class="gcms-shot" markdown>
 ![Setup: providerkeuze met NVIDIA/Google Gemini presets](../assets/screenshots/setup-add-model.png)
+<figcaption>Providerkeuze in de "Add model"-dialoog</figcaption>
+</figure>
 
 ## Modelrotatie in plaats van een vast back-upmodel
 

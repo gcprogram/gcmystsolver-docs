@@ -39,6 +39,9 @@ E-mail: [LoveCaching@gcmystsolver.de](mailto:LoveCaching@gcmystsolver.de)
   Používají se výhradně k autentizaci vůči tebou nastavenému poskytovateli AI — k ničemu jinému.
 - **Tvůj přezdívkový název (nickname)** (pro automatické rozpoznání tvých vlastních nálezů v
   listinzích) tvé zařízení neopouští.
+- **Home location**: referenční bod, který zadáš v *Setup* (GC kód, souřadnice nebo adresa),
+  zůstává výhradně na tvém zařízení. Používá se pro challenge, které vyžadují minimální vzdálenost
+  od tvého bydliště (např. challenge „360°" s nálezy v každém světovém směru kolem tvé polohy).
 
 ## Co GCMystSolver nedělá
 

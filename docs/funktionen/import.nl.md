@@ -25,3 +25,16 @@ over te nemen.
 Waar mogelijk gebruikt GCMystSolver **lokale gegevens en offline naslagbronnen** bij import en bij
 regio-/hoogtebepaling, vóórdat er überhaupt netwerktoegang plaatsvindt. Dat maakt de import
 betrouwbaar en snel, ook bij grote lijsten.
+
+## Snelste weg vanuit c:geo
+
+1. Open in c:geo in de lijst-detailweergave het menu → **"Exporteren/Uploaden"** →
+   **"GPX exporteren"**.
+2. Ga in GCMystSolver naar *Import* en navigeer in de bestandskiezer naar de exportmap van c:geo
+   (meestal `\cgeo\gpx`).
+3. Stel in het driepuntsmenu van de bestandskiezer **"Sorteren op"** → **"Wijzigingsdatum (nieuwste
+   eerst)"** in.
+4. Laad het bovenste (nieuwste) GPX-bestand.
+
+Bij meer dan 100 GPX-bestanden in de exportmap van c:geo is het juiste bestand anders lastig te
+vinden.

@@ -43,6 +43,10 @@ E-mail : [LoveCaching@gcmystsolver.de](mailto:LoveCaching@gcmystsolver.de)
   t'authentifier auprès du fournisseur d'IA que tu as configuré — à rien d'autre.
 - **Ton pseudonyme** (pour reconnaître automatiquement tes propres trouvailles dans les listings)
   ne quitte jamais ton appareil.
+- **Home location** : le point de référence que tu saisis dans *Setup* (code GC, coordonnées ou
+  adresse) reste exclusivement sur ton appareil. Il sert pour les challenges qui exigent une
+  distance minimale par rapport à ton domicile (par ex. un challenge « 360° » avec des trouvailles
+  dans chaque direction cardinale autour de ta position).
 
 ## Ce que GCMystSolver ne fait pas
 

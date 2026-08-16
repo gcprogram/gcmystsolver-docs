@@ -41,6 +41,10 @@ E-mail: [LoveCaching@gcmystsolver.de](mailto:LoveCaching@gcmystsolver.de)
   om je te authenticeren bij de door jou geconfigureerde AI-provider — voor niets anders.
 - **Je nickname** (voor het automatisch herkennen van je eigen vondsten in listings) verlaat je
   apparaat niet.
+- **Home location**: het referentiepunt dat je in *Setup* invoert (GC-code, coördinaten of adres)
+  blijft uitsluitend op je apparaat. Het wordt gebruikt voor challenges die een minimale afstand
+  tot je woonplaats vereisen (bijv. een "360°"-challenge met vondsten in elke windrichting rond je
+  locatie).
 
 ## Wat GCMystSolver niet doet
 

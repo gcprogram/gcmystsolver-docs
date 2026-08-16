@@ -27,3 +27,16 @@ trouvaille actuel.
 Dans la mesure du possible, GCMystSolver utilise des **données locales et des références
 hors ligne** pour l'import et pour la résolution de la région/altitude, avant tout accès réseau.
 Cela rend l'import fiable et rapide, même pour de grandes listes.
+
+## Le chemin le plus rapide depuis c:geo
+
+1. Dans la vue détaillée d'une liste sous c:geo, ouvre le menu → **« Exporter/Envoyer »** →
+   **« Exporter en GPX »**.
+2. Dans GCMystSolver, va dans *Import* et, dans le sélecteur de fichiers, navigue jusqu'au
+   dossier d'export de c:geo (généralement `\cgeo\gpx`).
+3. Dans le menu à trois points du sélecteur de fichiers, choisis **« Trier par »** →
+   **« Date de modification (plus récent en premier) »**.
+4. Charge le fichier GPX tout en haut (le plus récent).
+
+Avec plus de 100 fichiers GPX dans le dossier d'export de c:geo, le bon fichier serait sinon
+difficile à retrouver.

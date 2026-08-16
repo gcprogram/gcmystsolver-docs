@@ -1,0 +1,44 @@
+/* Logo fills the full header height, flush left, instead of the small padded default icon. */
+.md-header__button.md-logo {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  display: flex;
+  align-items: stretch;
+}
+.md-header__button.md-logo img {
+  height: 2.4rem;
+  width: 2.4rem;
+  margin: 0.2rem 0.4rem;
+}
+
+/* Screenshots float right next to their paragraph on wide screens, full width on mobile.
+   Selectors are prefixed with .md-typeset to out-specificity Material's own ".md-typeset figure"
+   rule, which otherwise wins the cascade and forces max-width back to 100%. */
+.md-typeset .gcms-shot {
+  float: right;
+  max-width: 42%;
+  margin: 0 0 1rem 1.5rem;
+  clear: right;
+}
+.md-typeset .gcms-shot img {
+  border-radius: 0.4rem;
+  box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.25);
+}
+.md-typeset .gcms-shot figcaption {
+  font-size: 0.7rem;
+  color: var(--md-default-fg-color--light);
+  margin-top: 0.3rem;
+  text-align: center;
+}
+.md-typeset .gcms-shot-clear {
+  clear: both;
+}
+
+@media screen and (max-width: 76.1875em) {
+  .md-typeset .gcms-shot {
+    float: none;
+    max-width: 100%;
+    margin: 1rem 0;
+  }
+}

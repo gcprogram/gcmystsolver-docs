@@ -23,3 +23,13 @@ same list as often as you like, e.g. to pick up your current find status.
 Wherever possible, GCMystSolver uses **local data and offline reference data** for import and for
 region/elevation resolution before any network access happens at all. That keeps import reliable
 and fast even for large lists.
+
+## Fastest path from c:geo
+
+1. In c:geo's list detail view, open the menu → **"Export/Upload"** → **"Export GPX"**.
+2. In GCMystSolver, go to *Import* and, in the file picker, navigate to c:geo's export folder
+   (usually `\cgeo\gpx`).
+3. In the file picker's three-dot menu, set **"Sort by"** → **"Date modified (newest first)"**.
+4. Load the topmost (newest) GPX file.
+
+With more than 100 GPX files in c:geo's export folder, the right one is otherwise hard to find.
